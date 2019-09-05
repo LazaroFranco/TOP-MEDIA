@@ -1,604 +1,605 @@
-<!doctype html>
 <html>
-
-<head>
-  <meta charset="utf-8">
-  <title>TOP-MEDIA</title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta content="TOP-MEDIA Application" name="description">
-  <!--Google Fonts link-->
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,600,600i,700,700i" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i" rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/slick.css">
-  <link rel="stylesheet" href="assets/css/slick-theme.css">
-  <link rel="stylesheet" href="assets/css/animate.css">
-  <link rel="stylesheet" href="assets/css/fonticons.css">
-  <link rel="stylesheet" href="assets/css/font-awesome.min.css">
-  <link rel="stylesheet" href="assets/css/bootstrap.css">
-  <link rel="stylesheet" href="assets/css/magnific-popup.css">
-  <link rel="stylesheet" href="assets/css/bootsnav.css">
-  <link href="/assets/favicons/adiq/M-c39d71dab8fa52b4f4691571ff44e210.png" rel="shortcut icon" type="image/vnd.microsoft.icon">
-  <link rel="icon" href="https://mixiptv.com/wp-content/uploads/2019/03/logo-para-top.png">
-  <!--For Plugins external css-->
-  <!--<link rel="stylesheet" href="assets/css/plugins.css" />-->
-  <!--Theme custom css -->
-  <link rel="stylesheet" href="assets/css/style.css">
-  <!--<link rel="stylesheet" href="assets/css/colors/maron.css">-->
-  <!--Theme Responsive css-->
-  <link rel="stylesheet" href="assets/css/responsive.css">
-  <script src="assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-
-</head>
-<style>
-a {
-  text-align: center;
-}
-.ct-topbar {
-  text-align: right;
-  background: #eee;
-}
-.ct-topbar__list {
-  margin-bottom: 0px;
-}
-.ct-language__dropdown{
-	padding-top: 8px;
-	max-height: 0;
-	overflow: hidden;
-	position: absolute;
-	top: 110%;
-	left: -3px;
-	-webkit-transition: all 0.25s ease-in-out;
-	transition: all 0.25s ease-in-out;
-	width: 100px;
-	text-align: center;
-	padding-top: 0;
-  z-index:200;
-}
-.ct-language__dropdown li{
-	background: #222;
-	padding: 5px;
-}
-.ct-language__dropdown li a{
-	display: block;
-}
-.ct-language__dropdown li:first-child{
-	padding-top: 10px;
-	border-radius: 3px 3px 0 0;
-}
-.ct-language__dropdown li:last-child{
-	padding-bottom: 10px;
-	border-radius: 0 0 3px 3px;
-}
-.ct-language__dropdown li:hover{
-	background: #444;
-}
-.ct-language__dropdown:before{
-	content: '';
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	margin: auto;
-	width: 8px;
-	height: 0;
-	border: 0 solid transparent;
-	border-right-width: 8px;
-	border-left-width: 8px;
-	border-bottom: 8px solid #222;
-}
-.ct-language{
-	position: relative;
-  background: #00aced;
-  color: #fff;
-  padding: 10px 0;
-}
-.ct-language:hover .ct-language__dropdown{
-	max-height: 200px;
-	padding-top: 8px;
-}
-.list-unstyled {
-    padding-left: 0;
-    list-style: none;
-}
-</style>
-
-<body data-spy="scroll" data-target=".navbar-collapse">
-              <!--Home page style-->
-              <nav class="navbar navbar-default navbar-fixed white bootsnav text-uppercase on no-full" style="
-    margin-top: 0px;
-">
-                    <div class="container">
-                          <ul class="list-unstyled list-inline ct-topbar__list">
-                            <li class="ct-language">Language <i class="fa fa-arrow-down"></i>
-                                  <ul class="list-unstyled ct-language__dropdown">
-                                    <li><a href="#googtrans(en|en)" class="lang-en lang-select" data-lang="en"><img src="https://www.solodev.com/assets/google-translate/flag-usa.png" alt="USA"></a></li>
-                                    <li><a href="#googtrans(en|es)" class="lang-es lang-select" data-lang="es"><img src="https://www.solodev.com/assets/google-translate/flag-mexico.png" alt="MEXICO"></a></li>
-                                    <li><a href="#googtrans(en|fr)" class="lang-es lang-select" data-lang="fr"><img src="https://www.solodev.com/assets/google-translate/flag-france.png" alt="FRANCE"></a></li>
-                                    <li><a href="#googtrans(en|zh-CN)" class="lang-es lang-select" data-lang="zh-CN"><img src="https://www.solodev.com/assets/google-translate/flag-china.png" alt="CHINA"></a></li>
-                                    <li><a href="#googtrans(en|ja)" class="lang-es lang-select" data-lang="ja"><img src="https://www.solodev.com/assets/google-translate/flag-japan.png" alt="JAPAN"></a></li>
-                                  </ul>
-                            </li>
-                          </ul>
-                    </div>
-                  </div>
-                  <!-- Start Atribute Navigation -->
-                  <div class="attr-nav">
-                    <ul>
-                      <a class="page-header__tel" content="(717) 617-3258" href="tel:7176173258" itemprop="telephone" style="
-    margin-top: 25px;
-">📞(717) 617-3258</a>
-                    </ul>
-                  </div>
-                                    <!-- End Atribute Navigation -->
-                  <!-- Start Header Navigation -->
-                  <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu" aria-expanded="true">
-                      <i class="fa fa-bars"></i>
-                    </button>
-                    <a class="navbar-brand" href="index.html">
-                      <img src="assets/images/logo.png" class="logo logo-display" alt="">
-                      <img src="https://mixiptv.com/wp-content/uploads/2019/03/logo-para-top.png" class="logo logo-scrolled" alt="">
-                    </a>
-                  </div>
-                  <!-- End Header Navigation -->
-                  <!-- Collect the nav links, forms, and other content for toggling -->
-                  <div class="navbar-collapse collapse" id="navbar-menu" aria-expanded="true" style="">
-                    <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
-                      <li><a href="index.html">home</a></li>
-                      <li class=""><a href="#download">Download</a></li>
-                      <li class=""><a href="#prices">Prices</a></li>
-                      <li class=""><a href="#contact">contact</a></li>
-                    </ul>
-                  </div><!-- /.navbar-collapse -->
-                </div>
-              </nav>
-              <!--Home Sections-->
-              <section style="background-color: black;">
-                <div class="overlay"></div>
-                <div class="container">
-                  <div class="row">
-                    <div class="main_home text-center" style="
-    padding-bottom: 150px;
-">
+   <head>
+      <meta charset="utf-8">
+      <title>TOP-MEDIA</title>
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta content="TOP-MEDIA Application" name="description">
+      <!--Google Fonts link-->
+      <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,600,600i,700,700i" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i" rel="stylesheet">
+      <link rel="stylesheet" href="assets/css/slick.css">
+      <link rel="stylesheet" href="assets/css/slick-theme.css">
+      <link rel="stylesheet" href="assets/css/animate.css">
+      <link rel="stylesheet" href="assets/css/fonticons.css">
+      <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+      <link rel="stylesheet" href="assets/css/bootstrap.css">
+      <link rel="stylesheet" href="assets/css/magnific-popup.css">
+      <link rel="stylesheet" href="assets/css/bootsnav.css">
+      <link href="/assets/favicons/adiq/M-c39d71dab8fa52b4f4691571ff44e210.png" rel="shortcut icon" type="image/vnd.microsoft.icon">
+      <link rel="icon" href="https://mixiptv.com/wp-content/uploads/2019/03/logo-para-top.png">
+      <!--For Plugins external css-->
+      <!--<link rel="stylesheet" href="assets/css/plugins.css" />-->
+      <!--Theme custom css -->
+      <link rel="stylesheet" href="assets/css/style.css">
+      <!--<link rel="stylesheet" href="assets/css/colors/maron.css">-->
+      <!--Theme Responsive css-->
+      <link rel="stylesheet" href="assets/css/responsive.css">
+      <script src="assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+   </head>
+   <style>
+      a {
+      text-align: center;
+      }
+      .ct-topbar {
+      text-align: right;
+      background: #eee;
+      }
+      .ct-topbar__list {
+      margin-bottom: 0px;
+      }
+      .ct-language__dropdown{
+      padding-top: 8px;
+      max-height: 0;
+      overflow: hidden;
+      position: absolute;
+      top: 110%;
+      left: -3px;
+      -webkit-transition: all 0.25s ease-in-out;
+      transition: all 0.25s ease-in-out;
+      width: 100px;
+      text-align: center;
+      padding-top: 0;
+      z-index:200;
+      }
+      .ct-language__dropdown li{
+      background: #222;
+      padding: 5px;
+      }
+      .ct-language__dropdown li a{
+      display: block;
+      }
+      .ct-language__dropdown li:first-child{
+      padding-top: 10px;
+      border-radius: 3px 3px 0 0;
+      }
+      .ct-language__dropdown li:last-child{
+      padding-bottom: 10px;
+      border-radius: 0 0 3px 3px;
+      }
+      .ct-language__dropdown li:hover{
+      background: #444;
+      }
+      .ct-language__dropdown:before{
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+      width: 8px;
+      height: 0;
+      border: 0 solid transparent;
+      border-right-width: 8px;
+      border-left-width: 8px;
+      border-bottom: 8px solid #222;
+      }
+      .ct-language{
+      position: relative;
+      background: #00aced;
+      color: #fff;
+      padding: 10px 0;
+      }
+      .ct-language:hover .ct-language__dropdown{
+      max-height: 200px;
+      padding-top: 8px;
+      }
+      .list-unstyled {
+      padding-left: 0;
+      list-style: none;
+      }
+   </style>
+   <body data-spy="scroll" data-target=".navbar-collapse">
+      <!--Home page style-->
+      <nav class="navbar navbar-default navbar-fixed white bootsnav text-uppercase on no-full" style="
+         margin-top: 0px;
+         ">
+         <div class="container">
+            <ul class="list-unstyled list-inline ct-topbar__list">
+               <li class="ct-language">
+                  Language <i class="fa fa-arrow-down"></i>
+                  <ul class="list-unstyled ct-language__dropdown">
+                     <li><a href="#googtrans(en|en)" class="lang-en lang-select" data-lang="en"><img src="https://www.solodev.com/assets/google-translate/flag-usa.png" alt="USA"></a></li>
+                     <li><a href="#googtrans(en|es)" class="lang-es lang-select" data-lang="es"><img src="https://www.solodev.com/assets/google-translate/flag-mexico.png" alt="MEXICO"></a></li>
+                     <li><a href="#googtrans(en|fr)" class="lang-es lang-select" data-lang="fr"><img src="https://www.solodev.com/assets/google-translate/flag-france.png" alt="FRANCE"></a></li>
+                     <li><a href="#googtrans(en|zh-CN)" class="lang-es lang-select" data-lang="zh-CN"><img src="https://www.solodev.com/assets/google-translate/flag-china.png" alt="CHINA"></a></li>
+                     <li><a href="#googtrans(en|ja)" class="lang-es lang-select" data-lang="ja"><img src="https://www.solodev.com/assets/google-translate/flag-japan.png" alt="JAPAN"></a></li>
+                  </ul>
+               </li>
+            </ul>
+         </div>
+         </div>
+         <!-- Start Atribute Navigation -->
+         <div class="attr-nav">
+            <ul>
+               <a class="page-header__tel" content="(717) 617-3258" href="tel:7176173258" itemprop="telephone" style="
+                  margin-top: 25px;
+                  ">📞(717) 617-3258</a>
+            </ul>
+         </div>
+         <!-- End Atribute Navigation -->
+         <!-- Start Header Navigation -->
+         <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu" aria-expanded="true">
+            <i class="fa fa-bars"></i>
+            </button>
+            <a class="navbar-brand" href="index.html">
+            <img src="assets/images/logo.png" class="logo logo-display" alt="">
+            <img src="https://mixiptv.com/wp-content/uploads/2019/03/logo-para-top.png" class="logo logo-scrolled" alt="">
+            </a>
+         </div>
+         <!-- End Header Navigation -->
+         <!-- Collect the nav links, forms, and other content for toggling -->
+         <div class="navbar-collapse collapse" id="navbar-menu" aria-expanded="true" style="">
+            <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
+               <li><a href="index.html">home</a></li>
+               <li class=""><a href="#download">Download</a></li>
+               <li class=""><a href="#prices">Prices</a></li>
+               <li class=""><a href="#contact">contact</a></li>
+            </ul>
+         </div>
+         <!-- /.navbar-collapse -->
+         </div>
+      </nav>
+      <!--Home Sections-->
+      <section style="background-color: black;">
+         <div class="overlay"></div>
+         <div class="container">
+            <div class="row">
+               <div class="main_home text-center" style="
+                  padding-bottom: 150px;
+                  ">
                   <div class="video-wrap">
-                        <iframe title="TOP MEDIA TV" width="800" height="655" src="https://www.youtube.com/embed/4BAkDARhNPg?feature=oembed&autoplay=1"  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                     <iframe title="TOP MEDIA TV" width="800" height="655" src="https://www.youtube.com/embed/4BAkDARhNPg?feature=oembed&autoplay=1"  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                   </div>
-                  <!--End off row-->
-                </div>
-                <!--End off container -->
-              </section>
-              <!--End off Home Sections-->
-              <!--About Sections-->
-              <br>
-              <br>
-              <br>
-              <br>
-              <br>
-              <br id="download">
-              <h1 style="text-align: center;">TOP MEDIA: PREMIUM IPTV</h1>
-              <h2 style="text-align: center;">Get Top Media on your Android device in which you will get 600+ Channels + 10,000 Movies + 743 TV Shows, No Credit Check No Contracts. Free trials Available</h2>
-              <!--End off row-->
-              <!--End off container -->
-              <br>
-              <br>
-              <br>
-              <br>
-              <hr>
-              <br>
-              <br>
-              <div class="container">
-                <div class="row">
-                  <div class="main_counter text-center">
-                    <div class="col-md-3">
-                      <div class="counter_item sm-m-top-40">
-                        <h2 class="statistic-counter">25</h2>
-                        <div class="separator_small"></div>
-                        <h5>Happy Clients</h5>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!--End off row-->
-              </div>
-              <!--End off container -->
-              <button class="btn">
-                <a download href="https://topmediatv.net/tm.apk" class="fa fa-download">Download the TOP-MEDIA Channel</a>
-              </button>
-              <br>
-              <br>
-              <br>
-              <hr>
-              <br>
-              <br>
-              <br>
-              <!--Our Work Section-->
-              <section class="columns">
-                                        <img src="https://mixiptv.com/wp-content/uploads/2019/03/logo-para-top.png" alt="logo">
-                      <div class="column">
-                              <h2>1 Month</h2>
-                  <h3>$21.00</h3>
-                              <p>Payments will be done by PayPal, CashApp, ApplePay, and Zelle to make your monthly payment email me <a href="mailto: lazaro300x@icloud.com">lazaro300x@icloud.com</a></p>
-                      </div>
-                      
-                      <div class="column">
-                              <h2>3 Months</h2>
-                  <h3>$60.00</h3>
-                              <p>Payments will be done by PayPal, CashApp, ApplePay, and Zelle to make your monthly payment email me <a href="mailto: lazaro300x@icloud.com">lazaro300x@icloud.com</a></p>
-                      </div>
-                
-                      <div class="column">
-                              <h2>6 Months</h2>
-                  <h3>$110.00</h3>
-                              <p>Payments will be done by PayPal, CashApp, ApplePay, and Zelle to make your monthly payment email me <a href="mailto: lazaro300x@icloud.com">lazaro300x@icloud.com</a></p>
-                      </div>	
-              </section>
-              <br>
-              <br>
-              <br>
-              <hr>
-              <br>
-              <br>
-              <h2>To INSTALL and ACTIVATE TOP-MEDIA please email or give us a call</h2>
-              <p>
-              <h4> Items Required</h4>
-               An Android Device such as a, Smartphone, <a href="https://www.amazon.com/Fire-TV-Stick-with-Alexa-Voice-Remote/dp/B0791TX5P5">Amazon Firestick</a>, or an Android TV Box. 
-              </p>
-              <br>
-              <br>
-              <br>
-              <hr>
-              <br>
-              <br>
-              <div id="accordion-2099-3-0-1" class="module module-accordion accordion-2099-3-0-1  " data-behavior="accordion">
-                <h3 class="module-title">Top Media Channel List</h3>
-                <ul class="ui module-accordion default rounded gradient glossy shadow default">
-                  <li>
-                    <div class="accordion-title">
-                      <a> Live TV- Español </a>
-                    </div>
-                    <div class="accordion-content default-closed clearfix">
-                      <p style="text-align: left;">• AMZ MOVIES &#8211; FHD<br />• AZTECA CINEMA &#8211; HD<br />• CINE PREMIER &#8211; HD<br />• CINE MEXACANA &#8211; HD<br />• CINE PREMIER – HD<br />• CINECANAL 2 – FHD<br />• CINECANAL – FHD<br />•
-                        CINEMA PLATINO – HD<br />• CINEMAX 2 – HD<br />• CINEMAX – HD<br />• DE PELICULA 2 – FHD<br />• DE PELICULA – FHD<br />• ESTUDIO UNIVERSAL – FHD<br />• FM HOT MOVIES – HD<br />• FMX MOVIES – HD<br />• FOX CINEMA – FHD<br />•
-                        FOX ACTION – HD<br />• FOX CLASSICS <br />• FOX MOVIES – FHD<br />• GOLDEN EDGE – HD<br />• GOLDEN PLUS – FHD<br />• GOLDEN PREMIER – FHD<br />• HBO 2 – FHD<br />• HBO EAST – FHD<br />• HBO FAMILY 2 &#8211; HD<br />• HBO
-                        FAMILY – FHD<br />• HBO – FHD<br />• HBO PLUS E – FHD<br />• HBO PLUS – FHD<br />• HBO SIGNATURE 2 – FHD<br />• HBO SIGNATURE – FHD<br />• MC MOVIES 2 – HD<br />• MC MOVIES – HD<br />• MIS PELICULAS – HD<br />• PANICO MOVIES
-                        – HD<br />• PARAMOUNT 2 – FHD<br />• PARAMOUNT – FHD<br />• SONY CHANNEL – FHD<br />• SONY CHANNEL – HD<br />• SPACE 2 – FHD<br />• SPACE – FHD<br />• SUNDANCE TV – FHD<br />• TMC MOVIES – HD<br />• UNIVERSAL – FHD<br />•
-                        WARNER 2 – HD<br />• WARNER – FHD</p>
-                      <p style="text-align: left;"><strong>CINEMA EN VIVO &#8211; CINEMA LIVE</strong><br />• AMZ MOVIES &#8211; FHD<br />• AZTECA CINEMA &#8211; HD<br />• CINE PREMIER &#8211; HD<br />• CINE MEXICANO &#8211; HD<br />• CINE PREMIER –
-                        HD<br />• CINECANAL 2 – FHD<br />• CINECANAL – FHD<br />• CINEMA PLATINO – HD<br />• CINEMAX 2 – HD<br />• CINEMAX – HD<br />• DE PELICULA 2 – FHD<br />• DE PELICULA – FHD<br />• ESTUDIO UNIVERSAL – FHD<br />• FM HOT MOVIES –
-                        HD<br />• FMX MOVIES – HD<br />• FOX CINEMA – FHD<br />• FOX ACTION – HD<br />• FOX CLASSICS <br />• FOX MOVIES – FHD<br />• GOLDEN EDGE – HD<br />• GOLDEN PLUS – FHD<br />• GOLDEN PREMIER – FHD<br />• HBO 2 – FHD<br />• HBO
-                        EAST – FHD<br />• HBO FAMILY 2 &#8211; HD<br />• HBO FAMILY – FHD<br />• HBO – FHD<br />• HBO PLUS E – FHD<br />• HBO PLUS – FHD<br />• HBO SIGNATURE 2 – FHD<br />• HBO SIGNATURE – FHD<br />• MC MOVIES 2 – HD<br />• MC MOVIES
-                        – HD<br />• MIS PELICULAS – HD<br />• PANICO MOVIES – HD<br />• PARAMOUNT 2 – FHD<br />• PARAMOUNT – FHD<br />• SONY CHANNEL – FHD<br />• SONY CHANNEL – HD<br />• SPACE 2 – FHD<br />• SPACE – FHD<br />• SUNDANCE TV – FHD<br />•
-                        TMC MOVIES – HD<br />• UNIVERSAL – FHD<br />• WARNER 2 – HD<br />• WARNER – FHD</p>
-                      <p style="text-align: left;"><strong>CULTURA – CULTURE</strong><br />• ANIMAL PLANET – FHD<br />• DISCOVERY C – HD<br />• DISCOVERY – FHD<br />• DISCOVERY HOME – FHD<br />• DISCOVERY SC – HD<br />• DISCOVERY T2 – FHD<br />•
-                        DISCOVERY T – FHD<br />• DISCOVERY TURBO &#8211; HD<br />• DISCOVERY W – FHD<br />• EL GROUMET – FHD<br />• EL TIEMPO VISION – SD<br />• GARAGE TV – HD<br />• HISTORY 2 – HD<br />• HISTORY – FHD<br />• ID DISCOVERY – <br />•
-                        INVESTIGATION D – HD<br />• NAT GEO – FHD<br />• NAT GEO WILD – FHD<br />• NATIONAL GEO – FHD<br />• RT DOCUMENTAL – FHD<br />• TLC DISCOVERY 2 – FHD<br />• TLC DISCOVERY – FHD</p>
-                      <p style="text-align: left;"><strong>DEPORTES – SPORTS</strong><br />• BEIN SPORT N – HD<br />• BEIN SPORT N – FHD<br />• CLARO SPORTS – HD<br />• DEPORT TV – HD<br />• ESPN + &#8211; HD<br />• ESPN 2 ARG – HD<br />• ESPN 2 MEX
-                        – HD<br />• ESPN 3 ARG – HD<br />• ESPN 3 MEX – HD<br />• ESPN ARG – HD<br />• ESPN DEPORTES – HD<br />• ESPN MEXICO – HD<br />• FOX DEPORTES USA – HD<br />• FOX DEPORTES – HD<br />• FOX PREMIUM – HD<br />• FOX SPORT 1 ARG –
-                        HD<br />• FOX SPORT 2 ARG – HD <br />• FOX SPORT 2ARG – HD<br />• FOX SPORTS 2 – FHD<br />• FOX SPORTS 3 – FHD<br />• FOX SPORTS – FHD<br />• GOL TV – FHD<br />• GOLF LATIN AMER – HD<br />• REAL MADRID – FHD<br />• REAL
-                        MADRID – HD<br />• RTV PORTUGAL – HD<br />• TDN MEXICO – HD<br />• TNT SPORTS – HD<br />• TVC DEPORTES – HD<br />• TVC MEXICO – HD<br />• UNIVISION DEPORTES – FHD<br />• UNIVISION DEPORTES – HD<br />• WIN SPORTS – HD<br />•
-                        WIN SPORTS – FHD</p>
-                      <p style="text-align: left;"><strong>EN VIVO MUSICA – LIVE MUSIC</strong><br />• LA MEGA – HD<br />• MTV CHANNEL – FHD<br />• MUSICA MEXICANA – FHD<br />• MUSICA POP LATINO – FHD<br />• MUSICA TROPICAL – FHD<br />• MUSICA
-                        URBANA – FHD<br />• RITMO SON – HD<br />• TOP LATINO – HD</p>
-                      <p style="text-align: left;"><strong>ENTRETENIMIENTO – ENTERTAINMENT</strong><br />• A&E – FHD<br />• AXN 2 CHANNEL – FHD<br />• AXN CHANNEL – FHD<br />• AZTECA CLIC – FHD<br />• AZTECA CORAZON – FHD<br />• AZTECA MUNDO – FHD<br />•
-                        COMEDY CENTRAL – FHD<br />• DISTRITO COMEDIA – HD<br />• E CHANNEL – FHD<br />• ESTUDIO UNIVERSAL – HD<br />• FOX CHANNEL – FHD<br />• FOX LIVE – FHD<br />• FX CHANNEL – FHD<br />• FX CHANNEL – HD<br />• GLITZ CHANNEL – HD<br />•
-                        HOLA TV – FHD<br />• MTV REAL – FHD<br />• PASIONES – FHD<br />• RC NOVELAS – HD<br />• SOUTH PARK – HD<br />• SUN CHANNEL – FHD<br />• SYFY – HD<br />• TBC CHANNEL – HD<br />• TL NOVELAS – HD<br />• TNT SERIES – FHD<br />•
-                        TRU TV – FHD<br />• TRU TV – HD<br />• TV MAS – FHD<br />• UNICABLE – FHD</p>
-                      <p style="text-align: left;"><strong>INFANTIL – KIDS</strong></p>
-                      <p style="text-align: left;">• BABY FIRST – HD<br />• BOOMERANG – HD<br />• CARTOON NETWORK – FHD<br />• CEEBBES – FHD<br />• DISCOVERY KIDS – FHD<br />• DISCOVERY KIDS – HD<br />• DISNEY CHANNEL – HD<br />• DISNEY JR – HD<br />•
-                        DISNEY XD – HD<br />• NICK 2 – HD<br />• NICK – HD<br />• NICK JR – HD<br />• NICK TOONS – HD</p>
-                      <p style="text-align: left;"><strong>LATINO USA </strong><br />• AMERICA TV – HD<br />• ESTRELLA TV – HD<br />• FUSION – FHD<br />• GALAVISION – FHD<br />• NBC UNIVERSO – FHD<br />• TELEMUNDO E –FHD<br />• TELEMUNDO – FHD<br />•
-                        UNIMAS – FHD<br />• UNIVISION – FHD<br />• UNIVISON – HD<br />• UNIVISION E FHD<br />• UNIVISION E HD</p>
-                      <p style="text-align: left;"><strong>NOTICIAS – NEWS</strong><br />• ADN 40 NOTICIAS – FHD<br />• ADN 40 NOTICIAS – HD<br />• CABLE NOTICIAS – HD<br />• CNN NOTICIAS – HD<br />• MILENIO TV – HD<br />• NOTICIAS MVS – HD<br />•
-                        TELEFORMULA – HD</p>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="accordion-title">
-                      <a> Live TV- English </a>
-                    </div>
-                    <div class="accordion-content default-closed clearfix">
-                      <p style="text-align: left;"><strong>Cinema</strong><br />• AMC – HD<br />• CINEMA PLATINO – HD<br />• CINEMAX – FHD<br />• COZI MOVIES – FHD<br />• EL REY NETWORK – FHD<br />• ENCORE WESTERNS – HD<br />• FILM BOX ACTION – FHD<br />•
-                        FILM BOX – FHD<br />• FMX RETRO – FHD<br />• FOX ACTION – FHD<br />• FREEFORM – FHD<br />• FXM MOVIES – HD<br />• HALL MARK – FHD<br />• HBO 3 – FHD<br />• HBO CHANNEL – FHD<br />• HBO EAST – FHD<br />• HBO – HD<br />• HBO
-                        SIGNATURE – FHD<br />• HBO WEST – HD<br />• HBO ZONE – FHD<br />• LMN MOVIES – FHD<br />• MELLO MOVIES – HD<br />• PARAMOUNT –FHD<br />• SHOWTIME – HD<br />• SHOWTIME WEST – HD<br />• SKY ADVENTURE – HD<br />• SKY COMEDY – HD<br />•
-                        SKY DISNEY – HD<br />• SKY DRAMA – HD<br />• SKY FAMILY – HD<br />• SKY GREATS – HD<br />• SKY HORROR – HD<br />• SKY PREMIER – HD<br />• SKY SELECT – HD<br />• SKY SHOWCASE – HD<br />• SKY THRILLER – HD<br />• SONY – HD<br />•
-                        SPACE – FHD<br />• STARZ – FHD<br />• SUNDANCE CHANNEL – HD</p>
-                      <p style="text-align: left;"><strong>Documentary</strong></p>
-                      <p style="text-align: left;">• ANIMAL PLANET – HD<br />• DISCOVERY CHANNEL – HD<br />• DISCOVERY THEATER – FHD<br />• DISCOVERY WORLD – FHD<br />• DISTINATION AMERICA<br />• DIY<br />• FOOD NETWORK – HD<br />• HISTORY CHANNEL –
-                        FHD<br />• NSIGHT CHANNEL FHD<br />• NAT GEO WILD – FHD<br />• NAT GEO – FHD<br />• REV TV – HD<br />• VELOCITY – FHD<br />• WEATHER CHANNEL – HD<br />• WILD CHANNEL – HD<br />• WOBI CHANNEL – HD</p>
-                      <p style="text-align: left;"><strong>Entertainment</strong><br />• A&E – FHD<br />• BBC UK – FHD<br />• BET CHANNEL – HD<br />• BRAVO – HD<br />• CHCH UK – HD<br />• COMEDY CENTRAL – FHD<br />• CW CHANNEL – HD<br />• E! CHANNEL
-                        – HD<br />• FUSE CHANNEL – FHD<br />• FTV MENS<br />• FX CHANNEL – FHD<br />• FXX CHANNEL – FHD<br />• FYI CHANNEL – FHD<br />• HALLMARK – FHD<br />• HGTV –FHD<br />• LIFETIME – FHD<br />• LONDON LIVE – FHD<br />• MY9 TV – HD<br />•
-                        OWN NETWORK – HD<br />• PBS – HD<br />• POP CHANNEL – FHD<br />• REVOLT CHANNEL – FHD<br />• SYFY – FHD<br />• TBS – HD<br />• TNT – HD<br />• TLC CHANNEL – FHD<br />• TNT CHANNEL – FHD<br />• TNT SERIES – FHD<br />• TRU TV –
-                        HD<br />• USA CHANNEL – FHD<br />• VELOCITY – FHD<br />• WGN 9 – FHD</p>
-                      <p style="text-align: left;"><strong>Kids</strong></p>
-                      <p style="text-align: left;">• ADULT SWIM – FHD<br />• BABY FIRST – HD<br />• BOOMERANG – HD<br />• CARTOON N – HD<br />• CARTOON NETWORK – HD<br />• CARTOON NETWORK UK – HD<br />• DISNEY CHANNEL – FHD<br />• DISNEY CHANNEL –
-                        HD<br />• DISNEY XD – FHD<br />• DISNEY XD – HD<br />• NICK – FHD<br />• NICK JR – HD<br />• NICKTOONS – HD<br />• PBS KIDS – HD<br />• SMILE CHANNEL – HD<br />• UNIVERSAL KIDS – FHD</p>
-                      <p style="text-align: left;"><strong>Live News</strong></p>
-                      <p style="text-align: left;">• ABC NEWS – FHD<br />• ALJAZEERA USA – FHD<br />• BLOOMBERG – FHD<br />• C-SPAN 1 – HD<br />• CBS NEWS – FHD<br />• CNBC WORLD – HD<br />• CNN – HD<br />• CNN NEWS – HD<br />• FOX BUSINESS – FHD<br />•
-                        FOX NEWS – FHD<br />• INFOWARS TV<br />• NEWS MAX – HD<br />• SKY NEWS – HD<br />• SKY NEWS USA – HD<br />• WEATHER CHANNEL – HD</p>
-                      <p style="text-align: left;"><strong>Local Networks</strong></p>
-                      <p style="text-align: left;">• ABC CHANNEL – FHD<br />• CBS 2 LOS ANGELES – FHD<br />• CBS NEW YORK – FHD<br />• FOX WASHINGTON – FHD<br />• FOX ALANTA – HD<br />• FOX LOS ALGELES – FHD<br />• NBC LA – FHD<br />• NBC MIAMI –
-                        FHD<br />• NBC NEW YORK – FHD<br />• NBC WASHINGTON – FHD</p>
-                      <p style="text-align: left;"><strong>Music Channels</strong></p>
-                      <p style="text-align: left;">• ALTERNATIVE – FHD<br />• BRITS-HITS – FHD<br />• CMT<br />• COUNTRY MUSIC – HD<br />• DANCE-EDM – FHD<br />• HEAVY METAL – FHD<br />• HIPHOP-RB – FHD<br />• HITS LIST – FHD<br />• KIDS MUSIC – FHD<br />•
-                        POP COUNTRY – FHD<br />• POP HITS – FHD<br />• RAP 2K – FHD<br />• RAP NEW – FHD<br />• REBOLT MUSIC – HD<br />• ROCK – FHD<br />• SOUL RB – FHD<br />• TELE HITS PLUS – FHD<br />• VH1 MUSIC – HD</p>
-                      <p style="text-align: left;"><strong>Religion</strong></p>
-                      <p style="text-align: left;">• BETTER HEALTH – HD<br />• BETTER LIVE TV – HD<br />• CTN LIVE – HD<br />• GOOD LIVE – HD<br />• LIVEVISION USA – HD<br />• NRB TV – HD</p>
-                      <p style="text-align: left;"><strong>Sports</strong></p>
-                      <p style="text-align: left;">• ALL SPORT (PORT) – FHD<br />• BEIN SPORT – FHD<br />• BOXNATION – HD<br />• BT SPORT – FHD<br />• BT SPORT ESPN – HD<br />• BT SPORT 1 – HD<br />• BT SPORT 2 – HD<br />• BT SPORT 3 – HD<br />• BTN
-                        SPORT – FHD<br />• CBS SPORT NETWORK – FHD<br />• ELEVEN SPORTS – HD<br />• ESPN – HD<br />• ESPN PLUS – HD<br />• ESPN SEC – FHD<br />• ESPN U – FHD<br />• F1 UK – HD<br />• FANTASY FTBALL FHD<br />• FIGHT BOX<br />•
-                        FIGHTING NETWORK – HD<br />• FOX COLLEGE ATLANTIC – FHD<br />• FOX COLLEGE CENTRAL – FHD<br />• FOX COLLEGE PACIFIC – FHD<br />• FOX SOCCER PLUS – FHD<br />• FOX SPORT ARIZONA – FHD<br />• FOX SPORT DETROIT – FHD<br />• FOX
-                        SPORT FLORIDA – FHD<br />• FOX SPORT S WEST – FHD<br />• FOX SPORT SUN – FHD<br />• FOX SPORT SW PLUS – FHD<br />• FOX SPORT W – FHD<br />• FOX SPORT SANDIEGO – FHD<br />• FOX SPORT WEST – HD<br />• FS 1 – FHD<br />• FS 2 –
-                        FHD<br />• GOLF CHANNEL – HD<br />• HAVOC – HD<br />• MLB NETWORK – HD<br />• MSG 2 – FHD<br />• MSG 2 PLUS – FHD<br />• MSG NETWORK – FHD<br />• MSG PLUS – FHD<br />• NBA – HD<br />• NBCS CHICAGO – FHD<br />• NBCS NORTHWEST
-                        – FHD<br />• NBCS PHILLY – FHD<br />• NBCS SPORT BOSTON – FHD<br />• NBCSN NETWORK – FHD<br />• NENS PLUS SPORT – FHD<br />• NESN SPORT – FHD<br />• NFL NETWORK – FHD<br />• NFL NOW – FHD<br />• NFL RED ZONE – FHD<br />• NHL
-                        NETWORK – HD<br />• REDBULL – FHD<br />• SKY GOLF UK – HD<br />• SKY SPORT 1 – HD<br />• TUFF TV – HD<br />• WWE NETWORK – HD<br />• WWE NETWORK – HD<br />• YES NETWORK – FHD</p>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="accordion-title">
-                      <a> Mexico </a>
-                    </div>
-                    <div class="accordion-content default-closed clearfix">
-                      <p style="text-align: left;">• AND 40 – HD<br />• AZTECA 13 – HD<br />• AZTECA 7 – HD<br />• AZTECA CLIC – HD<br />• AZTRECA CLIC – HD<br />• AZTECA CORAZON – HD<br />• AZTECA INTERNACIONAL – HD<br />• AZTECA MUNDO – HD<br />•
-                        BANDAMAX – HD<br />• CANAL 11 – HD<br />• CANAL 5 – HD<br />• FORO TV – HD<br />• GALA TV – HD<br />• MEXIQUENSE – HD<br />• MULTIMEDIOS – HD<br />• TELEVISA – FHD<br />• TELEVISA MTY – HD<br />• TVC – HD<br />• TVP CULIACAN
-                        – HD<br />• TVP LOS MOCHIS – HD<br />• TVP MAZATLAN – HD<br />• TVP OBREGON – HD</p>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="accordion-title">
-                      <a> Puerto Rico </a>
-                    </div>
-                    <div class="accordion-content default-closed clearfix">
-                      <p style="text-align: left;">• CANAL 13 – HD<br />• TELEMUNDO – FHD<br />• TELEMUNDO – HD<br />• UNIVISION – HD<br />• WAPA 2 – HD<br />• WAPA AMERICA – HD<br />• WAPA – HD<br />• WIPR – HD</p>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="accordion-title">
-                      <a> Cuba </a>
-                    </div>
-                    <div class="accordion-content default-closed clearfix">
-                      <p style="text-align: left;">• AMERICA TV – HD<br />• CUBAVISION<br />• CUBAVISION INTERNACIONAL<br />• TV MARTI – HD</p>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="accordion-title">
-                      <a> Republica Dominicana </a>
-                    </div>
-                    <div class="accordion-content default-closed clearfix">
-                      <p style="text-align: left;">• RNN NOTICIAS – HD<br />• TELEMICRO 5<br />• TRA DIGITAL – HD</p>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="accordion-title">
-                      <a> CENTRO Y SUR AMERICA - CENTRAL AND SOUTH AMERICA </a>
-                    </div>
-                    <div class="accordion-content default-closed clearfix">
-                      <p style="text-align: left;">• AZTECA GUATEMALA – HD<br />• AZTECA HONDURAS – HD<br />• CANAL SUR – HD<br />• CARACOL – HD<br />• ENLACE TV – HD<br />• TELECARIBE COLOMBIA – HD<br />• TELECARIBE DEPORTES – HD<br />• WOW TV – HD</p>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="accordion-title">
-                      <a> ESPANA – SPAIN </a>
-                    </div>
-                    <div class="accordion-content default-closed clearfix">
-                      <p style="text-align: left;">• A3S SERIES – FHD<br />• ANTENA 3 –FHD<br />• ANTENA 3 SERIES – HD<br />• ARAGON TV – HD<br />• CANAL 13 – HD<br />• LA SEXTA TV – HD<br />• NEOX TV – FHD<br />• NOVA TV – HD</p>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="accordion-title">
-                      <a> SERIES AND TV SHOWS </a>
-                    </div>
-                    <div class="accordion-content default-closed clearfix">
-                      <p style="text-align: left;">• NEW<br />• ACTION<br />• ADVENTURE<br />• ANIMATION<br />• COMEDY<br />• CRIME<br />• DRAMA<br />• DOCUMENTARIES<br />• FAMILY<br />• FANTASY<br />• HORROR<br />• MYSTERY<br />• ROMANCE<br />• SCI
-                        FI<br />• THRILLER<br />• LOCALES<br />• ANIMADAS<br />• COMEDIA<br />• ACCION-SUSPENSO-CRIMEN<br />• AVENTURA-DRAMA-HISTORIA<br />• TERROR-MISTERIO<br />• AGREGADAS RECIENTEMENTE (BETA)<br />• ACTUALES (BETA)<br />•
-                        CONCLUIDES (BETA)</p>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="accordion-title">
-                      <a> MOVIES ENGLISH </a>
-                    </div>
-                    <div class="accordion-content default-closed clearfix">
-                      <p style="text-align: left;">• SPORTS ON DEMAND<br />• 4K (4K EQUIPMENT REQUIRED)<br />• THEATER2<br />• KAROKE<br />• ACTION<br />• DRAMA<br />• THRILLER<br />• COMEDY<br />• KIDS<br />• HORROR<br />• ADVENTURE<br />• FOREIGN<br />•
-                        SCI FIO<br />• DOCUMENTARY<br />• 3D</p>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="accordion-title">
-                      <a> MOVIES ESPAÑOL </a>
-                    </div>
-                    <div class="accordion-content default-closed clearfix">
-                      <p style="text-align: left;">• SPORTS ON DEMAND<br />• PELICULAS 4K<br />• CINEMA2<br />• KARAOKE<br />• ACCION<br />• DRAMA<br />• SUSPENSO<br />• COMEDIA<br />• ANIMADAS<br />• ADOLECENTES<br />• TERROR<br />• ADVENTURE<br />•
-                        CINELATINO<br />• CLASICAS ACCION<br />• CLASICAS ARAMA<br />• FICCION<br />• DOCUMENTALES<br />• CRISTIANAS<br />• 3D</p>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="accordion-title">
-                      <a> SPECIAL EVENTS </a>
-                    </div>
-                    <div class="accordion-content default-closed clearfix">
-                      <p style="text-align: left;"><strong>BEIN SPORTS PASS</strong><br />• BEIN SPORTS 3 – FHD<br />• BEIN SPORTS 4 – FHD<br />• BEIN SPORTS 5 – FHD<br />• BEIN SPORTS 6 – FHD<br />• BEIN SPORTS 7 &#8211; FHD<br />• BEIN SPORTS 8 –
-                        FHD<br />• BEIN SPORTS 9 – FHD<br />• BEIN SPORTS 10 – FHD</p>
-                      <p style="text-align: left;"><strong>COLLAGE-PAC 12</strong><br />• ARIZONA – FHD<br />• BAY AREA – FHD<br />• LOS ANGELES – FHD<br />• MOUNTAIN – FHD<br />• NETWORK – FHD<br />• OREGON – FHD<br />• WASHINGTON – FHD</p>
-                      <p style="text-align: left;"><strong>NBA LEAGUE PASS</strong><br />• NBS – FHD<br />• NBA LEAGUE 748 – 764 – FHD (16 CHANNELS)</p>
-                      <p style="text-align: left;"><strong>NFL SUNDAY TICKET</strong><br />• NFL NETWORK – FHD<br />• NFL RED ZONE – FHD<br />• NFL SUNDAY 705 – 719 – FHD (14 CHANNELS)</p>
-                      <p style="text-align: left;"><strong>NHL GAME PASS</strong><br />• NHL NETWORK – HD<br />• NHL GAME PASS 1-5 – HD (5 CHANNELS)</p>
-                      <p style="text-align: left;"><strong>PPV TODAY</strong><br />• PPV BOXEO – HD<br />• PPV BOXING – FHD<br />• PPV UFC – FHC<br />• PPV UFC – HD<br />• UFC – FHD<br />• UFC &#8211; HD<br />• WWE – HD<br />• WWE NETWORK – FHD</p>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="accordion-title">
-                      <a> ADULTS (18+) </a>
-                    </div>
-                    <div class="accordion-content default-closed clearfix">
-                      <p style="text-align: left;">• DORCEL TV – HD<br />• HUSTLER – HD<br />• JASMIN CHANNEL<br />• PLAYBOY TV<br />• SEXEXTREME<br />• VENUS</p>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-              <div class="container">
-                <div class="row">
-                  <div class="service_content_area">
-                    <!--End off About section -->
-                    <!--Contact Us Section-->
-                    <section id="contact" class="contact fix">
-                      <div class="container">
-                        <div class="row">
-                          <div class="main_contact p-top-100">
-                            <div class="col-md-6 sm-m-top-30">
-                              <form method="POST" action="https://formspree.io/lazaro300x@icloud.com">
-                                <div class="row">
-                                  <div class="col-sm-6">
-                                    <div class="form-group">
-                                      <label>Your Name *</label>
-                                      <input id="first_name" name="name" type="text" class="form-control" required="">
-                                    </div>
-                                  </div>
-                                  <div class="col-sm-6">
-                                    <div class="form-group">
-                                      <label>Your Email *</label>
-                                      <input id="email" type="email" name="email" placeholder="Your email" class="form-control">
-                                    </div>
-                                  </div>
-                                  <div class="col-sm-12">
-                                    <div class="form-group">
-                                      <label>Your Message *</label>
-                                      <textarea name="message" class="form-control" rows="6"></textarea>
-                                    </div>
-                                      <input type="submit" value="Send" class="btn btn-default"></input>
-                                    </div>
-                                  </div>
-                                </div>
-                              </form>
-                            </div>
-                            <!--End off container -->
-                    </section>
-                    <!--End off Contact Section-->
-                    <footer class="page__footer" style="color: white;">
-                      <div class="page-footer">
-                        <div class="page-footer__top">
-                          <div class="footer-menu" style="background-color: lightgrey;">
-                            <p class="text-center">
-                            </p>
-                          </div>
-                        </div>
-                        <div class="page-footer__middle" style="background-color: lightgrey;
-    color: black;
-">
-                          <div class="container" style="
-    color: lightgrey;
-">
-                            <div class="payments" style="
-    background-color: lightgrey;
-    color: black;
-">
-                              <h4 style="
-    color: black;
-">We accept the following payments:</h4>
-                              <ul itemprop="paymentAccepted">
-                                <li>
-                                  <span>
-                                    <img alt="Cash" src="assets/payments/cash-a0d13a27e167ebac6dddfd33d2c45165.png" title="Cash">
-                                    <span class="payments-type">Cash</span>
-                                  </span>
-                                </li>
-                                <li>
-                                  <span>
-                                    <img alt="Paypal" src="assets/payments/paypal-60e40c8b4a349378550c312d5fa9165f.png" title="Paypal">
-                                    <span class="payments-type">Paypal</span>
-                                  </span>
-                                </li>
-                                <li>
-                                  <span>
-                                    <img alt="Visa" src="assets/payments/visa-88a554c6e1fb40400bbd45b5c854b978.png" title="Visa">
-                                    <span class="payments-type">Visa</span>
-                                  </span>
-                                </li>
-                                <li>
-                                  <span>
-                                    <img alt="Mastercard" src="assets/payments/mastercard-365f557afa808c41b930799e118f6dd0.png" title="MasterCard">
-                                    <span class="payments-type">MasterCard</span>
-                                  </span>
-                                </li>
-                              </ul>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="page-footer__center" style="background-color: lightgrey;" id="contact">
-                          <div class="page-footer__col page-footer__col--left" style="background-color: lightgrey;">
-                            <section class="page-footer__about" style="background-color: lightgrey;">
-                              <h3 class="page-footer__company" itemprop="name" style="background-color: lightgrey;
-    color: black;
-">TOP-MEDIA Application</h3>
-                            </section>
-                          </div>
-                          <div class="page-footer__col page-footer__col--center" style="background-color: lightgrey;">
-                            <p class="home-p">
-                              <a href="https://www.youtube.com/channel/UCptfrv4DnGBPbOtCaJl4wEg">
-                                <i class="fa fa-youtube fa-4x" style="
-    color: black;
-"></i></a> <a href="https://www.youtube.com/channel/UCptfrv4DnGBPbOtCaJl4wEg">
-                              </a>
-                            </p>
-                            <p class="page-footer__mailwrapper">
-                            </p>
-                          </div>
-                          <p style="color: black"> Website Developed and Designed by: Lazaro Franco<br> For more info visit: https://LazaroFranco.github.io</p>
-                        </div>
-                      </div>
-                      <div class="page-footer__bottom">
-                        <div class="custom-footer">
-                          <p class="text-center">Copyright © 2019 TOP-MEDIA Application. All Rights Reserved.</p>
-                        </div>
-                      </div>
-                    </footer>
-                  </div>
-                  <!-- JS includes -->
-                  <script src="assets/js/vendor/jquery-1.11.2.min.js"></script>
-                  <script src="assets/js/vendor/bootstrap.min.js"></script>
-                  <script src="assets/js/isotope.min.js"></script>
-                  <script src="assets/js/jquery.magnific-popup.js"></script>
-                  <script src="assets/js/jquery.easing.1.3.js"></script>
-                  <script src="assets/js/slick.min.js"></script>
-                  <script src="assets/js/jquery.collapse.js"></script>
-                  <script src="assets/js/bootsnav.js"></script>
-                  <script src="assets/js/plugins.js"></script>
-                  <script src="assets/js/main.js"></script>
-                  <script type="text/javascript">
-                    function googleTranslateElementInit() {
-                      new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.FloatPosition.TOP_LEFT}, 'google_translate_element');
-                    }
-
-                        function triggerHtmlEvent(element, eventName) {
-                          var event;
-                          if (document.createEvent) {
-                                event = document.createEvent('HTMLEvents');
-                                event.initEvent(eventName, true, true);
-                                element.dispatchEvent(event);
-                          } else {
-                                event = document.createEventObject();
-                                event.eventType = eventName;
-                                element.fireEvent('on' + event.eventType, event);
-                          }
-                        }
-
-                        jQuery('.lang-select').click(function() {
-                          var theLang = jQuery(this).attr('data-lang');
-                          jQuery('.goog-te-combo').val(theLang);
-
-                          //alert(jQuery(this).attr('href'));
-                          window.location = jQuery(this).attr('href');
-                          location.reload();
-
-                        });
-                  </script>
-                <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-                </div>
-              </div>
+               </div>
+               <!--End off row-->
             </div>
-          </div>
-        </div>
-</body>
-
+            <!--End off container -->
+      </section>
+      <!--End off Home Sections-->
+      <!--About Sections-->
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br id="download">
+      <h1 style="text-align: center;">TOP MEDIA: PREMIUM IPTV</h1>
+      <h2 style="text-align: center;">Get Top Media on your Android device in which you will get 600+ Channels + 10,000 Movies + 743 TV Shows, No Credit Check No Contracts. Free trials Available</h2>
+      <!--End off row-->
+      <!--End off container -->
+      <br>
+      <br>
+      <br>
+      <br>
+      <hr>
+      <br>
+      <br>
+      <div class="container">
+      <div class="row">
+      <div class="main_counter text-center">
+      <div class="col-md-3">
+      <div class="counter_item sm-m-top-40">
+      <h2 class="statistic-counter">25</h2>
+      <div class="separator_small"></div>
+      <h5>Happy Clients</h5>
+      </div>
+      </div>
+      </div>
+      </div>
+      <!--End off row-->
+      </div>
+      <!--End off container -->
+      <button class="btn">
+      <a download href="https://topmediatv.net/tm.apk" class="fa fa-download">Download the TOP-MEDIA Channel</a>
+      </button>
+      <br>
+      <br>
+      <br>
+      <hr>
+      <br>
+      <br>
+      <br>
+      <!--Our Work Section-->
+      <section class="columns">
+      <img src="https://mixiptv.com/wp-content/uploads/2019/03/logo-para-top.png" alt="logo">
+      <div class="column" style="
+         background-color: lightgrey;
+         ">
+      <h2>1 Month</h2>
+      <h3>$21.00</h3>
+      <p>Payments will be done by PayPal, CashApp, ApplePay, and Zelle to make your monthly payment email me <a href="mailto: lazaro300x@icloud.com">lazaro300x@icloud.com</a></p>
+      </div>
+      <div class="column">
+      <h2>3 Months</h2>
+      <h3>$60.00</h3>
+      <p>Payments will be done by PayPal, CashApp, ApplePay, and Zelle to make your monthly payment email me <a href="mailto: lazaro300x@icloud.com">lazaro300x@icloud.com</a></p>
+      </div>
+      <div class="column" style="
+         background-color: lightgrey;
+         ">
+      <h2>6 Months</h2>
+      <h3 style="
+         background-color: lightgrey;
+         ">$110.00</h3>
+      <p>Payments will be done by PayPal, CashApp, ApplePay, and Zelle to make your monthly payment email me <a href="mailto: lazaro300x@icloud.com">lazaro300x@icloud.com</a></p>
+      </div>	
+      </section>              <br>
+      <br>
+      <br>
+      <hr>
+      <br>
+      <br>
+      <h2>To INSTALL and ACTIVATE TOP-MEDIA please email or give us a call</h2>
+      <p>
+      <h4> Items Required</h4>
+      An Android Device such as a, Smartphone, <a href="https://www.amazon.com/Fire-TV-Stick-with-Alexa-Voice-Remote/dp/B0791TX5P5">Amazon Firestick</a>, or an Android TV Box. 
+      </p>
+      <br>
+      <br>
+      <br>
+      <hr>
+      <br>
+      <br>
+      <div id="accordion-2099-3-0-1" class="module module-accordion accordion-2099-3-0-1  " data-behavior="accordion">
+      <h3 class="module-title">Top Media Channel List</h3>
+      <ul class="ui module-accordion default rounded gradient glossy shadow default">
+      <li>
+      <div class="accordion-title">
+      <a> Live TV- Español </a>
+      </div>
+      <div class="accordion-content default-closed clearfix">
+      <p style="text-align: left;">• AMZ MOVIES &#8211; FHD<br />• AZTECA CINEMA &#8211; HD<br />• CINE PREMIER &#8211; HD<br />• CINE MEXACANA &#8211; HD<br />• CINE PREMIER – HD<br />• CINECANAL 2 – FHD<br />• CINECANAL – FHD<br />•
+      CINEMA PLATINO – HD<br />• CINEMAX 2 – HD<br />• CINEMAX – HD<br />• DE PELICULA 2 – FHD<br />• DE PELICULA – FHD<br />• ESTUDIO UNIVERSAL – FHD<br />• FM HOT MOVIES – HD<br />• FMX MOVIES – HD<br />• FOX CINEMA – FHD<br />•
+      FOX ACTION – HD<br />• FOX CLASSICS <br />• FOX MOVIES – FHD<br />• GOLDEN EDGE – HD<br />• GOLDEN PLUS – FHD<br />• GOLDEN PREMIER – FHD<br />• HBO 2 – FHD<br />• HBO EAST – FHD<br />• HBO FAMILY 2 &#8211; HD<br />• HBO
+      FAMILY – FHD<br />• HBO – FHD<br />• HBO PLUS E – FHD<br />• HBO PLUS – FHD<br />• HBO SIGNATURE 2 – FHD<br />• HBO SIGNATURE – FHD<br />• MC MOVIES 2 – HD<br />• MC MOVIES – HD<br />• MIS PELICULAS – HD<br />• PANICO MOVIES
+      – HD<br />• PARAMOUNT 2 – FHD<br />• PARAMOUNT – FHD<br />• SONY CHANNEL – FHD<br />• SONY CHANNEL – HD<br />• SPACE 2 – FHD<br />• SPACE – FHD<br />• SUNDANCE TV – FHD<br />• TMC MOVIES – HD<br />• UNIVERSAL – FHD<br />•
+      WARNER 2 – HD<br />• WARNER – FHD</p>
+      <p style="text-align: left;"><strong>CINEMA EN VIVO &#8211; CINEMA LIVE</strong><br />• AMZ MOVIES &#8211; FHD<br />• AZTECA CINEMA &#8211; HD<br />• CINE PREMIER &#8211; HD<br />• CINE MEXICANO &#8211; HD<br />• CINE PREMIER –
+      HD<br />• CINECANAL 2 – FHD<br />• CINECANAL – FHD<br />• CINEMA PLATINO – HD<br />• CINEMAX 2 – HD<br />• CINEMAX – HD<br />• DE PELICULA 2 – FHD<br />• DE PELICULA – FHD<br />• ESTUDIO UNIVERSAL – FHD<br />• FM HOT MOVIES –
+      HD<br />• FMX MOVIES – HD<br />• FOX CINEMA – FHD<br />• FOX ACTION – HD<br />• FOX CLASSICS <br />• FOX MOVIES – FHD<br />• GOLDEN EDGE – HD<br />• GOLDEN PLUS – FHD<br />• GOLDEN PREMIER – FHD<br />• HBO 2 – FHD<br />• HBO
+      EAST – FHD<br />• HBO FAMILY 2 &#8211; HD<br />• HBO FAMILY – FHD<br />• HBO – FHD<br />• HBO PLUS E – FHD<br />• HBO PLUS – FHD<br />• HBO SIGNATURE 2 – FHD<br />• HBO SIGNATURE – FHD<br />• MC MOVIES 2 – HD<br />• MC MOVIES
+      – HD<br />• MIS PELICULAS – HD<br />• PANICO MOVIES – HD<br />• PARAMOUNT 2 – FHD<br />• PARAMOUNT – FHD<br />• SONY CHANNEL – FHD<br />• SONY CHANNEL – HD<br />• SPACE 2 – FHD<br />• SPACE – FHD<br />• SUNDANCE TV – FHD<br />•
+      TMC MOVIES – HD<br />• UNIVERSAL – FHD<br />• WARNER 2 – HD<br />• WARNER – FHD</p>
+      <p style="text-align: left;"><strong>CULTURA – CULTURE</strong><br />• ANIMAL PLANET – FHD<br />• DISCOVERY C – HD<br />• DISCOVERY – FHD<br />• DISCOVERY HOME – FHD<br />• DISCOVERY SC – HD<br />• DISCOVERY T2 – FHD<br />•
+      DISCOVERY T – FHD<br />• DISCOVERY TURBO &#8211; HD<br />• DISCOVERY W – FHD<br />• EL GROUMET – FHD<br />• EL TIEMPO VISION – SD<br />• GARAGE TV – HD<br />• HISTORY 2 – HD<br />• HISTORY – FHD<br />• ID DISCOVERY – <br />•
+      INVESTIGATION D – HD<br />• NAT GEO – FHD<br />• NAT GEO WILD – FHD<br />• NATIONAL GEO – FHD<br />• RT DOCUMENTAL – FHD<br />• TLC DISCOVERY 2 – FHD<br />• TLC DISCOVERY – FHD</p>
+      <p style="text-align: left;"><strong>DEPORTES – SPORTS</strong><br />• BEIN SPORT N – HD<br />• BEIN SPORT N – FHD<br />• CLARO SPORTS – HD<br />• DEPORT TV – HD<br />• ESPN + &#8211; HD<br />• ESPN 2 ARG – HD<br />• ESPN 2 MEX
+      – HD<br />• ESPN 3 ARG – HD<br />• ESPN 3 MEX – HD<br />• ESPN ARG – HD<br />• ESPN DEPORTES – HD<br />• ESPN MEXICO – HD<br />• FOX DEPORTES USA – HD<br />• FOX DEPORTES – HD<br />• FOX PREMIUM – HD<br />• FOX SPORT 1 ARG –
+      HD<br />• FOX SPORT 2 ARG – HD <br />• FOX SPORT 2ARG – HD<br />• FOX SPORTS 2 – FHD<br />• FOX SPORTS 3 – FHD<br />• FOX SPORTS – FHD<br />• GOL TV – FHD<br />• GOLF LATIN AMER – HD<br />• REAL MADRID – FHD<br />• REAL
+      MADRID – HD<br />• RTV PORTUGAL – HD<br />• TDN MEXICO – HD<br />• TNT SPORTS – HD<br />• TVC DEPORTES – HD<br />• TVC MEXICO – HD<br />• UNIVISION DEPORTES – FHD<br />• UNIVISION DEPORTES – HD<br />• WIN SPORTS – HD<br />•
+      WIN SPORTS – FHD</p>
+      <p style="text-align: left;"><strong>EN VIVO MUSICA – LIVE MUSIC</strong><br />• LA MEGA – HD<br />• MTV CHANNEL – FHD<br />• MUSICA MEXICANA – FHD<br />• MUSICA POP LATINO – FHD<br />• MUSICA TROPICAL – FHD<br />• MUSICA
+      URBANA – FHD<br />• RITMO SON – HD<br />• TOP LATINO – HD</p>
+      <p style="text-align: left;"><strong>ENTRETENIMIENTO – ENTERTAINMENT</strong><br />• A&E – FHD<br />• AXN 2 CHANNEL – FHD<br />• AXN CHANNEL – FHD<br />• AZTECA CLIC – FHD<br />• AZTECA CORAZON – FHD<br />• AZTECA MUNDO – FHD<br />•
+      COMEDY CENTRAL – FHD<br />• DISTRITO COMEDIA – HD<br />• E CHANNEL – FHD<br />• ESTUDIO UNIVERSAL – HD<br />• FOX CHANNEL – FHD<br />• FOX LIVE – FHD<br />• FX CHANNEL – FHD<br />• FX CHANNEL – HD<br />• GLITZ CHANNEL – HD<br />•
+      HOLA TV – FHD<br />• MTV REAL – FHD<br />• PASIONES – FHD<br />• RC NOVELAS – HD<br />• SOUTH PARK – HD<br />• SUN CHANNEL – FHD<br />• SYFY – HD<br />• TBC CHANNEL – HD<br />• TL NOVELAS – HD<br />• TNT SERIES – FHD<br />•
+      TRU TV – FHD<br />• TRU TV – HD<br />• TV MAS – FHD<br />• UNICABLE – FHD</p>
+      <p style="text-align: left;"><strong>INFANTIL – KIDS</strong></p>
+      <p style="text-align: left;">• BABY FIRST – HD<br />• BOOMERANG – HD<br />• CARTOON NETWORK – FHD<br />• CEEBBES – FHD<br />• DISCOVERY KIDS – FHD<br />• DISCOVERY KIDS – HD<br />• DISNEY CHANNEL – HD<br />• DISNEY JR – HD<br />•
+      DISNEY XD – HD<br />• NICK 2 – HD<br />• NICK – HD<br />• NICK JR – HD<br />• NICK TOONS – HD</p>
+      <p style="text-align: left;"><strong>LATINO USA </strong><br />• AMERICA TV – HD<br />• ESTRELLA TV – HD<br />• FUSION – FHD<br />• GALAVISION – FHD<br />• NBC UNIVERSO – FHD<br />• TELEMUNDO E –FHD<br />• TELEMUNDO – FHD<br />•
+      UNIMAS – FHD<br />• UNIVISION – FHD<br />• UNIVISON – HD<br />• UNIVISION E FHD<br />• UNIVISION E HD</p>
+      <p style="text-align: left;"><strong>NOTICIAS – NEWS</strong><br />• ADN 40 NOTICIAS – FHD<br />• ADN 40 NOTICIAS – HD<br />• CABLE NOTICIAS – HD<br />• CNN NOTICIAS – HD<br />• MILENIO TV – HD<br />• NOTICIAS MVS – HD<br />•
+      TELEFORMULA – HD</p>
+      </div>
+      </li>
+      <li>
+      <div class="accordion-title">
+      <a> Live TV- English </a>
+      </div>
+      <div class="accordion-content default-closed clearfix">
+      <p style="text-align: left;"><strong>Cinema</strong><br />• AMC – HD<br />• CINEMA PLATINO – HD<br />• CINEMAX – FHD<br />• COZI MOVIES – FHD<br />• EL REY NETWORK – FHD<br />• ENCORE WESTERNS – HD<br />• FILM BOX ACTION – FHD<br />•
+      FILM BOX – FHD<br />• FMX RETRO – FHD<br />• FOX ACTION – FHD<br />• FREEFORM – FHD<br />• FXM MOVIES – HD<br />• HALL MARK – FHD<br />• HBO 3 – FHD<br />• HBO CHANNEL – FHD<br />• HBO EAST – FHD<br />• HBO – HD<br />• HBO
+      SIGNATURE – FHD<br />• HBO WEST – HD<br />• HBO ZONE – FHD<br />• LMN MOVIES – FHD<br />• MELLO MOVIES – HD<br />• PARAMOUNT –FHD<br />• SHOWTIME – HD<br />• SHOWTIME WEST – HD<br />• SKY ADVENTURE – HD<br />• SKY COMEDY – HD<br />•
+      SKY DISNEY – HD<br />• SKY DRAMA – HD<br />• SKY FAMILY – HD<br />• SKY GREATS – HD<br />• SKY HORROR – HD<br />• SKY PREMIER – HD<br />• SKY SELECT – HD<br />• SKY SHOWCASE – HD<br />• SKY THRILLER – HD<br />• SONY – HD<br />•
+      SPACE – FHD<br />• STARZ – FHD<br />• SUNDANCE CHANNEL – HD</p>
+      <p style="text-align: left;"><strong>Documentary</strong></p>
+      <p style="text-align: left;">• ANIMAL PLANET – HD<br />• DISCOVERY CHANNEL – HD<br />• DISCOVERY THEATER – FHD<br />• DISCOVERY WORLD – FHD<br />• DISTINATION AMERICA<br />• DIY<br />• FOOD NETWORK – HD<br />• HISTORY CHANNEL –
+      FHD<br />• NSIGHT CHANNEL FHD<br />• NAT GEO WILD – FHD<br />• NAT GEO – FHD<br />• REV TV – HD<br />• VELOCITY – FHD<br />• WEATHER CHANNEL – HD<br />• WILD CHANNEL – HD<br />• WOBI CHANNEL – HD</p>
+      <p style="text-align: left;"><strong>Entertainment</strong><br />• A&E – FHD<br />• BBC UK – FHD<br />• BET CHANNEL – HD<br />• BRAVO – HD<br />• CHCH UK – HD<br />• COMEDY CENTRAL – FHD<br />• CW CHANNEL – HD<br />• E! CHANNEL
+      – HD<br />• FUSE CHANNEL – FHD<br />• FTV MENS<br />• FX CHANNEL – FHD<br />• FXX CHANNEL – FHD<br />• FYI CHANNEL – FHD<br />• HALLMARK – FHD<br />• HGTV –FHD<br />• LIFETIME – FHD<br />• LONDON LIVE – FHD<br />• MY9 TV – HD<br />•
+      OWN NETWORK – HD<br />• PBS – HD<br />• POP CHANNEL – FHD<br />• REVOLT CHANNEL – FHD<br />• SYFY – FHD<br />• TBS – HD<br />• TNT – HD<br />• TLC CHANNEL – FHD<br />• TNT CHANNEL – FHD<br />• TNT SERIES – FHD<br />• TRU TV –
+      HD<br />• USA CHANNEL – FHD<br />• VELOCITY – FHD<br />• WGN 9 – FHD</p>
+      <p style="text-align: left;"><strong>Kids</strong></p>
+      <p style="text-align: left;">• ADULT SWIM – FHD<br />• BABY FIRST – HD<br />• BOOMERANG – HD<br />• CARTOON N – HD<br />• CARTOON NETWORK – HD<br />• CARTOON NETWORK UK – HD<br />• DISNEY CHANNEL – FHD<br />• DISNEY CHANNEL –
+      HD<br />• DISNEY XD – FHD<br />• DISNEY XD – HD<br />• NICK – FHD<br />• NICK JR – HD<br />• NICKTOONS – HD<br />• PBS KIDS – HD<br />• SMILE CHANNEL – HD<br />• UNIVERSAL KIDS – FHD</p>
+      <p style="text-align: left;"><strong>Live News</strong></p>
+      <p style="text-align: left;">• ABC NEWS – FHD<br />• ALJAZEERA USA – FHD<br />• BLOOMBERG – FHD<br />• C-SPAN 1 – HD<br />• CBS NEWS – FHD<br />• CNBC WORLD – HD<br />• CNN – HD<br />• CNN NEWS – HD<br />• FOX BUSINESS – FHD<br />•
+      FOX NEWS – FHD<br />• INFOWARS TV<br />• NEWS MAX – HD<br />• SKY NEWS – HD<br />• SKY NEWS USA – HD<br />• WEATHER CHANNEL – HD</p>
+      <p style="text-align: left;"><strong>Local Networks</strong></p>
+      <p style="text-align: left;">• ABC CHANNEL – FHD<br />• CBS 2 LOS ANGELES – FHD<br />• CBS NEW YORK – FHD<br />• FOX WASHINGTON – FHD<br />• FOX ALANTA – HD<br />• FOX LOS ALGELES – FHD<br />• NBC LA – FHD<br />• NBC MIAMI –
+      FHD<br />• NBC NEW YORK – FHD<br />• NBC WASHINGTON – FHD</p>
+      <p style="text-align: left;"><strong>Music Channels</strong></p>
+      <p style="text-align: left;">• ALTERNATIVE – FHD<br />• BRITS-HITS – FHD<br />• CMT<br />• COUNTRY MUSIC – HD<br />• DANCE-EDM – FHD<br />• HEAVY METAL – FHD<br />• HIPHOP-RB – FHD<br />• HITS LIST – FHD<br />• KIDS MUSIC – FHD<br />•
+      POP COUNTRY – FHD<br />• POP HITS – FHD<br />• RAP 2K – FHD<br />• RAP NEW – FHD<br />• REBOLT MUSIC – HD<br />• ROCK – FHD<br />• SOUL RB – FHD<br />• TELE HITS PLUS – FHD<br />• VH1 MUSIC – HD</p>
+      <p style="text-align: left;"><strong>Religion</strong></p>
+      <p style="text-align: left;">• BETTER HEALTH – HD<br />• BETTER LIVE TV – HD<br />• CTN LIVE – HD<br />• GOOD LIVE – HD<br />• LIVEVISION USA – HD<br />• NRB TV – HD</p>
+      <p style="text-align: left;"><strong>Sports</strong></p>
+      <p style="text-align: left;">• ALL SPORT (PORT) – FHD<br />• BEIN SPORT – FHD<br />• BOXNATION – HD<br />• BT SPORT – FHD<br />• BT SPORT ESPN – HD<br />• BT SPORT 1 – HD<br />• BT SPORT 2 – HD<br />• BT SPORT 3 – HD<br />• BTN
+      SPORT – FHD<br />• CBS SPORT NETWORK – FHD<br />• ELEVEN SPORTS – HD<br />• ESPN – HD<br />• ESPN PLUS – HD<br />• ESPN SEC – FHD<br />• ESPN U – FHD<br />• F1 UK – HD<br />• FANTASY FTBALL FHD<br />• FIGHT BOX<br />•
+      FIGHTING NETWORK – HD<br />• FOX COLLEGE ATLANTIC – FHD<br />• FOX COLLEGE CENTRAL – FHD<br />• FOX COLLEGE PACIFIC – FHD<br />• FOX SOCCER PLUS – FHD<br />• FOX SPORT ARIZONA – FHD<br />• FOX SPORT DETROIT – FHD<br />• FOX
+      SPORT FLORIDA – FHD<br />• FOX SPORT S WEST – FHD<br />• FOX SPORT SUN – FHD<br />• FOX SPORT SW PLUS – FHD<br />• FOX SPORT W – FHD<br />• FOX SPORT SANDIEGO – FHD<br />• FOX SPORT WEST – HD<br />• FS 1 – FHD<br />• FS 2 –
+      FHD<br />• GOLF CHANNEL – HD<br />• HAVOC – HD<br />• MLB NETWORK – HD<br />• MSG 2 – FHD<br />• MSG 2 PLUS – FHD<br />• MSG NETWORK – FHD<br />• MSG PLUS – FHD<br />• NBA – HD<br />• NBCS CHICAGO – FHD<br />• NBCS NORTHWEST
+      – FHD<br />• NBCS PHILLY – FHD<br />• NBCS SPORT BOSTON – FHD<br />• NBCSN NETWORK – FHD<br />• NENS PLUS SPORT – FHD<br />• NESN SPORT – FHD<br />• NFL NETWORK – FHD<br />• NFL NOW – FHD<br />• NFL RED ZONE – FHD<br />• NHL
+      NETWORK – HD<br />• REDBULL – FHD<br />• SKY GOLF UK – HD<br />• SKY SPORT 1 – HD<br />• TUFF TV – HD<br />• WWE NETWORK – HD<br />• WWE NETWORK – HD<br />• YES NETWORK – FHD</p>
+      </div>
+      </li>
+      <li>
+      <div class="accordion-title">
+      <a> Mexico </a>
+      </div>
+      <div class="accordion-content default-closed clearfix">
+      <p style="text-align: left;">• AND 40 – HD<br />• AZTECA 13 – HD<br />• AZTECA 7 – HD<br />• AZTECA CLIC – HD<br />• AZTRECA CLIC – HD<br />• AZTECA CORAZON – HD<br />• AZTECA INTERNACIONAL – HD<br />• AZTECA MUNDO – HD<br />•
+      BANDAMAX – HD<br />• CANAL 11 – HD<br />• CANAL 5 – HD<br />• FORO TV – HD<br />• GALA TV – HD<br />• MEXIQUENSE – HD<br />• MULTIMEDIOS – HD<br />• TELEVISA – FHD<br />• TELEVISA MTY – HD<br />• TVC – HD<br />• TVP CULIACAN
+      – HD<br />• TVP LOS MOCHIS – HD<br />• TVP MAZATLAN – HD<br />• TVP OBREGON – HD</p>
+      </div>
+      </li>
+      <li>
+      <div class="accordion-title">
+      <a> Puerto Rico </a>
+      </div>
+      <div class="accordion-content default-closed clearfix">
+      <p style="text-align: left;">• CANAL 13 – HD<br />• TELEMUNDO – FHD<br />• TELEMUNDO – HD<br />• UNIVISION – HD<br />• WAPA 2 – HD<br />• WAPA AMERICA – HD<br />• WAPA – HD<br />• WIPR – HD</p>
+      </div>
+      </li>
+      <li>
+      <div class="accordion-title">
+      <a> Cuba </a>
+      </div>
+      <div class="accordion-content default-closed clearfix">
+      <p style="text-align: left;">• AMERICA TV – HD<br />• CUBAVISION<br />• CUBAVISION INTERNACIONAL<br />• TV MARTI – HD</p>
+      </div>
+      </li>
+      <li>
+      <div class="accordion-title">
+      <a> Republica Dominicana </a>
+      </div>
+      <div class="accordion-content default-closed clearfix">
+      <p style="text-align: left;">• RNN NOTICIAS – HD<br />• TELEMICRO 5<br />• TRA DIGITAL – HD</p>
+      </div>
+      </li>
+      <li>
+      <div class="accordion-title">
+      <a> CENTRO Y SUR AMERICA - CENTRAL AND SOUTH AMERICA </a>
+      </div>
+      <div class="accordion-content default-closed clearfix">
+      <p style="text-align: left;">• AZTECA GUATEMALA – HD<br />• AZTECA HONDURAS – HD<br />• CANAL SUR – HD<br />• CARACOL – HD<br />• ENLACE TV – HD<br />• TELECARIBE COLOMBIA – HD<br />• TELECARIBE DEPORTES – HD<br />• WOW TV – HD</p>
+      </div>
+      </li>
+      <li>
+      <div class="accordion-title">
+      <a> ESPANA – SPAIN </a>
+      </div>
+      <div class="accordion-content default-closed clearfix">
+      <p style="text-align: left;">• A3S SERIES – FHD<br />• ANTENA 3 –FHD<br />• ANTENA 3 SERIES – HD<br />• ARAGON TV – HD<br />• CANAL 13 – HD<br />• LA SEXTA TV – HD<br />• NEOX TV – FHD<br />• NOVA TV – HD</p>
+      </div>
+      </li>
+      <li>
+      <div class="accordion-title">
+      <a> SERIES AND TV SHOWS </a>
+      </div>
+      <div class="accordion-content default-closed clearfix">
+      <p style="text-align: left;">• NEW<br />• ACTION<br />• ADVENTURE<br />• ANIMATION<br />• COMEDY<br />• CRIME<br />• DRAMA<br />• DOCUMENTARIES<br />• FAMILY<br />• FANTASY<br />• HORROR<br />• MYSTERY<br />• ROMANCE<br />• SCI
+      FI<br />• THRILLER<br />• LOCALES<br />• ANIMADAS<br />• COMEDIA<br />• ACCION-SUSPENSO-CRIMEN<br />• AVENTURA-DRAMA-HISTORIA<br />• TERROR-MISTERIO<br />• AGREGADAS RECIENTEMENTE (BETA)<br />• ACTUALES (BETA)<br />•
+      CONCLUIDES (BETA)</p>
+      </div>
+      </li>
+      <li>
+      <div class="accordion-title">
+      <a> MOVIES ENGLISH </a>
+      </div>
+      <div class="accordion-content default-closed clearfix">
+      <p style="text-align: left;">• SPORTS ON DEMAND<br />• 4K (4K EQUIPMENT REQUIRED)<br />• THEATER2<br />• KAROKE<br />• ACTION<br />• DRAMA<br />• THRILLER<br />• COMEDY<br />• KIDS<br />• HORROR<br />• ADVENTURE<br />• FOREIGN<br />•
+      SCI FIO<br />• DOCUMENTARY<br />• 3D</p>
+      </div>
+      </li>
+      <li>
+      <div class="accordion-title">
+      <a> MOVIES ESPAÑOL </a>
+      </div>
+      <div class="accordion-content default-closed clearfix">
+      <p style="text-align: left;">• SPORTS ON DEMAND<br />• PELICULAS 4K<br />• CINEMA2<br />• KARAOKE<br />• ACCION<br />• DRAMA<br />• SUSPENSO<br />• COMEDIA<br />• ANIMADAS<br />• ADOLECENTES<br />• TERROR<br />• ADVENTURE<br />•
+      CINELATINO<br />• CLASICAS ACCION<br />• CLASICAS ARAMA<br />• FICCION<br />• DOCUMENTALES<br />• CRISTIANAS<br />• 3D</p>
+      </div>
+      </li>
+      <li>
+      <div class="accordion-title">
+      <a> SPECIAL EVENTS </a>
+      </div>
+      <div class="accordion-content default-closed clearfix">
+      <p style="text-align: left;"><strong>BEIN SPORTS PASS</strong><br />• BEIN SPORTS 3 – FHD<br />• BEIN SPORTS 4 – FHD<br />• BEIN SPORTS 5 – FHD<br />• BEIN SPORTS 6 – FHD<br />• BEIN SPORTS 7 &#8211; FHD<br />• BEIN SPORTS 8 –
+      FHD<br />• BEIN SPORTS 9 – FHD<br />• BEIN SPORTS 10 – FHD</p>
+      <p style="text-align: left;"><strong>COLLAGE-PAC 12</strong><br />• ARIZONA – FHD<br />• BAY AREA – FHD<br />• LOS ANGELES – FHD<br />• MOUNTAIN – FHD<br />• NETWORK – FHD<br />• OREGON – FHD<br />• WASHINGTON – FHD</p>
+      <p style="text-align: left;"><strong>NBA LEAGUE PASS</strong><br />• NBS – FHD<br />• NBA LEAGUE 748 – 764 – FHD (16 CHANNELS)</p>
+      <p style="text-align: left;"><strong>NFL SUNDAY TICKET</strong><br />• NFL NETWORK – FHD<br />• NFL RED ZONE – FHD<br />• NFL SUNDAY 705 – 719 – FHD (14 CHANNELS)</p>
+      <p style="text-align: left;"><strong>NHL GAME PASS</strong><br />• NHL NETWORK – HD<br />• NHL GAME PASS 1-5 – HD (5 CHANNELS)</p>
+      <p style="text-align: left;"><strong>PPV TODAY</strong><br />• PPV BOXEO – HD<br />• PPV BOXING – FHD<br />• PPV UFC – FHC<br />• PPV UFC – HD<br />• UFC – FHD<br />• UFC &#8211; HD<br />• WWE – HD<br />• WWE NETWORK – FHD</p>
+      </div>
+      </li>
+      <li>
+      <div class="accordion-title">
+      <a> ADULTS (18+) </a>
+      </div>
+      <div class="accordion-content default-closed clearfix">
+      <p style="text-align: left;">• DORCEL TV – HD<br />• HUSTLER – HD<br />• JASMIN CHANNEL<br />• PLAYBOY TV<br />• SEXEXTREME<br />• VENUS</p>
+      </div>
+      </li>
+      </ul>
+      </div>
+      <div class="container">
+      <div class="row">
+      <div class="service_content_area">
+      <!--End off About section -->
+      <!--Contact Us Section-->
+      <section id="contact" class="contact fix">
+      <div class="container">
+      <div class="row">
+      <div class="main_contact p-top-100">
+      <div class="col-md-6 sm-m-top-30">
+      <form method="POST" action="https://formspree.io/lazaro300x@icloud.com">
+      <div class="row">
+      <div class="col-sm-6">
+      <div class="form-group">
+      <label>Your Name *</label>
+      <input id="first_name" name="name" type="text" class="form-control" required="">
+      </div>
+      </div>
+      <div class="col-sm-6">
+      <div class="form-group">
+      <label>Your Email *</label>
+      <input id="email" type="email" name="email" placeholder="Your email" class="form-control">
+      </div>
+      </div>
+      <div class="col-sm-12">
+      <div class="form-group">
+      <label>Your Message *</label>
+      <textarea name="message" class="form-control" rows="6"></textarea>
+      </div>
+      <input type="submit" value="Send" class="btn btn-default"></input>
+      </div>
+      </div>
+      </div>
+      </form>
+      </div>
+      <!--End off container -->
+      </section>
+      <!--End off Contact Section-->
+      <footer class="page__footer" style="color: white;">
+      <div class="page-footer">
+      <div class="page-footer__top">
+      <div class="footer-menu" style="background-color: lightgrey;">
+      <p class="text-center">
+      </p>
+      </div>
+      </div>
+      <div class="page-footer__middle" style="background-color: lightgrey;
+         color: black;
+         ">
+      <div class="container" style="
+         color: lightgrey;
+         ">
+      <div class="payments" style="
+         background-color: lightgrey;
+         color: black;
+         ">
+      <h4 style="
+         color: black;
+         ">We accept the following payments:</h4>
+      <ul itemprop="paymentAccepted">
+      <li>
+      <span>
+      <img alt="Cash" src="assets/payments/cash-a0d13a27e167ebac6dddfd33d2c45165.png" title="Cash">
+      <span class="payments-type">Cash</span>
+      </span>
+      </li>
+      <li>
+      <span>
+      <img alt="Paypal" src="assets/payments/paypal-60e40c8b4a349378550c312d5fa9165f.png" title="Paypal">
+      <span class="payments-type">Paypal</span>
+      </span>
+      </li>
+      <li>
+      <span>
+      <img alt="Visa" src="assets/payments/visa-88a554c6e1fb40400bbd45b5c854b978.png" title="Visa">
+      <span class="payments-type">Visa</span>
+      </span>
+      </li>
+      <li>
+      <span>
+      <img alt="Mastercard" src="assets/payments/mastercard-365f557afa808c41b930799e118f6dd0.png" title="MasterCard">
+      <span class="payments-type">MasterCard</span>
+      </span>
+      </li>
+      </ul>
+      </div>
+      </div>
+      </div>
+      <div class="page-footer__center" style="background-color: lightgrey;" id="contact">
+      <div class="page-footer__col page-footer__col--left" style="background-color: lightgrey;">
+      <section class="page-footer__about" style="background-color: lightgrey;">
+      <h3 class="page-footer__company" itemprop="name" style="background-color: lightgrey;
+         color: black;
+         ">TOP-MEDIA Application</h3>
+      </section>
+      </div>
+      <div class="page-footer__col page-footer__col--center" style="background-color: lightgrey;">
+      <p class="home-p">
+      <a href="https://www.youtube.com/channel/UCptfrv4DnGBPbOtCaJl4wEg">
+      <i class="fa fa-youtube fa-4x" style="
+         color: black;
+         "></i></a> <a href="https://www.youtube.com/channel/UCptfrv4DnGBPbOtCaJl4wEg">
+      </a>
+      </p>
+      <p class="page-footer__mailwrapper">
+      </p>
+      </div>
+      <p style="color: black"> Website Developed and Designed by: Lazaro Franco<br> For more info visit: https://LazaroFranco.github.io</p>
+      </div>
+      </div>
+      <div class="page-footer__bottom">
+      <div class="custom-footer">
+      <p class="text-center">Copyright © 2019 TOP-MEDIA Application. All Rights Reserved.</p>
+      </div>
+      </div>
+      </footer>
+      </div>
+      <!-- JS includes -->
+      <script src="assets/js/vendor/jquery-1.11.2.min.js"></script>
+      <script src="assets/js/vendor/bootstrap.min.js"></script>
+      <script src="assets/js/isotope.min.js"></script>
+      <script src="assets/js/jquery.magnific-popup.js"></script>
+      <script src="assets/js/jquery.easing.1.3.js"></script>
+      <script src="assets/js/slick.min.js"></script>
+      <script src="assets/js/jquery.collapse.js"></script>
+      <script src="assets/js/bootsnav.js"></script>
+      <script src="assets/js/plugins.js"></script>
+      <script src="assets/js/main.js"></script>
+      <script type="text/javascript">
+         function googleTranslateElementInit() {
+           new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.FloatPosition.TOP_LEFT}, 'google_translate_element');
+         }
+         
+             function triggerHtmlEvent(element, eventName) {
+               var event;
+               if (document.createEvent) {
+                     event = document.createEvent('HTMLEvents');
+                     event.initEvent(eventName, true, true);
+                     element.dispatchEvent(event);
+               } else {
+                     event = document.createEventObject();
+                     event.eventType = eventName;
+                     element.fireEvent('on' + event.eventType, event);
+               }
+             }
+         
+             jQuery('.lang-select').click(function() {
+               var theLang = jQuery(this).attr('data-lang');
+               jQuery('.goog-te-combo').val(theLang);
+         
+               //alert(jQuery(this).attr('href'));
+               window.location = jQuery(this).attr('href');
+               location.reload();
+         
+             });
+      </script>
+      <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>
+   </body>
 </html>
