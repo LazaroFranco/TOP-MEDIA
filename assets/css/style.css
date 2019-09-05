@@ -1,3 +1,377 @@
+* {
+  box-sizing: border-box;
+}
+
+
+header {
+	padding: 0 15px;
+}
+
+.columns {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	margin: 5px 0;
+}
+
+.column {
+	flex: 1;
+	border: 1px solid gray;
+	margin: 2px;
+	padding: 10px;
+	&:first-child { margin-left: 0; }
+	&:last-child { margin-right: 0; }
+	
+}
+
+@media screen and (max-width: 980px) {
+  .columns .column {
+		margin-bottom: 5px;
+    flex-basis: 40%;
+		&:nth-last-child(2) {
+			margin-right: 0;
+		}
+		&:last-child {
+			flex-basis: 100%;
+			margin: 0;
+		}
+	}
+}
+
+@media screen and (max-width: 680px) {
+	.columns .column {
+		flex-basis: 100%;
+		margin: 0 0 5px 0;
+	}
+}
+
+    .btn {
+      background-color: black;
+      color: white;
+    }
+
+
+
+.ui,
+.ui.nav ul,
+.ui.nav li,
+.ui.module-tab .tab-nav li,
+.ui.module-tab .tab-content,
+.ui.window > div,
+.ui.module-tab.panel .tab-nav,
+.ui.module-accordion,
+.ui.module-accordion > li,
+.ui.module-callout {
+	border-color: #E2E2E2;
+}
+
+.ui .tab-content,
+.ui.window .content,
+.ui.module-accordion .accordion-content {
+	background: #fff;
+	color: #333;
+}
+.ui .tab-content a,
+.ui.window .content a,
+.ui.module-accordion .accordion-content a {
+	color: inherit;
+}
+
+/* default hover */
+.ui.builder_button:hover,
+.ui.nav li:hover,
+.ui.module-accordion li:hover .accordion-title,
+.ui.module-tab .tab-nav li:hover {
+	background: #E6E6E6;
+}
+
+.ui.module-tab .tab-nav li.current:hover {
+	background: #fff;
+}
+
+/* default current color */
+.ui > li.current,
+.ui > li.current:hover,
+.ui .tab-nav li.current {
+	background: #666;
+	box-shadow: inset 0 2px 3px rgba(0,0,0,.2);
+}
+.ui > li.current > a,
+.ui .tab-nav li a {
+	color: #fff;
+}
+
+.ui.module-tab ul.tab-nav li {
+	list-style: none;
+	margin-left: 0;
+	padding: 0;
+}
+.ui.module-tab ul.tab-nav li.current a {
+	color: #333;
+	cursor: default;
+}
+.ui.module-tab ul.tab-nav li.current {
+	background: #fff;
+	padding-bottom: 1px;
+	margin-bottom: -1px;
+	box-shadow: none;
+}
+
+.ui.module-tab.vertical .tab-nav > li.current {
+	border-bottom-color: inherit;
+	position: relative;
+	padding-bottom: 0;
+	padding-right: 1px;
+	margin-bottom: 0;
+	margin-right: -1px;
+	z-index: 3;
+	border-right-width: 0;
+}
+
+/* BORDER
+================================================ */
+
+.ui.builder_button,
+.ui.nav,
+.ui.nav ul,
+.ui.nav.separate > li,
+.ui.module-tab .tab-nav > li,
+.ui.module-tab .tab-content,
+.ui.module-tab.panel .tab-nav,
+.ui.module-accordion,
+.ui.module-accordion > li,
+.ui.module-callout {
+	border-style: solid;
+	border-width: 1px;
+}
+/*  ACCORDION
+================================================ */
+.ui.module-accordion > li {
+	border-width: 1px 0 0;
+	position: relative;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.ui.module-accordion > li.current {
+	background: none;
+	box-shadow: none;
+}
+.ui.module-accordion > li.current .accordion-content {
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.1);
+}
+.ui.module-accordion .accordion-title {
+	font-size: 105%;
+	line-height: 140%;
+	font-weight: bold;
+	margin: 0;
+	position: relative;
+}
+.ui.module-accordion > li:first-child {
+	border-top-width: 0;
+}
+.ui.module-accordion .accordion-title a {
+	color: inherit;
+	text-decoration: none;
+	display: block;
+	padding: .5em 1em;
+}
+.ui.module-accordion .accordion-title a:hover {
+	color: inherit;
+	text-decoration: none;
+}
+
+/* accordion icon */
+.module-accordion .accordion-title i {
+	margin-right: .4em;
+}
+.module-accordion li:not(.builder-accordion-active) .accordion-title i.accordion-active-icon,
+.module-accordion li.builder-accordion-active .accordion-title i.accordion-icon {
+	display: none;
+}
+
+/* accordion separate */
+.ui.module-accordion.separate {
+	background: none;
+	border: none;
+}
+.ui.module-accordion.separate > li,
+.ui.module-accordion.separate > li:first-child {
+	margin-bottom: 5px;
+	border-width: 1px;
+}
+
+/* Accordion transparent style */
+.ui.module-accordion.transparent,
+.ui.module-accordion.transparent ul,
+.ui.module-accordion.transparent li,
+.ui.module-accordion.transparent .accordion-title,
+.ui.module-accordion.transparent li:hover .accordion-title,
+.ui.module-accordion.transparent .accordion-content,
+.ui.module-accordion.transparent li.current {
+	background: none;
+	border: none;
+	box-shadow: none;
+}
+.ui.module-accordion.transparent li.current .accordion-content {
+	box-shadow: none;
+}
+.ui.module-accordion.transparent .accordion-content {
+	color: inherit;
+}
+.ui.module-accordion.transparent .accordion-title a {
+	padding-left: 0;
+	padding-right: 0;
+}
+.js .accordion-content.default-closed {
+	display: none;
+}
+
+/************************************************************************************
+VIDEO MODULE
+*************************************************************************************/
+.module-video {
+	margin-bottom: 2em;
+}
+.module-video .video-title {
+	margin: 0 0 .5em;
+	font-size: 1.3em;
+}
+.video-wrap {
+	position: relative;
+	padding-bottom: 56.25%;
+	height: 0;
+	overflow: hidden;
+}
+.video-wrap video,
+.video-wrap iframe,
+.video-wrap object,
+.video-wrap embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.video-top .video-title {
+	margin-top: .8em;
+}
+
+/**
+ * MediaElement
+ */
+.themify_builder .wp-video {
+	width: 100% !important;
+	max-width: 100% !important;
+}
+.themify_builder .mejs-container {
+	text-align: center !important;
+	max-width: 100%;
+	min-height: 100% !important;
+}
+
+/* video layout
+================================================ */
+
+/* video left */
+.module-video.video-left .video-wrap {
+	width: 50%;
+	margin-right: 1.5em;
+	margin-bottom: 1em;
+	float: left;
+}
+
+/* video right */
+.module-video.video-right .video-wrap {
+	width: 50%;
+	margin-left: 1.5em;
+	margin-bottom: 1em;
+	float: right;
+}
+
+/* video overlay */
+.module-video.video-overlay {
+	position: relative;
+	font-size: .85em;
+}
+.module-video.video-overlay .video-wrap {
+	margin: 0;
+	width: 100%;
+}
+.module-video.video-overlay .video-content {
+	padding: 2% 4%;
+	background: #333;
+	background: rgba(0,0,0,.7);
+	color: #ccc;
+	line-height: 1.4em;
+}
+.module-video.video-overlay .video-wrap + .video-content {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.module-video.video-overlay .video-title {
+	font-size: 1.1em;
+	margin: 0 0 .4em;
+}
+.module-video.video-overlay p {
+	margin: 0 0 .4em;
+}
+.module-video.video-overlay a,
+.module-video.video-overlay a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+.module-video.video-overlay h1,
+.module-video.video-overlay h2,
+.module-video.video-overlay h3,
+.module-video.video-overlay h4,
+.module-video.video-overlay h5,
+.module-video.video-overlay h6 {
+	color: #fff;
+	margin: 0 0 .4em;
+}
+
+/* lightbox */
+.image-wrap .lightbox {
+	position: relative;
+	display: inline-block;
+	max-width: 100%;
+}
+.image-wrap .zoom {
+	color: #ccc;
+	color: rgba(255,255,255,.6);
+	width: 40px;
+	height: 40px;
+	background-color: #666;
+	background-color: rgba(0,0,0,.6);
+	margin: -20px 0 0 -20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	border-radius: 100%;
+}
+.image-wrap .zoom:before {
+	font-size: 18px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -.5em 0 0 -.5em;
+	line-height: 1em;
+}
+.image-wrap .zoom:hover {
+	background: #000;
+	color: #fff;
+	color: rgba(255,255,255,1);
+}
+
+
+
+h2, h3, p {
+  font-size: 1.1em;
+  text-align: center;
+}
+
 html,
 body {
   background-color: #fff;
