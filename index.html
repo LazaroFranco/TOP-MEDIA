@@ -1,0 +1,3529 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>TOP-MEDIA</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta content="TOP-MEDIA Application" name="description">
+  <!--Google Fonts link-->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,600,600i,700,700i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/slick.css">
+  <link rel="stylesheet" href="assets/css/slick-theme.css">
+  <link rel="stylesheet" href="assets/css/animate.css">
+  <link rel="stylesheet" href="assets/css/fonticons.css">
+  <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/css/bootstrap.css">
+  <link rel="stylesheet" href="assets/css/magnific-popup.css">
+  <link rel="stylesheet" href="assets/css/bootsnav.css">
+  <link href="/assets/favicons/adiq/M-c39d71dab8fa52b4f4691571ff44e210.png" rel="shortcut icon" type="image/vnd.microsoft.icon">
+  <!--For Plugins external css-->
+  <!--<link rel="stylesheet" href="assets/css/plugins.css" />-->
+  <!--Theme custom css -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <!--<link rel="stylesheet" href="assets/css/colors/maron.css">-->
+  <!--Theme Responsive css-->
+  <link rel="stylesheet" href="assets/css/responsive.css">
+  <script src="assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+  <script src="/assets/performance/javascripts/google_maps-f16979b3457921fc12870f8609344677.js"></script>
+  <style>
+    .btn {
+      background-color: black;
+      color: white;
+    }
+
+
+
+/************************************************************************************
+CLEARFIX
+*************************************************************************************/
+/************************************************************************************
+UI ELEMENT STYLING
+*************************************************************************************/
+/*  RESETS
+=============================================== */
+/************************************************************************************
+SIZES
+*************************************************************************************/
+
+
+/************************************************************************************
+BORDER-RADIUS
+*************************************************************************************/
+/************************************************************************************
+STYLES
+*************************************************************************************/
+/* embossed */
+
+/************************************************************************************
+COLOURS
+*************************************************************************************/
+
+/*  DEFAULT COLOURS & BORDERS
+================================================ */
+.ui,
+.ui.nav ul,
+.ui.nav li,
+.ui.module-tab .tab-nav li,
+.ui.module-tab .tab-content,
+.ui.window > div,
+.ui.module-tab.panel .tab-nav,
+.ui.module-accordion,
+.ui.module-accordion > li,
+.ui.module-callout {
+	border-color: #E2E2E2;
+}
+
+.ui .tab-content,
+.ui.window .content,
+.ui.module-accordion .accordion-content {
+	background: #fff;
+	color: #333;
+}
+.ui .tab-content a,
+.ui.window .content a,
+.ui.module-accordion .accordion-content a {
+	color: inherit;
+}
+
+/* default hover */
+.ui.builder_button:hover,
+.ui.nav li:hover,
+.ui.module-accordion li:hover .accordion-title,
+.ui.module-tab .tab-nav li:hover {
+	background: #E6E6E6;
+}
+
+.ui.module-tab .tab-nav li.current:hover {
+	background: #fff;
+}
+
+/* default current color */
+.ui > li.current,
+.ui > li.current:hover,
+.ui .tab-nav li.current {
+	background: #666;
+	box-shadow: inset 0 2px 3px rgba(0,0,0,.2);
+}
+.ui > li.current > a,
+.ui .tab-nav li a {
+	color: #fff;
+}
+
+.ui.module-tab ul.tab-nav li {
+	list-style: none;
+	margin-left: 0;
+	padding: 0;
+}
+.ui.module-tab ul.tab-nav li.current a {
+	color: #333;
+	cursor: default;
+}
+.ui.module-tab ul.tab-nav li.current {
+	background: #fff;
+	padding-bottom: 1px;
+	margin-bottom: -1px;
+	box-shadow: none;
+}
+
+.ui.module-tab.vertical .tab-nav > li.current {
+	border-bottom-color: inherit;
+	position: relative;
+	padding-bottom: 0;
+	padding-right: 1px;
+	margin-bottom: 0;
+	margin-right: -1px;
+	z-index: 3;
+	border-right-width: 0;
+}
+
+/*  TRANSPARENT
+================================================ */
+
+
+
+
+/*  GRAY COLOURS & BORDERS
+================================================ */
+.ui.gray,
+.ui.gray.nav li a,
+.ui.gray.nav ul li a,
+.ui.gray.module-tab .tab-nav li a {
+	color: #eee;
+}
+.ui.gray,
+.ui.gray.nav ul,
+.ui.gray.separate > li,
+.ui.gray.module-tab .tab-nav li,
+.ui.gray.vertical .tab-nav,
+.ui.gray.module-accordion .accordion-title,
+.ui.gray.window .bar,
+.ui.gray.module-tab.panel .tab-nav {
+	background-color: #989797;
+}
+.ui.gray,
+.ui.gray.nav ul,
+.ui.gray.nav li,
+.ui.gray.nav.separate > li,
+.ui.gray.module-tab .tab-nav li,
+.ui.gray.module-accordion li,
+.ui.gray.window > div,
+.ui.gray.module-tab .tab-nav,
+.ui.gray.module-tab .tab-content {
+	border-color: #666;
+}
+
+/* gray hover */
+.ui.gray.builder_button:hover,
+.ui.gray.nav li:hover,
+.ui.gray.module-accordion li:hover .accordion-title,
+.ui.gray.module-tab .tab-nav li:hover {
+	background: #c9c9c9;
+}
+
+/* gray current color */
+.ui.gray > li.current,
+.ui.gray > li.current:hover,
+.ui.gray .tab-nav li.current {
+	background: #636363;
+}
+
+/*  DEFAULTS
+================================================ */
+
+.ui.builder_button,
+.ui.nav li > a,
+.ui.module-tab .tab-nav > li > a {
+	display: inline-block;
+	text-decoration: none;
+	line-height: 130%;
+	box-shadow: none;
+}
+
+.ui.builder_button:hover,
+.ui.nav li > a:hover,
+.ui.module-tab .tab-nav > li > a:hover {
+	text-decoration: none;
+}
+
+/* BORDER
+================================================ */
+
+.ui.builder_button,
+.ui.nav,
+.ui.nav ul,
+.ui.nav.separate > li,
+.ui.module-tab .tab-nav > li,
+.ui.module-tab .tab-content,
+.ui.module-tab.panel .tab-nav,
+.ui.module-accordion,
+.ui.module-accordion > li,
+.ui.module-callout {
+	border-style: solid;
+	border-width: 1px;
+}
+/*  ACCORDION
+================================================ */
+.ui.module-accordion > li {
+	border-width: 1px 0 0;
+	position: relative;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.ui.module-accordion > li.current {
+	background: none;
+	box-shadow: none;
+}
+.ui.module-accordion > li.current .accordion-content {
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.1);
+}
+.ui.module-accordion .accordion-title {
+	font-size: 105%;
+	line-height: 140%;
+	font-weight: bold;
+	margin: 0;
+	position: relative;
+}
+.ui.module-accordion > li:first-child {
+	border-top-width: 0;
+}
+.ui.module-accordion .accordion-title a {
+	color: inherit;
+	text-decoration: none;
+	display: block;
+	padding: .5em 1em;
+}
+.ui.module-accordion .accordion-title a:hover {
+	color: inherit;
+	text-decoration: none;
+}
+
+/* accordion icon */
+.module-accordion .accordion-title i {
+	margin-right: .4em;
+}
+.module-accordion li:not(.builder-accordion-active) .accordion-title i.accordion-active-icon,
+.module-accordion li.builder-accordion-active .accordion-title i.accordion-icon {
+	display: none;
+}
+
+/* accordion separate */
+.ui.module-accordion.separate {
+	background: none;
+	border: none;
+}
+.ui.module-accordion.separate > li,
+.ui.module-accordion.separate > li:first-child {
+	margin-bottom: 5px;
+	border-width: 1px;
+}
+
+/* Accordion transparent style */
+.ui.module-accordion.transparent,
+.ui.module-accordion.transparent ul,
+.ui.module-accordion.transparent li,
+.ui.module-accordion.transparent .accordion-title,
+.ui.module-accordion.transparent li:hover .accordion-title,
+.ui.module-accordion.transparent .accordion-content,
+.ui.module-accordion.transparent li.current {
+	background: none;
+	border: none;
+	box-shadow: none;
+}
+.ui.module-accordion.transparent li.current .accordion-content {
+	box-shadow: none;
+}
+.ui.module-accordion.transparent .accordion-content {
+	color: inherit;
+}
+.ui.module-accordion.transparent .accordion-title a {
+	padding-left: 0;
+	padding-right: 0;
+}
+.js .accordion-content.default-closed {
+	display: none;
+}
+
+
+/************************************************************************************
+MODULE
+*************************************************************************************/
+.module-title {
+	font-size: 1.2em;
+	margin: 0 0 1.2em;
+}
+.module img {
+	border: none;
+	vertical-align: bottom;
+}
+
+/************************************************************************************
+VIDEO MODULE
+*************************************************************************************/
+.module-video {
+	margin-bottom: 2em;
+}
+.module-video .video-title {
+	margin: 0 0 .5em;
+	font-size: 1.3em;
+}
+.video-wrap {
+	position: relative;
+	padding-bottom: 56.25%;
+	height: 0;
+	overflow: hidden;
+}
+.video-wrap video,
+.video-wrap iframe,
+.video-wrap object,
+.video-wrap embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.video-top .video-title {
+	margin-top: .8em;
+}
+
+/**
+ * MediaElement
+ */
+.themify_builder .wp-video {
+	width: 100% !important;
+	max-width: 100% !important;
+}
+.themify_builder .mejs-container {
+	text-align: center !important;
+	max-width: 100%;
+	min-height: 100% !important;
+}
+
+/* video layout
+================================================ */
+
+/* video left */
+.module-video.video-left .video-wrap {
+	width: 50%;
+	margin-right: 1.5em;
+	margin-bottom: 1em;
+	float: left;
+}
+
+/* video right */
+.module-video.video-right .video-wrap {
+	width: 50%;
+	margin-left: 1.5em;
+	margin-bottom: 1em;
+	float: right;
+}
+
+/* video overlay */
+.module-video.video-overlay {
+	position: relative;
+	font-size: .85em;
+}
+.module-video.video-overlay .video-wrap {
+	margin: 0;
+	width: 100%;
+}
+.module-video.video-overlay .video-content {
+	padding: 2% 4%;
+	background: #333;
+	background: rgba(0,0,0,.7);
+	color: #ccc;
+	line-height: 1.4em;
+}
+.module-video.video-overlay .video-wrap + .video-content {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.module-video.video-overlay .video-title {
+	font-size: 1.1em;
+	margin: 0 0 .4em;
+}
+.module-video.video-overlay p {
+	margin: 0 0 .4em;
+}
+.module-video.video-overlay a,
+.module-video.video-overlay a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+.module-video.video-overlay h1,
+.module-video.video-overlay h2,
+.module-video.video-overlay h3,
+.module-video.video-overlay h4,
+.module-video.video-overlay h5,
+.module-video.video-overlay h6 {
+	color: #fff;
+	margin: 0 0 .4em;
+}
+
+/* lightbox */
+.image-wrap .lightbox {
+	position: relative;
+	display: inline-block;
+	max-width: 100%;
+}
+.image-wrap .zoom {
+	color: #ccc;
+	color: rgba(255,255,255,.6);
+	width: 40px;
+	height: 40px;
+	background-color: #666;
+	background-color: rgba(0,0,0,.6);
+	margin: -20px 0 0 -20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	border-radius: 100%;
+}
+.image-wrap .zoom:before {
+	font-size: 18px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -.5em 0 0 -.5em;
+	line-height: 1em;
+}
+.image-wrap .zoom:hover {
+	background: #000;
+	color: #fff;
+	color: rgba(255,255,255,1);
+}
+
+/************************************************************************************
+GALLERY MODULE
+*************************************************************************************/
+#body .module.gallery .gallery-item,
+.module.gallery .gallery-item {
+	vertical-align: top;
+	float: left;
+	display: block;
+	max-width: 100%;
+	text-align: center;
+}
+
+/* gallery caption */
+.module.gallery .gallery-caption {
+	margin: .5em 0;
+	font-size: .95em;
+}
+.themify_image_title{
+        display: block;
+}
+#body .module-gallery.layout-lightboxed .gallery-caption{
+        text-align: left;
+}
+.mfp-title .themify_image_title,
+.module-gallery.layout-lightboxed .themify_image_title{
+        margin-bottom: .5em;
+}
+.module-gallery .gallery-icon,
+.module-gallery .gallery-icon img {
+	margin: 0;
+	vertical-align: bottom;
+}
+
+.module-gallery.rounded .gallery-icon {
+	display: inline-block;
+	max-width: 100%; /* for FF */
+}
+
+/* rounded */
+.module-gallery.rounded .gallery-showcase-image img,
+.module-gallery.rounded.layout-showcase .gallery-images img,
+.module-gallery.rounded .gallery-icon,
+.module-gallery.rounded .gallery-icon img {
+	border-radius: 5px;
+}
+
+/* border */
+.module-gallery.bordered.layout-showcase .gallery-images img,
+.module-gallery.bordered .gallery-icon {
+	border: solid 1px #999;
+	background: #fff;
+	padding: 2px;
+}
+
+/* drop shadow */
+.module-gallery.drop-shadow.layout-showcase .gallery-images img,
+.module-gallery.drop-shadow .gallery-icon {
+	box-shadow: 0 1px 2px rgba(0,0,0,.3);
+}
+
+/* circle */
+.module-gallery.circle.layout-showcase .gallery-images img,
+.module-gallery.circle .gallery-icon,
+.module-gallery.circle .gallery-icon img {
+	border-radius: 50em;
+}
+.module-gallery.circle.layout-showcase .gallery-images img,
+.module-gallery.circle .gallery-icon img {
+	border-bottom-left-radius: 50em;
+	border-bottom-right-radius: 50em;
+	overflow: hidden;
+	text-align: center;
+}
+
+/* Lightboxed Gallery Layout */
+.module-gallery.layout-lightboxed .gallery-item {
+	width: auto !important;
+	margin: 0 !important;
+}
+
+/* Gallery Showcase layout */
+.module-gallery .gallery-showcase-image {
+	margin-bottom: 10px;
+}
+.module-gallery.layout-showcase .gallery-images a {
+	border-bottom-width: 0;
+}
+.module-gallery.layout-showcase .gallery-images img {
+	max-width: 50px;
+	max-height: 50px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	display: inline-block;
+}
+.builder_gallery_nav{
+	text-align: center;
+}
+.builder_gallery_load{
+	cursor: wait;
+	opacity: 0.5;
+	position: relative;
+	z-index: -1;
+}
+/* GALLERY COLUMN
+================================================ */
+/* gallery column 1 (display all in one line) */
+.module .gallery-columns-1 .gallery-item {
+	width: 100% !important;
+}
+.module.gallery-columns-1 br {
+	display: none !important;
+}
+
+/* gallery column 2 */
+.module.gallery-columns-2 .gallery-item {
+	width: 49.2%;
+}
+
+/* gallery column 3 */
+.module.gallery-columns-3 .gallery-item {
+	width: 32.3%;
+}
+/* gallery column 4 */
+.module.gallery-columns-4 .gallery-item {
+	width: 23.8%;
+}
+
+/* gallery column 5 */
+.module.gallery-columns-5 .gallery-item {
+	width: 18.8%;
+}
+
+/* gallery column 6 */
+.module.gallery-columns-6 .gallery-item {
+	width: 15.4%;
+}
+
+/* gallery column 7 */
+.module.gallery-columns-7 .gallery-item {
+	width: 13%;
+}
+
+/* gallery column 8 */
+.module.gallery-columns-8 .gallery-item {
+	width: 11.18%;
+}
+
+/* gallery column 9 */
+.module.gallery-columns-9 .gallery-item {
+	width: 9.77%;
+}
+
+/* set gallery item margin-right */
+.module.gallery-columns-1 .gallery-item,
+.module.gallery-columns-2 .gallery-item,
+.module.gallery-columns-3 .gallery-item,
+.module.gallery-columns-4 .gallery-item,
+.module.gallery-columns-5 .gallery-item,
+.module.gallery-columns-6 .gallery-item,
+.module.gallery-columns-7 .gallery-item,
+.module.gallery-columns-8 .gallery-item,
+.module.gallery-columns-9 .gallery-item {
+	margin: 0 1.5% 1.5% 0;
+}
+
+/* clear gallery item margin-right */
+.module.gallery-columns-9 .gallery-item:nth-of-type(9n),
+.module.gallery-columns-8 .gallery-item:nth-of-type(8n),
+.module.gallery-columns-7 .gallery-item:nth-of-type(7n),
+.module.gallery-columns-6 .gallery-item:nth-of-type(6n),
+.module.gallery-columns-5 .gallery-item:nth-of-type(5n),
+.module.gallery-columns-4 .gallery-item:nth-of-type(4n),
+.module.gallery-columns-3 .gallery-item:nth-of-type(3n),
+.module.gallery-columns-2 .gallery-item:nth-of-type(2n) {
+	margin-right: 0;
+}
+
+/************************************************************************************
+MAP MODULE
+*************************************************************************************/
+.module-map .map-container {
+	max-width: 100% !important;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.module-map .map-container img {
+	max-width: inherit;
+}
+.gmnoprint {
+	word-wrap: normal;
+}
+.themify_builder_map_info_window {
+	color: #000;
+}
+
+/************************************************************************************
+CALLOUT MODULE
+*************************************************************************************/
+.ui.module-callout {
+	margin-bottom: 2em;
+	padding: 1em 1.5em;
+	position: relative;
+}
+.module-callout p {
+	margin: 0 0 5px;
+}
+.module-callout .callout-heading {
+	color: inherit;
+	font-size: 140%;
+	line-height: 130%;
+	margin: 0 0 5px;
+	padding: 0;
+}
+.module-callout .callout-content {
+	float: left;
+}
+.module-callout .callout-button {
+	margin-top: 5px;
+	float: right;
+	text-align: right;
+}
+
+/* button left */
+.module-callout.button-left .callout-content {
+	float: right;
+	width: 70%;
+}
+.module-callout.button-left .callout-button {
+	float: left;
+	width: 25%;
+	text-align: left;
+}
+
+/* button bottom */
+.module-callout.button-bottom .callout-content,
+.module-callout.button-bottom .callout-button {
+	width: auto !important;
+	float: none;
+	text-align: left;
+}
+.module-callout.button-bottom .callout-button {
+	margin-top: 15px;
+}
+
+/* button center */
+.module-callout.button-bottom-center .callout-content,
+.module-callout.button-bottom-center .callout-button {
+	width: auto !important;
+	float: none;
+	text-align: center;
+}
+.module-callout.button-bottom-center .callout-button {
+	margin-top: 15px;
+}
+
+/************************************************************************************
+ACCORDION MODULE
+*************************************************************************************/
+.module-accordion {
+	margin-bottom: 1em;
+	padding: 0;
+}
+.module-accordion .accordion-content {
+	padding: 1em;
+}
+.module-accordion h1,
+.module-accordion h2,
+.module-accordion h3,
+.module-accordion h4,
+.module-accordion h5,
+.module-accordion h6 {
+	color: inherit;
+	margin-top: 0;
+}
+
+/************************************************************************************
+BOX MODULE
+*************************************************************************************/
+.module-box {
+	margin-bottom: 1.5em;
+}
+.module-box-content {
+	padding: 1.5em;
+}
+.module-box h1,
+.module-box h2,
+.module-box h3,
+.module-box h4,
+.module-box h5,
+.module-box h6 {
+	color: inherit;
+	margin-top: 0;
+}
+
+/************************************************************************************
+TAB MODULE
+*************************************************************************************/
+.module-tab {
+	margin-bottom: 2em;
+}
+.module-tab .builder-tabs-wrap {
+	position: relative;
+}
+.module-tab .tab-content h1,
+.module-tab .tab-content h2,
+.module-tab .tab-content h3,
+.module-tab .tab-content h4,
+.module-tab .tab-content h5,
+.module-tab .tab-content h6 {
+	color: inherit;
+	margin: .3em 0 .5em;
+}
+.js .module-tab .tab-content {
+	display: none;
+}
+.js .module-tab .tab-content:first-of-type {
+	display: block;
+}
+.module-tab.tab-style-icon-only .tab-nav li a,
+.module-tab.tab-style-icon-top .tab-nav li a {
+	text-align: center;
+}
+.module-tab.tab-style-icon-top .tab-nav li i {
+	display: block;
+}
+.module-tab.tab-style-icon-only .tab-nav li span {
+	display: none;
+}
+
+/************************************************************************************
+DIVIDER MODULE
+*************************************************************************************/
+.module-divider {
+	margin: 1.5em 0;
+	border-left: none !important;
+	border-right: none !important;
+	border-bottom: none !important;
+	max-width: 100%;
+}
+.module-divider.dashed {
+	border-style: dashed;
+}
+.module-divider.solid {
+	border-style: solid;
+}
+.module-divider.dotted {
+	border-style: dotted;
+}
+.module-divider.double {
+	border-style: double;
+}
+.divider-center{
+	margin-left: auto;
+	margin-right: auto;
+}
+.divider-left{
+	float: left;
+}
+.divider-right{
+	float: right;
+}
+.divider-left + *,
+.divider-right + * {
+	clear: both; /* require to clear float */
+}
+
+/************************************************************************************
+SLIDER MODULE
+*************************************************************************************/
+.module-slider {
+	margin-bottom: 2.5em;
+}
+.themify_builder_slider {
+	padding: 0 !important;
+	margin: 0 !important;
+	position: relative;
+	list-style: none;
+	display: block;
+}
+.themify_builder_slider > li {
+	margin: 0 !important;
+	padding: 0;
+	list-style: none;
+	float: left;
+	clear: none !important;
+	text-align: center;
+	width: auto;
+}
+
+/* slider image */
+.themify_builder_slider .slide-image {
+	margin: 0 0 1em;
+}
+.themify_builder_slider .slide-image img {
+	vertical-align: bottom;
+}
+
+/* slider content */
+.themify_builder_slider .slide-content {
+	padding: 0 4%;
+}
+
+/* slider title */
+.themify_builder_slider .slide-title {
+	font-size: 1.2em;
+	margin: 0 0 .5em;
+}
+.themify_builder_slider .slide-title a {
+	text-decoration: none;
+}
+
+/* slider hide on load */
+.themify_builder_slider_wrap {
+	height: 0;
+	overflow: hidden;
+	visibility: hidden;
+}
+
+/* slider loading animation */
+.themify_builder_slider_loader,
+.themify_builder_slider_loader:before,
+.themify_builder_slider_loader:after {
+	background: #000;
+	border-radius: 0;
+	width: 8px !important;
+	height: 15px !important;
+	-webkit-animation: horizontal-loader 1s infinite ease-in-out;
+	animation: horizontal-loader 1s infinite ease-in-out;
+}
+.themify_builder_slider_loader:before,
+.themify_builder_slider_loader:after {
+	position: absolute;
+	top: 0;
+	content: '';
+}
+.themify_builder_slider_loader:before {
+	left: -1.5em;
+	-webkit-animation-delay: -0.32s;
+	animation-delay: -0.32s;
+}
+.themify_builder_slider_loader {
+	margin: 88px auto;
+	position: relative;
+	font-size: 11px;
+	-webkit-animation-delay: -0.16s;
+	animation-delay: -0.16s;
+}
+.themify_builder_slider_loader:after {
+	left: 1.5em;
+}
+@-webkit-keyframes horizontal-loader {
+	0%,
+	80%,
+	100% {
+		opacity: 1;
+	}
+	40% {
+		opacity: .5;
+	}
+}
+@keyframes horizontal-loader {
+	0%,
+	80%,
+	100% {
+		opacity: 1;
+	}
+	40% {
+		opacity: .5;
+	}
+}
+
+/*  slider appearance
+================================================ */
+/* slider overlay */
+.module-slider.slider-overlay li {
+	position: relative;
+}
+.module-slider.slider-overlay p {
+	margin: 0 0 .5em;
+}
+.module-slider.slider-overlay .slide-image {
+	margin-bottom: 0;
+}
+.module-slider.slider-overlay .slide-image img {
+	width: 100%;
+}
+.module-slider.slider-overlay .slide-content {
+	font-size: .9em;
+	padding: 2% 4%;
+	width: 100%;
+	background: #333;
+	background: rgba(0,0,0,.7);
+	color: #ccc;
+	line-height: 1.4em;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.module-slider.slider-overlay .slide-image + .slide-content {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.module-slider.slider-overlay .slide-title {
+	margin: 0 0 .5em;
+}
+.module-slider.slider-overlay .slide-content a,
+.module-slider.slider-overlay .slide-title a {
+	color: #fff;
+	text-decoration: none;
+}
+.module-slider.slider-overlay .slide-content h1,
+.module-slider.slider-overlay .slide-content h2,
+.module-slider.slider-overlay .slide-content h3,
+.module-slider.slider-overlay .slide-content h4,
+.module-slider.slider-overlay .slide-content h5,
+.module-slider.slider-overlay .slide-content h6 {
+	color: #fff;
+	margin: 0 0 .4em;
+}
+
+/* slider caption overlay */
+.module-slider.slider-caption-overlay li {
+	position: relative;
+}
+.module-slider.slider-caption-overlay p {
+	margin: 0 0 7px;
+}
+.module-slider.slider-caption-overlay .slide-image img {
+	width: 100%;
+}
+.module-slider.slider-caption-overlay .slide-content {
+	font-size: .9em;
+	text-align: left;
+	padding: 1em 5%;
+	width: auto;
+	max-width: 75%;
+	background: #333;
+	background: rgba(0,0,0,.7);
+	color: #ccc;
+	line-height: 1.4em;
+}
+.module-slider.slider-caption-overlay .slide-image + .slide-content {
+	position: absolute;
+	bottom: 8%;
+	left: 0;
+}
+.module-slider.slider-caption-overlay .slide-title {
+	margin: 0 0 .5em;
+}
+.module-slider.slider-caption-overlay .slide-content a,
+.module-slider.slider-caption-overlay .slide-title a {
+	color: #fff;
+	text-decoration: none;
+}
+.module-slider.slider-caption-overlay .slide-content h1,
+.module-slider.slider-caption-overlay .slide-content h2,
+.module-slider.slider-caption-overlay .slide-content h3,
+.module-slider.slider-caption-overlay .slide-content h4,
+.module-slider.slider-caption-overlay .slide-content h5,
+.module-slider.slider-caption-overlay .slide-content h6 {
+	color: #fff;
+	margin: 0 0 .4em;
+}
+.module-slider.slider-agency .slide-image {
+	float: left;
+	max-width: 50%;
+}
+.module-slider.slider-agency .slide-content {
+	overflow: hidden;
+	text-align: left;
+}
+.module-slider .post {
+	-webkit-animation-name: inherit !important;
+	animation-name: inherit !important;
+}
+
+/*  slider elements
+================================================ */
+/* slider-nav */
+.module-slider .carousel-nav-wrap {
+	text-align: center;
+	margin: auto;
+	border: none;
+	padding: .5em 0;
+}
+
+.module-slider .carousel-nav-wrap .carousel-prev span,
+.module-slider .carousel-nav-wrap .carousel-next span {
+	display: none;
+}
+/* slider next/prev button */
+.module-slider .carousel-nav-wrap .carousel-prev,
+.module-slider .carousel-nav-wrap .carousel-next {
+	position: static;
+	line-height: 100%;
+	text-decoration: none;
+	text-align: center;
+	text-indent: 0;
+	display: inline-block;
+	vertical-align: middle;
+	color: inherit;
+	text-shadow: none;
+	border-radius: 0;
+	border: none;
+	background: none;
+	font: normal 30px/100% Georgia, "Times New Roman", Times, serif;
+	padding: 0px 15px 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.module-slider.themify_builder_slider_vertical .carousel-prev,
+.module-slider.themify_builder_slider_vertical .carousel-next{
+        position: absolute;
+        top: 45%;
+        left: 0;
+        background: rgba(0, 0, 0, 0.5);
+        border-radius: 50%;
+        padding: 0 2px;
+        color: #fff;
+        width: 31px;
+        height: 31px;
+        margin: 0;
+}
+.module-slider.themify_builder_slider_vertical .carousel-next{
+        right: 0;
+        padding: 0 12px;
+        left: auto;
+}
+.module-slider.themify_builder_slider_vertical .carousel-prev.disabled,
+.module-slider.themify_builder_slider_vertical .carousel-next.disabled{
+        opacity: .3;
+}
+.module-slider .carousel-nav-wrap .carousel-prev:before,
+.module-slider .carousel-nav-wrap .carousel-next:before {
+	content: '\f104';
+	font-family: FontAwesome;
+}
+.module-slider .carousel-nav-wrap .carousel-next:before {
+	content: '\f105';
+}
+
+/* carousel nav disabled */
+.module-slider .carousel-nav-wrap .disabled,
+.module-slider .carousel-nav-wrap .disabled {
+	opacity: 6;
+	cursor: default;
+}
+
+/* carousel pager */
+.module-slider .carousel-pager {
+	clear: both;
+	text-align: center;
+	display: inline-block;
+	vertical-align: middle;
+	line-height: 100%;
+	width: auto;
+	margin-left: .3em;
+}
+.module-slider .carousel-pager a {
+	line-height: 100%;
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0;
+	cursor: pointer;
+	overflow: hidden;
+	padding: 2px;
+	font-size: 11px;
+	color: inherit;
+}
+.module-slider .carousel-pager a span {
+	visibility: hidden; /* hide pagination number text */
+}
+.module-slider .carousel-pager a:before {
+	content: '\f10c';
+	font-family: FontAwesome;
+	font-weight: bold;
+	display: inline-block;
+	vertical-align: middle;
+	opacity: .6;
+}
+.module-slider .carousel-pager a:hover:before {
+	opacity: 1;
+}
+.module-slider .carousel-pager a.selected:before {
+	content: '\f111';
+	font-size: 1.3em;
+	opacity: 1;
+}
+
+/************************************************************************************
+POST MODULE
+*************************************************************************************/
+/* general post styling */
+.module-post .post {
+	margin-bottom: 2.2em;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.col-full .module-post .post {
+	margin-bottom: 3em;
+}
+
+/* post title */
+.module-post .post-title {
+	font-size: 2.1em;
+	margin: 0 0 .5em;
+	padding: 0;
+}
+.module-post .post-title a {
+	text-decoration: none;
+}
+
+/* post video */
+.module-post .post-video {
+	margin: 0 0 1em;
+}
+
+/* post content */
+.module-post .post-content {
+	min-width: 120px;
+	padding: 0;
+	position: static;
+}
+
+/* post meta */
+.module-post p.post-meta {
+	margin: 0 0 .6em;
+}
+.module-post .post-meta .post-author,
+.module-post .post-meta .post-category,
+.module-post .post-meta .post-tag,
+.module-post .post-meta .post-author,
+.module-post .post-meta .post-comment a,
+.module-post .post-meta span {
+	margin-right: .3em;
+}
+
+/* post date */
+.module-post .post-date {
+	margin: 0 0 .5em;
+	display: block;
+}
+
+/* more link wrap */
+.module-post .more-link-wrap {
+	text-align: right;
+	clear: both;
+	margin: .9em 0 1.3em;
+}
+
+/*
+Post layouts
+================================================ */
+/* list & fullwidth post */
+.module-post .list-post .post,
+.module-post .fullwidth .post {
+	width: auto;
+	padding: 0;
+	min-height: 0;
+	position: static;
+}
+.module-post .list-post .post-content {
+	width: auto;
+	padding: 0;
+}
+
+/* grid posts */
+.module-post .grid2 .post,
+.module-post .grid3 .post,
+.module-post .grid4 .post,
+.module-post .grid2-thumb .post {
+	clear: none;
+}
+
+/* grid4 post */
+.module-post .grid4 .post {
+	width: 22.6%;
+	float: left;
+	margin-left: 3.2%;
+	margin-right: 0;
+	margin-bottom: 2em;
+}
+
+.module-post .grid4 .post-title {
+	font-size: 130%;
+}
+
+/* grid3 post */
+.module-post .grid3 .post {
+	width: 31.2%;
+	float: left;
+	margin-left: 3.2%;
+	margin-right: 0;
+	margin-bottom: 2.2em;
+}
+.col-full .module-post .grid3 .post {
+	margin-bottom: 2.7em;
+}
+.module-post .grid3 .post-title {
+	font-size: 150%;
+}
+.col3-1 .module-post .grid3 .post-title {
+	font-size: 130%;
+}
+.col4-1 .module-post .grid3 .post-title {
+	font-size: 130%;
+}
+
+/* grid2 post */
+.module-post .grid2 .post {
+	width: 48.4%;
+	float: left;
+	margin-left: 3.2%;
+	margin-right: 0;
+	margin-bottom: 2.2em;
+}
+.col-full .module-post .grid2 .post {
+	margin-bottom: 2.5em;
+}
+.module-post .grid2 .post-title {
+	font-size: 160%;
+}
+.col3-1 .module-post .grid2 .post-title {
+	font-size: 130%;
+}
+.col4-1 .module-post .grid2 .post-title {
+	font-size: 120%;
+}
+
+/* grid2-thumb post */
+.module-post .grid2-thumb .post {
+	width: 48.4%;
+	float: left;
+	margin-right: 0;
+	margin-left: 3.2%;
+	text-align: left;
+	margin-bottom: 2.2em;
+}
+.col-full .module-post .grid2-thumb .post {
+	margin-bottom: 2.5em;
+}
+.module-post .grid2-thumb .post-title {
+	font-size: 160%;
+}
+.module-post .grid2-thumb .post-image {
+	width: 20%;
+	float: left;
+	margin: 0 1.5em 1em 0;
+}
+.module-post .grid2-thumb .post-content {
+	overflow: hidden;
+}
+
+/* list thumb post */
+.module-post .list-thumb-image .post {
+	text-align: left;
+	margin-bottom: 1em;
+}
+.col-full .module-post .list-thumb-image .post {
+	margin-bottom: 1.5em;
+}
+.module-post .list-thumb-image .post-title {
+	font-size: 140%;
+}
+.module-post .list-thumb-image .post-image {
+	max-width: 20%;
+	float: left;
+	margin: 0 1.5em 1em 0;
+}
+.module-post .list-thumb-image .post-image img {
+	width: 100%;
+}
+.module-post .list-thumb-image .post-content {
+	overflow: hidden;
+}
+
+/* list large image */
+.module-post .list-large-image .post {
+	text-align: left;
+}
+.module-post .list-large-image .post-image {
+	max-width: 64%;
+	float: left;
+	margin: 0 1.5em 1em 0;
+}
+.module-post .list-large-image .post-image img {
+	width: 100%;
+}
+.module-post .list-large-image .post-title {
+	font-size: 200%;
+}
+
+/*
+Clear grid layout posts
+================================================ */
+.module-post .grid4,
+.module-post .grid3,
+.module-post .grid2,
+.module-post .grid2-thumb {
+	clear: both;
+}
+
+.module-post .grid4 .post:nth-of-type(4n+1),
+.module-post .grid3 .post:nth-of-type(3n+1),
+.module-post .grid2 .post:nth-of-type(2n+1),
+.module-post .grid2-thumb .post:nth-of-type(2n+1) {
+	margin-left: 0;
+	clear: left;
+}
+
+/* reset post content min-width */
+.col2-1 .module-post .grid3 .post-content,
+.col2-1 .module-post .grid4 .post-content,
+.col3-1 .module-post .grid2 .post-content,
+.col3-1 .module-post .grid3 .post-content,
+.col3-1 .module-post .grid4 .post-content,
+.col3-2 .module-post .grid2 .post-content,
+.col3-2 .module-post .grid3 .post-content,
+.col3-2 .module-post .grid4 .post-content,
+.col4-1 .module-post .grid2 .post-content,
+.col4-1 .module-post .grid3 .post-content,
+.col4-1 .module-post .grid4 .post-content,
+.col4-2 .module-post .grid2 .post-content,
+.col4-2 .module-post .grid3 .post-content,
+.col4-2 .module-post .grid4 .post-content {
+	min-width: 50%;
+}
+
+/************************************************************************************
+ICON MODULE
+*************************************************************************************/
+.module-icon .module-icon-item {
+	display: inline-block;
+	padding: 0;
+	list-style: none;
+}
+.module-icon.icon_vertical div.module-icon-item {
+    display: block;
+    margin: 0 0 .4em 0;
+}
+.module-icon .module-icon-item + .module-icon-item {
+	margin-left: .4em;
+}
+.module-icon .module-icon-item a {
+	text-decoration: none;
+	display: inline-block;
+}
+.module-icon span {
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: .3em;
+	margin-right: .6em;
+}
+.module-icon i {
+	display: inline-block;
+	vertical-align: middle;
+	padding: .5em;
+	font-size: 16px;
+	border-radius: 100%;
+	text-align: center;
+	box-sizing: border-box;
+}
+.module-icon i::before {
+	line-height: 1em;
+	margin: 0;
+	padding: 0;
+}
+/* size */
+.module-icon.small i {
+	font-size: 12px;
+	width: 24px;
+	height: 24px;
+}
+.module-icon.large i {
+	font-size: 24px;
+	width: 48px;
+	height: 48px;
+}
+.module-icon.large span {
+	font-size: 1.2em;
+}
+.module-icon.xlarge i {
+	width: 58px;
+	height: 48px;
+	padding: 12px 0 0 2px;
+	font-size: 36px;
+	width: 62px;
+	height: 62px;
+}
+.module-icon.xlarge span {
+	font-size: 1.4em;
+}
+/* rounded style */
+.module-icon.rounded i {
+	border-radius: 5px;
+}
+/* squared style */
+.module-icon.squared i {
+	border-radius: 0;
+}
+.module-icon.none.small i {
+	font-size: 18px;
+}
+.module-icon.none.large i {
+	font-size: 30px;
+}
+.module-icon.none.xlarge i {
+	font-size: 36px;
+}
+/* none (no bg) style */
+.module-icon.none i {
+	padding: .2em;
+	border-radius: 0;
+	background: none !important;
+	font-size: 24px;
+	color: inherit;
+}
+.module-icon.none i.black{
+	color:#000;
+}
+.module-icon.none i.gray{
+	color:#666;
+}
+.module-icon.none i.blue{
+	color:#3e65b2;
+}
+.module-icon.none i.light-blue{
+	color:#6694d6;
+}
+.module-icon.none i.green{
+	color:#4aab10 ;
+}
+.module-icon.none i.light-green{
+	color:#71a115;
+}
+.module-icon.none i.purple{
+	color:#584eb2;
+}
+.module-icon.none i.light-purple{
+	color:#7f76cc;
+}
+.module-icon.none i.brown{
+	color:#622d07;
+}
+.module-icon.none i.orange{
+	color:#bc6e00;
+}
+.module-icon.none i.yellow{
+	color:#dcb232;
+}
+.module-icon.none i.red{
+	color:#9d1d14;
+}
+.module-icon.none i.pink{
+	color:#b27e9d;
+}
+
+/************************************************************************************
+BUTTONS MODULE
+*************************************************************************************/
+.ui.builder_button {
+	line-height: 100%;
+}
+.module-buttons .module-buttons-item {
+	display: inline-block;
+}
+.module-buttons a{
+	text-decoration: none;
+	display: inline-block;
+}
+.module-buttons span{
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: .2em;
+	margin-right: .2em;
+}
+.module-buttons i{
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 16px;
+}
+.module-buttons i::before {
+	line-height: 1em;
+	margin: 0;
+	padding: 0;
+}
+
+/* size */
+.module-buttons.small i {
+	font-size: 12px;
+}
+.module-buttons.small span {
+	font-size: 0.8em;
+}
+.module-buttons.large i {
+	font-size: 24px;
+}
+.module-buttons.large span {
+	font-size: 1.2em;
+}
+.module-buttons.xlarge i {
+	font-size: 36px;
+
+}
+.module-buttons.xlarge span {
+	font-size: 1.4em;
+}
+/* rounded style */
+.module-buttons.rounded a {
+	border-radius: 5px;
+}
+/* squared style */
+.module-buttons.squared a {
+	border-radius: 0;
+}
+/* circle style */
+.module-buttons.circle a {
+	border-radius: 50em;
+}
+
+.module-buttons.none.small i {
+	font-size: 18px;
+}
+.module-buttons.none.large i {
+	font-size: 30px;
+}
+.module-buttons.none.xlarge i {
+	font-size: 36px;
+}
+.module-buttons-item + .module-buttons-item {
+	margin-left: .4em;
+}
+.module-buttons.outline a{
+	border-style: solid;
+	border-width: 1px;
+	background: none;
+	box-shadow: none;
+	text-shadow: none;
+	color: #fff;
+	border-color: #fff;
+}
+.module-buttons.outline a:hover{
+	background: #fff !important;
+	color:#000;
+}
+.module-buttons.outline a.black{
+	color:#000;
+	border-color:#000;
+}
+.module-buttons.outline a.black:hover{
+	color:#fff;
+	background-color:#000 !important;
+}
+.module-buttons.outline a.gray{
+	color:#666;
+	border-color:#666;
+}
+.module-buttons.outline a.gray:hover{
+	color:#fff;
+	background-color:#666 !important;
+}
+.module-buttons.outline a.blue{
+	color:#3e65b2;
+	border-color:#3e65b2;
+}
+.module-buttons.outline a.blue:hover{
+	color:#fff;
+	background-color:#3e65b2 !important;
+}
+.module-buttons.outline a.light-blue{
+	color:#6694d6;
+	border-color:#6694d6;
+}
+.module-buttons.outline a.light-blue:hover{
+	color:#fff;
+	background-color:#6694d6 !important;
+}
+.module-buttons.outline a.green{
+	color: #76ab3b;
+	border-color: #76ab3b;
+}
+.module-buttons.outline a.green:hover{
+	color:#fff;
+	background-color:#76ab3b !important;
+}
+.module-buttons.outline a.light-green{
+	color: #ebf8d6;
+	border-color: #ebf8d6;
+}
+.module-buttons.outline a.light-green:hover{
+	color: #000;
+	background-color: #ebf8d6 !important;
+}
+.module-buttons.outline a.purple{
+	color:#584eb2;
+	border-color:#584eb2;
+}
+.module-buttons.outline a.purple:hover{
+	color:#fff;
+	background-color:#584eb2 !important;
+}
+.module-buttons.outline a.light-purple{
+	color:#7f76cc;
+	border-color:#7f76cc;
+}
+.module-buttons.outline a.light-purple:hover{
+	color:#fff;
+	background-color:#7f76cc !important;
+}
+.module-buttons.outline a.brown{
+	color:#622d07;
+	border-color:#622d07;
+}
+.module-buttons.outline a.brown:hover{
+	color:#fff;
+	background-color:#622d07 !important;
+}
+.module-buttons.outline a.orange{
+	color:#bc6e00;
+	border-color:#bc6e00;
+}
+.module-buttons.outline a.orange:hover{
+	color:#fff;
+	background-color:#bc6e00 !important;
+}
+.module-buttons.outline a.yellow{
+	color:#dcb232;
+	border-color:#dcb232;
+}
+.module-buttons.outline a.yellow:hover{
+	color:#fff;
+	background-color:#dcb232 !important;
+}
+.module-buttons.outline a.red{
+	color:#9d1d14;
+	border-color:#9d1d14;
+}
+.module-buttons.outline a.red:hover{
+	color:#fff;
+	background-color:#9d1d14 !important;
+}
+.module-buttons.outline a.pink{
+	color:#b27e9d;
+	border-color:#b27e9d;
+}
+.module-buttons.outline a.pink:hover{
+	color:#fff;
+	background-color:#b27e9d !important;
+}
+
+/************************************************************************************
+HIGHLIGHT MODULE
+*************************************************************************************/
+.module-highlight .highlight-post {
+	text-align: left;
+}
+.module-highlight .highlight-post .post-image {
+	float: left;
+	margin: 0 1.5em .5em 0;
+}
+.module-highlight .highlight-post .post-image img {
+	border-radius: 5px;
+}
+.module-highlight .highlight-post .post-content {
+	overflow: hidden;
+	min-width: 120px;
+}
+
+/************************************************************************************
+TESTIMONIAL MODULE
+*************************************************************************************/
+.module-testimonial .testimonial-post {
+	text-align: left;
+}
+.module-testimonial .testimonial-post .post-image {
+	float: left;
+	margin: 0 1.5em .4em 0;
+}
+.module-testimonial .testimonial-post .post-image img,
+.module-testimonial .testimonial-post .post-image .image-wrap:after {
+	border-radius: 20em;
+}
+.module-testimonial .testimonial-post .post-content {
+	overflow: hidden;
+}
+.module-testimonial .testimonial-post .testimonial-author {
+	clear: both;
+	text-align: right;
+	margin: .7em 0 0;
+}
+.module-testimonial .testimonial-post .testimonial-author .dash {
+	width: 20px;
+	border-bottom: solid 1px #ddd;
+	margin: -10px 6px 0 0;
+	height: 10px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.module-testimonial .testimonial-post .testimonial-name {
+	font-style: normal;
+	font-weight: bold;
+	display: inline-block;
+	vertical-align: middle;
+}
+.module-testimonial .testimonial-post .testimonial-title {
+	display: block;
+}
+
+/* testimonial title */
+.module-testimonial .testimonial-post .post-title {
+	font-size: 1.2em;
+	margin: 0 0 .5em;
+}
+.module-testimonial .testimonial-post .post-title a {
+	text-decoration: none;
+}
+.module-testimonial .testimonial-post .post-title a:hover {
+	text-decoration: underline;
+}
+
+/************************************************************************************
+MENU MODULE
+*************************************************************************************/
+.module-menu .sub-arrow {
+	display: inline-block;
+	font-size: 1.2em;
+	cursor: pointer;
+	min-width: 32px;
+	min-height: 32px;
+}
+.module-menu .sub-arrow:before {
+	font-family: "FontAwesome";
+	padding: 5px 10px;
+}
+.module-menu .sub-arrow:before {
+	content: "\f107"; /* fa-angle-down */
+}
+.module-menu .sub-arrow.open:before {
+	content: "\f106"; /* fa-angle-up */
+}
+.module-menu .with-sub-arrow ul .sub-arrow:before {
+	content: "\f105"; /* fa-angle-right */
+}
+.module-menu .with-sub-arrow ul .sub-arrow.open:before {
+	content: "\f104"; /* fa-angle-left */
+}
+.no-touch .module-menu .sub-arrow {
+	display: none !important;
+}
+
+/* Menu transparent style */
+.module-menu .transparent.nav,
+.module-menu .transparent.nav,
+.module-menu .transparent.nav li,
+.module-menu .transparent li a,
+.module-menu .transparent li:hover,
+.module-menu .transparent li:active {
+	background: none;
+	border: none;
+	box-shadow: none;
+}
+
+/************************************************************************************
+FEATURE MODULE
+*************************************************************************************/
+.module-feature {
+	margin-bottom: 1.5em;
+}
+.module-feature .module-feature-title {
+	font-size: 1.5em;
+	margin: 0 0 .8em;
+	padding: 0;
+}
+.module-feature .module-feature-icon {
+	position: relative;
+	vertical-align: middle;
+}
+.module-feature.layout-icon-top .module-feature-image {
+	text-align: center;
+	margin-bottom: 1.2em;
+}
+.module-feature.layout-icon-top .module-feature-content {
+	text-align: center;
+}
+.module-feature.with-chart .module-feature-image img {
+	border-radius: 100%;
+	max-width: 75%;
+	height: auto;
+	vertical-align: middle;
+}
+.module-feature.layout-icon-left {
+	text-align: left;
+}
+.module-feature.layout-icon-left .module-feature-image {
+	float: left;
+	max-width: 200px;
+	margin: 0 1.5em .4em 0;
+}
+.module-feature.layout-icon-right .module-feature-image {
+	float: right;
+	margin: 0 0 .4em 1.5em;
+	max-width: 200px;
+}
+.module-feature.layout-icon-left .module-feature-content,
+.module-feature.layout-icon-right .module-feature-content {
+	overflow: hidden;
+	min-width: 200px;
+}
+.module-feature.layout-icon-right .module-feature-content {
+	text-align: right;
+}
+.module-feature.size-small .module-feature-icon {
+	font-size: 2em;
+}
+.module-feature.size-medium .module-feature-icon {
+	font-size: 3.5em;
+}
+.module-feature.size-large .module-feature-icon {
+	font-size: 4.5em;
+}
+
+/* remove content added by font class */
+.module-feature.layout-icon-top:before,
+.module-feature.layout-icon-left:before,
+.module-feature.layout-icon-right:before {
+	content: '';
+	display: none;
+}
+
+/* v2 - html5 chart (overwriting styles above) */
+.module-feature .module-feature-chart-html5 .module-feature-icon {
+	display: table-cell;
+}
+.module-feature.with-chart .module-feature-image .module-feature-chart-html5 img {
+	max-height: 100%;
+	max-width: 100%;
+	width: auto;
+	height: auto;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+/* v2 - html5 chart (new styles) */
+.module-feature-chart-html5 {
+	margin: 0 auto;
+	border-radius: 50%;
+	position: relative;
+	overflow: hidden;
+	padding-left: 1px;
+	padding-right: 1px;
+}
+.module-feature-chart-html5 .chart-html5-circle .chart-html5-mask,
+.module-feature-chart-html5 .chart-html5-circle .chart-html5-fill {
+	position: absolute;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-o-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+.module-feature-chart-html5 .chart-html5-circle .chart-html5-half {
+	z-index: 1;
+}
+.module-feature-chart-html5 .chart-html5-circle .chart-html5-full {
+	z-index: 2;
+}
+.module-feature-chart-html5 .chart-html5-inset {
+	z-index: 3;
+	position: absolute;
+	border-radius: 50%;
+	text-align: center;
+	width: 76%;
+	height: 76%;
+	margin: 12%;
+}
+.module-feature-chart-html5 .chart-html5-inset.chart-html5-inset-icon {
+	display: table;
+}
+
+/************************************************************************************
+SERVICE MENU MODULE
+*************************************************************************************/
+.module-service-menu {
+	max-width: 100%;
+}
+.module-service-menu .tb-menu-title {
+	margin: 0 0 .3em;
+	font-size: 1.2em;
+	letter-spacing: 0.025em;
+}
+.module-service-menu .tb-menu-title a {
+	text-decoration: none;
+}
+.module-service-menu .tb-menu-price {
+	font-size: 1.2em;
+	font-weight: bold;
+	margin: .3em 0 .5em;
+}
+.module-service-menu .tb-highlight-text {
+	background-color: #d8ba2c;
+	color: #fff;
+	display: inline-block;
+	font-size: 0.9em;
+	padding: 3px 25px 3px 22px;
+	text-transform: uppercase;
+}
+
+/* subtle color background style in highlight */
+.module-service-menu.has-highlight {
+	background-color: #ececec;
+}
+.module-service-menu.has-highlight.black {
+	background-color:#333;
+	color: #fff;
+}
+.module-service-menu.has-highlight.gray {
+	background-color:#dadada;
+}
+.module-service-menu.has-highlight.blue {
+	background-color:#e7eefb;
+}
+.module-service-menu.has-highlight.light-blue {
+	background-color:#c1cbda;
+}
+.module-service-menu.has-highlight.green {
+	background-color:#d8e6d0 ;
+}
+.module-service-menu.has-highlight.light-green {
+	background-color:#dce4ce;
+}
+.module-service-menu.has-highlight.purple {
+	background-color:#d9d7ea;
+}
+.module-service-menu.has-highlight.light-purple {
+	background-color:#dad7f3;
+}
+.module-service-menu.has-highlight.brown {
+	background-color:#f7e8e8;
+}
+.module-service-menu.has-highlight.orange {
+	background-color:#fbedd9;
+}
+.module-service-menu.has-highlight.yellow {
+	background-color:#ffffe3;
+}
+.module-service-menu.has-highlight.red {
+	background-color:#fff4f4;
+}
+.module-service-menu.has-highlight.pink {
+	background-color:#fff3f5;
+}
+
+/* darken color background style in highlight_text */
+.module-service-menu.has-highlight.black .tb-highlight-text {
+	background-color:#000;
+	color: #fff;
+}
+.module-service-menu.has-highlight.gray .tb-highlight-text {
+	background-color:#666;
+	color: #fff;
+}
+.module-service-menu.has-highlight.blue .tb-highlight-text {
+	background-color:#3e65b2;
+	color: #fff;
+}
+.module-service-menu.has-highlight.light-blue .tb-highlight-text {
+	background-color:#6694d6;
+	color: #fff;
+}
+.module-service-menu.has-highlight.green .tb-highlight-text {
+	background-color:#4aab10 ;
+	color: #fff;
+}
+.module-service-menu.has-highlight.light-green .tb-highlight-text {
+	background-color:#c2d4a2;
+	color: #fff;
+}
+.module-service-menu.has-highlight.purple .tb-highlight-text {
+	background-color:#584eb2;
+	color: #fff;
+}
+.module-service-menu.has-highlight.light-purple .tb-highlight-text {
+	background-color:#7f76cc;
+	color: #fff;
+}
+.module-service-menu.has-highlight.brown .tb-highlight-text {
+	background-color:#a52a2a;
+	color: #fff;
+}
+.module-service-menu.has-highlight.orange .tb-highlight-text {
+	background-color:#bc6e00;
+	color: #fff;
+}
+.module-service-menu.has-highlight.yellow .tb-highlight-text {
+	background-color:#ffff00;
+	color: #000;
+}
+.module-service-menu.has-highlight.red .tb-highlight-text {
+	background-color:#ff0000;
+	color: #fff;
+}
+.module-service-menu.has-highlight.pink .tb-highlight-text {
+	background-color:#ffc0cb;
+	color: #000;
+}
+
+/*  image layout
+================================================ */
+.module-service-menu .tb-image-wrap {
+	vertical-align: top;
+	display: inline-block;
+	width: auto;
+	max-width: 100%;
+}
+.module-service-menu .tb-image-wrap img {
+	vertical-align: top;
+}
+
+/* image top */
+.module-service-menu.image-top .tb-image-content {
+	margin-top: 1em;
+	margin-bottom: 1.5em;
+}
+
+/* image left */
+.module-service-menu.image-left .tb-image-wrap {
+	float: left;
+	margin: 0 1.5em 1em 0;
+}
+.module-service-menu.image-left .tb-image-content {
+	overflow: hidden;
+	min-width: 100px;
+}
+
+/* image right */
+.module-service-menu.image-right .tb-image-wrap {
+	float: right;
+	margin: 0 0 1em 1.5em;
+}
+
+/* image overlay */
+.module-service-menu.image-overlay {
+	font-size: .85em;
+	display: inline-block;
+}
+.module-service-menu.image-overlay .tb-image-wrap {
+	position: relative;
+	margin: 0;
+}
+.module-service-menu.image-overlay .tb-image-wrap img {
+	width: 100%;
+}
+.module-service-menu.image-overlay .tb-image-content {
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 2% 4%;
+	width: 100%;
+	background: #333;
+	background: rgba(0,0,0,.7);
+	color: #ccc;
+	line-height: 1.4em;
+}
+.module-service-menu.image-overlay .tb-image-wrap + .tb-image-content {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.module-service-menu.image-overlay p {
+	margin: 0 0 5px;
+}
+.module-service-menu.image-overlay .tb-menu-title {
+	font-size: 1.1em;
+	color: #fff;
+	margin: 0 0 .4em;
+}
+.module-service-menu.image-overlay a,
+.module-service-menu.image-overlay a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+.module-service-menu.image-overlay h1,
+.module-service-menu.image-overlay h2,
+.module-service-menu.image-overlay h3:not(.module-title),
+.module-service-menu.image-overlay h4,
+.module-service-menu.image-overlay h5,
+.module-service-menu.image-overlay h6 {
+	color: #fff;
+	margin: 0 0 .4em;
+}
+
+/* image center */
+.module-service-menu.image-center .tb-image-wrap {
+	display: block;
+	text-align: center;
+}
+.module-service-menu.image-center .tb-image-content {
+	text-align: center;
+	margin-top: 1em;
+	margin-bottom: 1.5em;
+}
+
+/*  image appearance
+================================================ */
+
+/* rounded */
+.module-service-menu.rounded .tb-image-wrap,
+.module-service-menu.rounded .tb-image-wrap img {
+	border-radius: 5px;
+}
+.module-service-menu.rounded.image-overlay .tb-image-content {
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+/* border */
+.module-service-menu.bordered .tb-image-wrap img {
+	border: solid 1px #999;
+	background: #fff;
+	padding: 2px;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* drop shadow */
+.module-service-menu.drop-shadow .tb-image-wrap img {
+	box-shadow: 0 1px 2px rgba(0,0,0,.3);
+}
+
+/* circle */
+.module-service-menu.circle .tb-image-wrap,
+.module-service-menu.circle .tb-image-wrap img {
+	border-radius: 50em;
+}
+.module-service-menu.circle.image-overlay .tb-image-content {
+	border-bottom-left-radius: 50em;
+	border-bottom-right-radius: 50em;
+	overflow: hidden;
+	text-align: center;
+}
+
+/* auto fullwidth image */
+.module-service-menu.auto_fullwidth .tb-image-wrap {
+	width: 100%;
+	display: block;
+}
+.module-service-menu.auto_fullwidth .tb-image-wrap .lightbox {
+	display: block;
+}
+.module-service-menu.auto_fullwidth img {
+	width: 100%;
+}
+
+/************************************************************************************
+Fancy Heading Module
+*************************************************************************************/
+.module-fancy-heading .themify-text-center {
+	text-align: center;
+}
+.module-fancy-heading .themify-text-left {
+	text-align: left;
+}
+.module-fancy-heading .themify-text-right {
+	text-align: right;
+}
+.module-fancy-heading span {
+	display: block;
+}
+.module-fancy-heading .sub-head {
+	position: relative;
+	padding-top: .5em;
+	font-size: 50%;
+}
+.module-fancy-heading .sub-head:before {
+	content: "";
+	border-top: 3px solid;
+	width: 2em;
+	display: block;
+}
+
+.module-fancy-heading .themify-text-center .sub-head:before {
+	margin: auto;
+}
+
+.module-fancy-heading .themify-text-right .sub-head:before {
+	margin: 0 0 0 auto;
+}
+
+/************************************************************************************
+PAGE NAVIGATION
+*************************************************************************************/
+.module .pagenav {
+	text-align: right;
+}
+
+/************************************************************************************
+WP GENERATED STYLES
+*************************************************************************************/
+.wp-caption {
+	max-width: 100%;
+}
+
+/************************************************************************************
+BACKGROUND IMAGE MODE
+*************************************************************************************/
+.themify_builder .repeat {
+	background-repeat: repeat !important;
+}
+.themify_builder .repeat-x {
+	background-repeat: repeat-x !important;
+}
+.themify_builder .repeat-y {
+	background-repeat: repeat-y !important;
+}
+.themify_builder .repeat-none {
+	background-repeat: no-repeat !important;
+}
+.themify_builder .fullcover {
+	-webkit-background-size: cover !important;
+	-moz-background-size: cover !important;
+	-o-background-size: cover !important;
+	background-size: cover !important;
+	background-position: center center;
+}
+.themify_builder .best-fit-image {
+	-webkit-background-size: contain !important;
+	-moz-background-size: contain !important;
+	-o-background-size: contain !important;
+	background-size: contain !important;
+	background-position: center center;
+	background-repeat: no-repeat !important;
+}
+.themify_builder .builder-parallax-scrolling {
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.builder-parallax-scrolling-active:not(.full-section-scrolling) .themify_builder .builder-parallax-scrolling {
+	background-attachment: fixed;
+}
+.builder-is-mobile.builder-parallax-scrolling-active .themify_builder .builder-parallax-scrolling {
+	background-attachment: scroll;
+	background-position-x: 50%;
+}
+.themify_builder .builder-zoom-scrolling {
+	background-size: 100%;
+	background-position: 50%;
+	background-repeat: no-repeat;
+}
+.themify-bg-zoom,
+.themify_builder_row.themify-bg-zoom{
+    transition: background-size .5s ease-in;
+    -moz-transition: background-size .5s ease-in;
+    -ms-transition: background-size .5s ease-in;
+    -o-transition: background-size .5s ease-in;
+    -webkit-transition: background-size .5s ease-in;
+     background-size: 100% 100%;
+}
+.themify-bg-zoom:hover,.themify-bg-zoom,
+.themify_builder_row.themify-bg-zoom:hover{
+    background-size: 120% 120%;
+}
+/* fullwidth row */
+.themify_builder .themify_builder_row.fullwidth,
+.themify_builder .module_row.fullwidth,
+.sidebar-none .themify_builder .themify_builder_row {
+	width: 100%;
+}
+.full_width .themify_builder_row.fullwidth .row_inner, /* for content width = full_width */
+.themify_builder_row.fullwidth .row_inner,
+.module_row.fullwidth .row_inner {
+	width: 100%;
+}
+.themify_builder .no-padding {
+	padding: 0 !important;
+}
+
+/* fullheight row */
+.themify_builder .themify_builder_row.fullheight,
+.themify_builder .module_row.fullheight {
+	height: 100vh;
+	display: table;
+	table-layout: fixed; /* for Firefox display:table bug */
+	width: 100%; /* for display:table */
+}
+.themify_builder .themify_builder_row.fullheight .row_inner_wrapper,
+.themify_builder .module_row.fullheight .row_inner_wrapper {
+	display: table-cell;
+	vertical-align: middle;
+	width: 100%; /* fix width & auto margin does not work with table-cell */
+}
+
+/* fix iOS bug not displaying 100vh correctly */
+/* ipad */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+	.ios7 .themify_builder .themify_builder_row.fullheight {
+		height: 768px;
+	}
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+	.ios7 .themify_builder .themify_builder_row.fullheight {
+		height: 1024px;
+	}
+}
+/* iphone5 */
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2) {
+	.ios7 .themify_builder .themify_builder_row.fullheight {
+		height: 320px;
+	}
+}
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2) {
+	.ios7 .themify_builder .themify_builder_row.fullheight {
+		height: 568px;
+	}
+}
+/* iPhone 4 */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+	.ios7 .themify_builder .themify_builder_row.fullheight {
+		height: 320px;
+	}
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+	.ios7 .themify_builder .themify_builder_row.fullheight {
+		height: 480px;
+	}
+}
+
+.single-template-builder-container {
+	margin: 0 auto;
+	width: 1160px;
+	max-width: 90%;
+}
+
+.themify_builder_row, .module_column, .sub_column {
+	position: relative;
+}
+.builder_row_cover {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 0;
+	-webkit-transition: all .5s ease-out;
+	-moz-transition: all .5s ease-out;
+	-o-transition: all .5s ease-out;
+	transition: all .5s ease-out;
+}
+.builder_row_cover:before{
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        z-index: -100;
+        content: '';
+        display: block;
+        -moz-transition: opacity .5s ease-in-out;
+        -webkit-transition: opacity .5s ease-in-out;
+        -o-transition: all .5s ease-out;
+        transition: opacity .5s ease-in-out;
+}
+.themify_builder_row:hover>.builder_row_cover:before,
+.module_column:hover>.builder_row_cover:before,
+.sub_column:hover>.builder_row_cover:before{
+        opacity: 1;
+}
+.row_inner_wrapper {
+	position: relative; /* needed to make sure modules are displayed over the cover */
+}
+
+/* fix for color overlay so modules are visible */
+.themify_builder .module {
+	position: relative;
+}
+
+/************************************************************************************
+Row Video
+*************************************************************************************/
+.themify_builder .big-video-wrap {
+	overflow: hidden;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 0;
+	position: absolute;
+}
+.themify_builder .themify-video-vmieo iframe,
+.themify_builder .themify-youtube-video iframe{
+        position: relative;
+        width: 100%;
+        height: 100%;
+}
+.themify_builder .big-video-vid,
+.themify_builder .big-video-image {
+	position: absolute;
+	z-index: -2;
+}
+.themify_builder_row[data-fullwidthvideo] {
+	position: relative;
+}
+.themify_builder_row[data-fullwidthvideo] .tb-column {
+	position: relative;
+	z-index: 2;
+}
+.themify_builder .vjs-big-play-button,
+.themify_builder .vjs-control-bar,
+.themify_builder .vjs-error-display,
+.themify_builder .vjs-text-track-display {
+	display:none !important;
+}
+
+/************************************************************************************
+Row Slider
+*************************************************************************************/
+.themify_builder_row .row-slider .caroufredsel_wrapper,
+.themify_builder_row .col-slider .caroufredsel_wrapper,
+.themify_builder_row .sub-col-slider .caroufredsel_wrapper {
+	margin: 0 !important;
+}
+.themify_builder_row .row-slider-slides {
+	/* Important for bg slider navigation dots to be clickable */
+	z-index: 1;
+	text-align: center !important;
+	width: 100% !important;
+	margin: 0;
+	padding: 0 !important;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: -15px;
+	visibility: hidden;
+	-webkit-transition: bottom 0.2s ease-out;
+	transition: bottom 0.2s ease-out;
+}
+.themify_builder_row .row-slider-slides li {
+	display: inline-block;
+	width: 10px!important;
+	cursor: pointer;
+	margin: 0 3px;
+}
+.themify_builder_row .row-slider-dot {
+	width: 10px;
+	height: 10px;
+	background: #fff;
+	border-radius: 9em;
+	display: block;
+}
+.themify_builder_row .row-slider-nav {
+	position: absolute;
+	z-index: 999;
+	width: 100%;
+	top: 50%;
+	left: 0;
+	margin-top: -.5em;
+}
+.themify_builder_row .row-slider-arrow {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	font-size: 54px;
+	visibility: hidden;
+	width: 1em;
+	height: 1em;
+	margin-top: -.5em;
+	text-indent: -999em;
+	text-align: center;
+	border-bottom-width: 0;
+}
+.themify_builder_row .row-slider-arrow:before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-family: FontAwesome;
+	text-indent: 0;
+	width: 1em;
+	height: 1em;
+	line-height: 1em;
+}
+.themify_builder_row .row-slider-prev {
+	left: 0;
+}
+.themify_builder_row .row-slider-prev:before {
+	content: "\f104";
+}
+.themify_builder_row .row-slider-next {
+	right: 0;
+}
+.themify_builder_row .row-slider-next:before {
+	content: "\f105";
+}
+.themify_builder_row .row-slider-dot,
+.themify_builder_row .row-slider-arrow {
+	color: #fff;
+	opacity: 0.7;
+	text-decoration: none;
+	outline: none;
+	-webkit-transition: all 0.2s ease-out;
+	transition: all 0.2s ease-out;
+}
+.themify_builder_row .row-slider-dot:hover,
+.themify_builder_row .row-slider-arrow:hover {
+	opacity: 1;
+	text-decoration: none;
+}
+
+.themify_builder_row:hover .row-slider .row-slider-prev,
+.module_column:hover .col-slider .row-slider-prev,
+.sub_column:hover .sub-col-slider .row-slider-prev {
+	left: 5px;
+	visibility: visible;
+}
+.themify_builder_row:hover .row-slider .row-slider-next,
+.module_column:hover .col-slider .row-slider-next,
+.sub_column:hover .sub-col-slider .row-slider-next {
+	right: 5px;
+	visibility: visible;
+}
+.themify_builder_row:hover .row-slider .row-slider-slides,
+.module_column:hover .col-slider .row-slider-slides,
+.sub_column:hover .sub-col-slider .row-slider-slides {
+	bottom: 5px;
+	visibility: visible;
+}
+/* If it's a touch device, always show direction arrows and pagination */
+.builder-is-touch .themify_builder_row .row-slider-slides {
+	bottom: 5px;
+	visibility: visible;
+}
+.builder-is-touch .themify_builder_row .row-slider-prev {
+	left: 5px;
+	visibility: visible;
+}
+.builder-is-touch .themify_builder_row .row-slider-next {
+	right: 5px;
+	visibility: visible;
+}
+
+/************************************************************************************
+BACKGROUND MODE: BEST-FIT
+*************************************************************************************/
+.best-fit {
+	background: #000;
+}
+.best-fit-vertical {
+	top: 0 !important;
+	left: 1% !important;
+	right: 1% !important;
+	width: auto !important;
+	height: 100% !important;
+	margin: auto !important;
+}
+
+.best-fit-horizontal {
+	top: 10% !important;
+	left: 0 !important;
+	bottom: 10% !important;
+	width: 100% !important;
+	height: auto !important;
+	margin: auto !important;
+}
+
+/************************************************************************************
+BACKGROUND POSITION
+*************************************************************************************/
+.themify_builder .bg-position-left-top {
+	background-position: left top;
+}
+.themify_builder .bg-position-left-center {
+	background-position: left center;
+}
+.themify_builder .bg-position-left-bottom {
+	background-position: left bottom;
+}
+.themify_builder .bg-position-right-top {
+	background-position: right top;
+}
+.themify_builder .bg-position-right-center {
+	background-position: right center;
+}
+.themify_builder .bg-position-right-bottom{
+	background-position: right bottom;
+}
+.themify_builder .bg-position-center-top{
+	background-position: center top;
+}
+.themify_builder .bg-position-center-center{
+	background-position: center center;
+}
+.themify_builder .bg-position-center-bottom{
+	background-position: center bottom;
+}
+.themify_builder .bg-position-left-top.builder-parallax-scrolling,
+.themify_builder .bg-position-left-center.builder-parallax-scrolling,
+.themify_builder .bg-position-left-bottom.builder-parallax-scrolling {
+	background-position-x: left !important;
+}
+.themify_builder .bg-position-right-top.builder-parallax-scrolling,
+.themify_builder .bg-position-right-center.builder-parallax-scrolling,
+.themify_builder .bg-position-right-bottom.builder-parallax-scrolling {
+	background-position-x: right !important;
+}
+
+/************************************************************************************
+Parallax Animation
+*************************************************************************************/
+.animation-running, body.animation-on {
+	overflow-x: hidden;
+}
+
+/************************************************************************************
+TURN ON BUILDER BUTTON
+*************************************************************************************/
+a.themify_builder_turn_on {
+	font: normal normal 15px/2 sans-serif !important;
+	padding: 2px 0 2px 15px;
+	margin: 20px auto;
+	display: inline-block;
+	clear: both;
+	float: none;
+	cursor: pointer;
+	text-decoration: none;
+}
+a.themify_builder_turn_on:hover {
+	text-decoration: none;
+}
+a.themify_builder_turn_on .dashicons-edit {
+	font-weight: normal;
+	font-style: normal;
+	margin-right: 5px;
+	line-height: 1.2;
+}
+.themify_builder_active a.themify_builder_turn_on {
+	display: none;
+}
+
+/************************************************************************************
+TOOLTIPS
+*************************************************************************************/
+.themify_builder_content a[rel=themify-tooltip-bottom] {
+	font: normal 15px/1.5em 'Open Sans', sans-serif;
+}
+
+/************************************************************************************
+LEGACY CUSTOM CLASSES - for hide rows/modules
+*************************************************************************************/
+@media only screen and (min-width: 1200px) {
+	.visible-large {
+		display: inherit !important;
+	}
+	.hidden-large {
+		display: none !important;
+	}
+	.visible-desktop {
+		display: inherit !important;
+	}
+	.hidden-desktop {
+		display: none !important;
+	}
+}
+@media only screen and (min-width: 960px) and (max-width: 1199px) {
+	.visible-large {
+		display: none !important;
+	}
+	.hidden-large {
+		display: inherit !important;
+	}
+	.visible-desktop {
+		display: inherit !important;
+	}
+	.hidden-desktop {
+		display: none !important;
+	}
+}
+@media (min-width: 768px) and (max-width: 959px) {
+	.visible-tablet {
+		display: inherit !important;
+	}
+	.hidden-tablet {
+		display: none !important;
+	}
+	.hidden-desktop {
+		display: inherit !important;
+	}
+	.visible-desktop {
+		display: none !important;
+	}
+	.visible-large {
+		display: none !important;
+	}
+	.hidden-large {
+		display: inherit !important;
+	}
+}
+@media (max-width: 767px) {
+	.visible-phone {
+		display: inherit !important;
+	}
+	.hidden-phone {
+		display: none !important;
+	}
+	.hidden-desktop {
+		display: inherit !important;
+	}
+	.visible-desktop {
+		display: none !important;
+	}
+	.hidden-large {
+		display: inherit !important;
+	}
+	.visible-large {
+		display: none !important;
+	}
+}
+
+/************************************************************************************
+VISIBILITY CONTROLS - to hide rows/modules
+*************************************************************************************/
+/* hide desktop */
+@media screen and (min-width: 1025px) {
+	body:not(.themify_builder_active) .hide-desktop {
+		display: none !important;
+	}
+}
+/* hide tablet */
+@media screen and (min-width: 681px) and (max-width: 1024px) {
+	body:not(.themify_builder_active) .hide-tablet {
+		display: none !important;
+	}
+}
+/* hide mobile */
+@media screen and (max-width: 680px) {
+	body:not(.themify_builder_active) .hide-mobile {
+		display: none !important;
+	}
+}
+
+/************************************************************************************
+MEDIA QUERIES
+*************************************************************************************/
+@media (min-width: 960px) {
+	.col6-1.first {
+		margin-left: 0 !important;
+		clear: left !important;
+	}
+}
+@media (min-width: 681px) and (max-width: 959px) {
+	.themify_builder_content .col6-1 {
+		width: 31.2%;
+	}
+	.themify_builder_content .col6-1:nth-of-type(3n+1) {
+		margin-left: 0 !important;
+	}
+
+	.themify_builder_content .gutter-narrow.themify_builder_sub_row > .col6-1,
+	.themify_builder_content .gutter-narrow .row_inner > .col6-1 {
+		width: 32.266%;
+	}
+
+	.themify_builder_content .gutter-none.themify_builder_sub_row > .col6-1,
+	.themify_builder_content .gutter-none .row_inner > .col6-1 {
+		width: 33.333%;
+	}
+}
+
+@media screen and (max-width: 780px) {
+
+	/* reset overlay element to static position */
+	.module-image .image-content,
+	.module-video .video-content,
+	.module-slider .slide-content {
+		position: static !important;
+	}
+
+}
+
+@media screen and (max-width: 680px) {
+
+	/* callout */
+	.ui.module-callout .callout-content,
+	.ui.module-callout .callout-button {
+		float: none !important;
+		width: auto !important;
+	}
+	.ui.module-callout .callout-button {
+		margin-top: 15px;
+	}
+	.module-slider.slider-agency .slide-image {
+		float: none;
+		max-width: initial;
+	}
+
+	/* nav */
+	.ui.builder_button,
+	.ui.nav li a,
+	.ui.module-tab .tab-nav li a,
+	.ui.window > div {
+		padding: .525em 1.15em;
+	}
+
+	/* tab */
+	.ui.module-tab.vertical .tab-nav {
+		width: 120px;
+		font-size: 95%;
+	}
+	.ui.module-tab.vertical .builder-tabs-wrap {
+		padding-left: 120px;
+	}
+	.ui.module-tab.vertical .tab-content {
+		margin-left: 0;
+	}
+
+	/* button */
+	.module-buttons span {
+		font-size: .9em;
+	}
+	.module-buttons.large span {
+		font-size: 1.1em;
+	}
+	.module-buttons.xlarge span {
+		font-size: 1.1em;
+	}
+
+	/* icon */
+	.module-icon span {
+		font-size: .9em;
+	}
+	.module-icon.large span {
+		font-size: 1.1em;
+	}
+	.module-icon.xlarge span {
+		font-size: 1.2em;
+	}
+
+	/* grid */
+	.themify_builder_content .col5-1,
+	.themify_builder_content .col4-1,
+	.themify_builder_content .col4-2,
+	.themify_builder_content .col2-1,
+	.themify_builder_content .col4-3,
+	.themify_builder_content .col3-1,
+	.themify_builder_content .col3-2 {
+		margin-left: 0 !important;
+		width: 100% !important;
+		max-width: 100% !important;
+	}
+	.themify_builder_content .loops-wrapper.grid2 .post,
+	.themify_builder_content .loops-wrapper.grid3 .post,
+	.themify_builder_content .loops-wrapper.grid4 .post {
+		clear: both;
+		width: auto;
+		float: none;
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.post-content {
+		overflow: visible !important;
+	}
+
+	.themify_builder_content .col6-1 {
+		width: 48.4%;
+		margin-left: 3.2%;
+	}
+	.themify_builder_content .col6-1:nth-of-type(2n+1) {
+		margin-left: 0 !important;
+		clear: left;
+	}
+
+	.themify_builder_content .gutter-narrow.themify_builder_sub_row > .col6-1,
+	.themify_builder_content .gutter-narrow .row_inner > .col6-1 {
+		width: 49.2%;
+	}
+	.themify_builder_content .gutter-narrow .row_inner > .col6-1 {
+		margin-left: 1.6%;
+	}
+
+	.themify_builder_content .gutter-none.themify_builder_sub_row > .col6-1,
+	.themify_builder_content .gutter-none .row_inner > .col6-1 {
+		width: 50%;
+	}
+
+	/* RTL grid reset */
+	.rtl .col6-1,
+	.rtl .col5-1,
+	.rtl .col4-1, .rtl .col4-2, .rtl .col4-3,
+	.rtl .col3-1, .rtl .col3-2,
+	.rtl .col2-1 {
+		margin-right: 0;
+		width: 100%;
+		max-width: 100%;
+	}
+	.rtl .gutter-narrow.themify_builder_sub_row > .col6-1,
+	.rtl .gutter-narrow.themify_builder_sub_row > .col5-1,
+	.rtl .gutter-narrow.themify_builder_sub_row > .col4-1,
+	.rtl .gutter-narrow.themify_builder_sub_row > .col4-2,
+	.rtl .gutter-narrow.themify_builder_sub_row > .col4-3,
+	.rtl .gutter-narrow.themify_builder_sub_row > .col3-1,
+	.rtl .gutter-narrow.themify_builder_sub_row > .col3-2,
+	.rtl .gutter-narrow.themify_builder_sub_row > .col2-1,
+	.rtl .gutter-narrow .row_inner > .col6-1,
+	.rtl .gutter-narrow .row_inner > .col5-1,
+	.rtl .gutter-narrow .row_inner > .col4-1,
+	.rtl .gutter-narrow .row_inner > .col4-2,
+	.rtl .gutter-narrow .row_inner > .col4-3,
+	.rtl .gutter-narrow .row_inner > .col3-1,
+	.rtl .gutter-narrow .row_inner > .col3-2,
+	.rtl .gutter-narrow .row_inner > .col2-1 {
+		margin-right: 0;
+	}
+
+	/* equal column height */
+	.equal-column-height .tb-column,
+	.equal-column-height .sub_column {
+		min-height: 0 !important; /* reset equal column height */
+	}
+
+}
+@media screen and (min-width: 681px) {
+
+	body:not(.themify_builder_active) .themify_builder_content .themify_builder_row.equal-column-height .row_inner,
+	body:not(.themify_builder_active) .themify_builder_content .themify_builder_sub_row.equal-column-height,
+	.themify_builder_active .themify_builder_content .themify_builder_row_content,
+	.themify_builder_active .themify_builder_content .themify_builder_sub_row_content {
+		display: flex;
+	}
+	.themify_builder_content .themify_builder_row.equal-column-height .col-full {
+		-webkit-flex-grow: 1;
+		flex-grow:1;
+	}
+	.themify_builder_active .themify_builder_content .themify_builder_row_content {
+		padding-top: 28px !important;
+	}
+
+
+	/* COLUMN ALIGNMENT
+	================================================ */
+
+	body.themify_builder_active .themify_builder_content .themify_builder_row.col_align_middle:not(.equal-column-height) .themify_builder_row_content>.themify_builder_col>.themify_module_holder,
+	body.themify_builder_active .themify_builder_content .themify_builder_row.col_align_middle:not(.equal-column-height) .themify_builder_row_content>.themify_builder_col>.tb-column-inner>.themify_module_holder,
+	body.themify_builder_active .themify_builder_content .themify_builder_sub_row.col_align_middle:not(.equal-column-height) .themify_builder_sub_row_content>.themify_builder_col>.themify_module_holder {
+		min-height:100px !important;
+	}
+	body:not(.themify_builder_active) .themify_builder_content .themify_builder_row.col_align_middle:not(.equal-column-height) .row_inner,
+	body:not(.themify_builder_active) .themify_builder_content .themify_builder_sub_row.col_align_middle:not(.equal-column-height),
+	body.themify_builder_active .themify_builder_content .themify_builder_row.col_align_middle:not(.equal-column-height) .themify_builder_row_content,
+	body.themify_builder_active .themify_builder_content .themify_builder_sub_row.col_align_middle:not(.equal-column-height) .themify_builder_sub_row_content {
+		display:-webkit-flexbox;
+		display:-ms-flexbox;
+		display:-webkit-flex;
+		display:flex;
+		-webkit-flex-align:center;
+		-ms-flex-align:center;
+		-webkit-align-items:center;
+		align-items:center;
+	}
+	body.themify_builder_active .themify_builder_content .themify_builder_row.col_align_bottom:not(.equal-column-height) .themify_builder_row_content>.themify_builder_col>.themify_module_holder,
+	body.themify_builder_active .themify_builder_content .themify_builder_row.col_align_bottom:not(.equal-column-height) .themify_builder_row_content>.themify_builder_col>.tb-column-inner>.themify_module_holder,
+	body.themify_builder_active .themify_builder_content .themify_builder_sub_row.col_align_bottom:not(.equal-column-height) .themify_builder_sub_row_content>.themify_builder_col>.themify_module_holder {
+		min-height:100px !important;
+	}
+	body:not(.themify_builder_active) .themify_builder_content .themify_builder_row.col_align_bottom:not(.equal-column-height) .row_inner,
+	body:not(.themify_builder_active) .themify_builder_content .themify_builder_sub_row.col_align_bottom:not(.equal-column-height),
+	body.themify_builder_active .themify_builder_content .themify_builder_row.col_align_bottom:not(.equal-column-height) .themify_builder_row_content,
+	body.themify_builder_active .themify_builder_content .themify_builder_sub_row.col_align_bottom:not(.equal-column-height) .themify_builder_sub_row_content {
+		display:-webkit-flexbox;
+		display:-ms-flexbox;
+		display:-webkit-flex;
+		display:flex;
+		-webkit-flex-align:flex-end;
+		-ms-flex-align:flex-end;
+		-webkit-align-items:flex-end;
+		align-items: flex-end;
+	}
+
+}
+
+  </style>
+</head>
+
+<body data-spy="scroll" data-target=".navbar-collapse">
+  <div class="wrapper">
+    <div class="wrapper">
+      <div class="wrapper">
+        <div class="wrapper">
+          <div class="wrapper">
+            <!-- Preloader -->
+            <div id="loading" style="display: none;">
+              <div id="loading-center">
+                <div id="loading-center-absolute">
+                  <div class="object"></div>
+                  <div class="object"></div>
+                  <div class="object"></div>
+                  <div class="object"></div>
+                  <div class="object"></div>
+                  <div class="object"></div>
+                  <div class="object"></div>
+                  <div class="object"></div>
+                  <div class="object"></div>
+                  <div class="object"></div>
+                </div>
+              </div>
+            </div>
+            <!--End off Preloader -->
+            <div class="culmn">
+              <!--Home page style-->
+              <nav class="navbar navbar-default navbar-fixed white bootsnav text-uppercase on no-full" style="
+    margin-top: 0px;
+">
+                <!-- Start Top Search -->
+                <!-- End Top Search -->
+                <div class="container">
+                  <!-- Start Atribute Navigation -->
+                  <div class="attr-nav">
+                    <ul>
+                      <a class="page-header__tel" content="(717) 617-3258" href="tel:7176173258" itemprop="telephone" style="
+    margin-top: 25px;
+">📞(717) 617-3258</a>
+                    </ul>
+                  </div>
+                  <!-- End Atribute Navigation -->
+                  <!-- Start Header Navigation -->
+                  <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu" aria-expanded="true">
+                      <i class="fa fa-bars"></i>
+                    </button>
+                    <a class="navbar-brand" href="index.html">
+                      <img src="assets/images/logo.png" class="logo logo-display" alt="">
+                      <img src="https://mixiptv.com/wp-content/uploads/2019/03/logo-para-top.png" class="logo logo-scrolled" alt="">
+                    </a>
+                  </div>
+                  <!-- End Header Navigation -->
+                  <!-- Collect the nav links, forms, and other content for toggling -->
+                  <div class="navbar-collapse collapse" id="navbar-menu" aria-expanded="true" style="">
+                    <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
+                      <li><a href="index.html">home</a></li>
+                      <li class=""><a href="#download">Download</a></li>
+                      <li class=""><a href="#prices">Prices</a></li>
+                      <li class=""><a href="#contact">contact</a></li>
+                    </ul>
+                  </div><!-- /.navbar-collapse -->
+                </div>
+              </nav>
+              <!--Home Sections-->
+              <section style="background-color: black;">
+                <div class="overlay"></div>
+                <div class="container">
+                  <div class="row">
+                    <div class="main_home text-center" style="
+    padding-bottom: 150px;
+">
+                  <div class="video-wrap">
+                        <iframe title="TOP MEDIA TV" width="800" height="655" src="https://www.youtube.com/embed/4BAkDARhNPg?feature=oembed&autoplay=1"  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                  </div>
+                  <!--End off row-->
+                </div>
+                <!--End off container -->
+              </section>
+              <!--End off Home Sections-->
+              <!--About Sections-->
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br id="download">
+              <h1 style="text-align: center;">TOP MEDIA: PREMIUM IPTV</h1>
+              <h2 style="text-align: center;">Get Top Media on your Android device in which you will get 600+ Channels + 10,000 Movies + 743 TV Shows, No Credit Check No Contracts. Free trials Available</h2>
+              <!--End off row-->
+              <!--End off container -->
+              <br>
+              <br>
+              <br>
+              <br>
+              <hr>
+              <br>
+              <br>
+              <div class="container">
+                <div class="row">
+                  <div class="main_counter text-center">
+                    <div class="col-md-3">
+                      <div class="counter_item sm-m-top-40">
+                        <h2 class="statistic-counter">25</h2>
+                        <div class="separator_small"></div>
+                        <h5>Happy Clients</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--End off row-->
+              </div>
+              <!--End off container -->
+              <button class="btn">
+                <a download href="https://topmediatv.net/tm.apk" class="fa fa-download">Download the TOP-MEDIA Channel</a>
+              </button>
+              <br>
+              <br>
+              <br>
+              <hr>
+              <br>
+              <br>
+              <br>
+              <!--Our Work Section-->
+              <section id="prices" style="display: -webkit-inline-box;">
+                <figure class="figure" style="text-align: center;width: 250px;margin-left: 10px;margin-right: 20px;background-color: lightgrey;">
+                  <img src="https://mixiptv.com/wp-content/uploads/2019/03/logo-para-top.png" alt="logo">
+                  <figcaption>
+                    <h3>1 Month</h3>
+                    <h3>$21.00</h4>
+                      <h3>Payments will be done by PayPal, CashApp, ApplePay, and Zelle to make your monthly payment email me <a href="mailto: lazaro300x@icloud.com">lazaro300x@icloud.com</a></h3>
+                      <h3>For extra support please email <a href="mailto: support@mixiptv.com">support@mixiptv.com</a>
+                  </figcaption>
+                </figure>
+                <figure class="figure" style="text-align: center;width: 250px;">
+                  <img src="https://mixiptv.com/wp-content/uploads/2019/03/logo-para-top.png" alt="logo">
+                  <figcaption>
+                    <h3>3 Months</h3>
+                    <h3>$60.00</h4>
+                      <h3>Payments will be done by PayPal, CashApp, ApplePay, and Zelle to make your monthly payment email me <a href="mailto: lazaro300x@icloud.com">lazaro300x@icloud.com</a></h3>
+                      <h3>For extra support please email <a href="mailto: support@mixiptv.com">support@mixiptv.com</a>
+                  </figcaption>
+                </figure>
+                <figure class="figure" style="text-align: center;width: 250px;margin-left: 20px;margin-right: 20px;background-color: lightgrey;">
+                  <img src="https://mixiptv.com/wp-content/uploads/2019/03/logo-para-top.png" alt="logo">
+                  <figcaption>
+                    <h3>6 Months</h3>
+                    <h3>$110.00</h4>
+                      <h3>Payments will be done by PayPal, CashApp, ApplePay, and Zelle to make your monthly payment email me <a href="mailto: lazaro300x@icloud.com">lazaro300x@icloud.com</a></h3>
+                      <h3>For extra support please email <a href="mailto: support@mixiptv.com">support@mixiptv.com</a>
+                  </figcaption>
+                </figure>
+              </section>
+              <br>
+              <br>
+              <br>
+              <hr>
+              <br>
+              <br>
+              <div id="accordion-2099-3-0-1" class="module module-accordion accordion-2099-3-0-1  " data-behavior="accordion">
+                <h3 class="module-title">Top Media Channel List</h3>
+                <ul class="ui module-accordion default rounded gradient glossy shadow default">
+                  <li>
+                    <div class="accordion-title">
+                      <a> Live TV- Español </a>
+                    </div>
+                    <div class="accordion-content default-closed clearfix">
+                      <p style="text-align: left;">• AMZ MOVIES &#8211; FHD<br />• AZTECA CINEMA &#8211; HD<br />• CINE PREMIER &#8211; HD<br />• CINE MEXACANA &#8211; HD<br />• CINE PREMIER – HD<br />• CINECANAL 2 – FHD<br />• CINECANAL – FHD<br />•
+                        CINEMA PLATINO – HD<br />• CINEMAX 2 – HD<br />• CINEMAX – HD<br />• DE PELICULA 2 – FHD<br />• DE PELICULA – FHD<br />• ESTUDIO UNIVERSAL – FHD<br />• FM HOT MOVIES – HD<br />• FMX MOVIES – HD<br />• FOX CINEMA – FHD<br />•
+                        FOX ACTION – HD<br />• FOX CLASSICS <br />• FOX MOVIES – FHD<br />• GOLDEN EDGE – HD<br />• GOLDEN PLUS – FHD<br />• GOLDEN PREMIER – FHD<br />• HBO 2 – FHD<br />• HBO EAST – FHD<br />• HBO FAMILY 2 &#8211; HD<br />• HBO
+                        FAMILY – FHD<br />• HBO – FHD<br />• HBO PLUS E – FHD<br />• HBO PLUS – FHD<br />• HBO SIGNATURE 2 – FHD<br />• HBO SIGNATURE – FHD<br />• MC MOVIES 2 – HD<br />• MC MOVIES – HD<br />• MIS PELICULAS – HD<br />• PANICO MOVIES
+                        – HD<br />• PARAMOUNT 2 – FHD<br />• PARAMOUNT – FHD<br />• SONY CHANNEL – FHD<br />• SONY CHANNEL – HD<br />• SPACE 2 – FHD<br />• SPACE – FHD<br />• SUNDANCE TV – FHD<br />• TMC MOVIES – HD<br />• UNIVERSAL – FHD<br />•
+                        WARNER 2 – HD<br />• WARNER – FHD</p>
+                      <p style="text-align: left;"><strong>CINEMA EN VIVO &#8211; CINEMA LIVE</strong><br />• AMZ MOVIES &#8211; FHD<br />• AZTECA CINEMA &#8211; HD<br />• CINE PREMIER &#8211; HD<br />• CINE MEXICANO &#8211; HD<br />• CINE PREMIER –
+                        HD<br />• CINECANAL 2 – FHD<br />• CINECANAL – FHD<br />• CINEMA PLATINO – HD<br />• CINEMAX 2 – HD<br />• CINEMAX – HD<br />• DE PELICULA 2 – FHD<br />• DE PELICULA – FHD<br />• ESTUDIO UNIVERSAL – FHD<br />• FM HOT MOVIES –
+                        HD<br />• FMX MOVIES – HD<br />• FOX CINEMA – FHD<br />• FOX ACTION – HD<br />• FOX CLASSICS <br />• FOX MOVIES – FHD<br />• GOLDEN EDGE – HD<br />• GOLDEN PLUS – FHD<br />• GOLDEN PREMIER – FHD<br />• HBO 2 – FHD<br />• HBO
+                        EAST – FHD<br />• HBO FAMILY 2 &#8211; HD<br />• HBO FAMILY – FHD<br />• HBO – FHD<br />• HBO PLUS E – FHD<br />• HBO PLUS – FHD<br />• HBO SIGNATURE 2 – FHD<br />• HBO SIGNATURE – FHD<br />• MC MOVIES 2 – HD<br />• MC MOVIES
+                        – HD<br />• MIS PELICULAS – HD<br />• PANICO MOVIES – HD<br />• PARAMOUNT 2 – FHD<br />• PARAMOUNT – FHD<br />• SONY CHANNEL – FHD<br />• SONY CHANNEL – HD<br />• SPACE 2 – FHD<br />• SPACE – FHD<br />• SUNDANCE TV – FHD<br />•
+                        TMC MOVIES – HD<br />• UNIVERSAL – FHD<br />• WARNER 2 – HD<br />• WARNER – FHD</p>
+                      <p style="text-align: left;"><strong>CULTURA – CULTURE</strong><br />• ANIMAL PLANET – FHD<br />• DISCOVERY C – HD<br />• DISCOVERY – FHD<br />• DISCOVERY HOME – FHD<br />• DISCOVERY SC – HD<br />• DISCOVERY T2 – FHD<br />•
+                        DISCOVERY T – FHD<br />• DISCOVERY TURBO &#8211; HD<br />• DISCOVERY W – FHD<br />• EL GROUMET – FHD<br />• EL TIEMPO VISION – SD<br />• GARAGE TV – HD<br />• HISTORY 2 – HD<br />• HISTORY – FHD<br />• ID DISCOVERY – <br />•
+                        INVESTIGATION D – HD<br />• NAT GEO – FHD<br />• NAT GEO WILD – FHD<br />• NATIONAL GEO – FHD<br />• RT DOCUMENTAL – FHD<br />• TLC DISCOVERY 2 – FHD<br />• TLC DISCOVERY – FHD</p>
+                      <p style="text-align: left;"><strong>DEPORTES – SPORTS</strong><br />• BEIN SPORT N – HD<br />• BEIN SPORT N – FHD<br />• CLARO SPORTS – HD<br />• DEPORT TV – HD<br />• ESPN + &#8211; HD<br />• ESPN 2 ARG – HD<br />• ESPN 2 MEX
+                        – HD<br />• ESPN 3 ARG – HD<br />• ESPN 3 MEX – HD<br />• ESPN ARG – HD<br />• ESPN DEPORTES – HD<br />• ESPN MEXICO – HD<br />• FOX DEPORTES USA – HD<br />• FOX DEPORTES – HD<br />• FOX PREMIUM – HD<br />• FOX SPORT 1 ARG –
+                        HD<br />• FOX SPORT 2 ARG – HD <br />• FOX SPORT 2ARG – HD<br />• FOX SPORTS 2 – FHD<br />• FOX SPORTS 3 – FHD<br />• FOX SPORTS – FHD<br />• GOL TV – FHD<br />• GOLF LATIN AMER – HD<br />• REAL MADRID – FHD<br />• REAL
+                        MADRID – HD<br />• RTV PORTUGAL – HD<br />• TDN MEXICO – HD<br />• TNT SPORTS – HD<br />• TVC DEPORTES – HD<br />• TVC MEXICO – HD<br />• UNIVISION DEPORTES – FHD<br />• UNIVISION DEPORTES – HD<br />• WIN SPORTS – HD<br />•
+                        WIN SPORTS – FHD</p>
+                      <p style="text-align: left;"><strong>EN VIVO MUSICA – LIVE MUSIC</strong><br />• LA MEGA – HD<br />• MTV CHANNEL – FHD<br />• MUSICA MEXICANA – FHD<br />• MUSICA POP LATINO – FHD<br />• MUSICA TROPICAL – FHD<br />• MUSICA
+                        URBANA – FHD<br />• RITMO SON – HD<br />• TOP LATINO – HD</p>
+                      <p style="text-align: left;"><strong>ENTRETENIMIENTO – ENTERTAINMENT</strong><br />• A&E – FHD<br />• AXN 2 CHANNEL – FHD<br />• AXN CHANNEL – FHD<br />• AZTECA CLIC – FHD<br />• AZTECA CORAZON – FHD<br />• AZTECA MUNDO – FHD<br />•
+                        COMEDY CENTRAL – FHD<br />• DISTRITO COMEDIA – HD<br />• E CHANNEL – FHD<br />• ESTUDIO UNIVERSAL – HD<br />• FOX CHANNEL – FHD<br />• FOX LIVE – FHD<br />• FX CHANNEL – FHD<br />• FX CHANNEL – HD<br />• GLITZ CHANNEL – HD<br />•
+                        HOLA TV – FHD<br />• MTV REAL – FHD<br />• PASIONES – FHD<br />• RC NOVELAS – HD<br />• SOUTH PARK – HD<br />• SUN CHANNEL – FHD<br />• SYFY – HD<br />• TBC CHANNEL – HD<br />• TL NOVELAS – HD<br />• TNT SERIES – FHD<br />•
+                        TRU TV – FHD<br />• TRU TV – HD<br />• TV MAS – FHD<br />• UNICABLE – FHD</p>
+                      <p style="text-align: left;"><strong>INFANTIL – KIDS</strong></p>
+                      <p style="text-align: left;">• BABY FIRST – HD<br />• BOOMERANG – HD<br />• CARTOON NETWORK – FHD<br />• CEEBBES – FHD<br />• DISCOVERY KIDS – FHD<br />• DISCOVERY KIDS – HD<br />• DISNEY CHANNEL – HD<br />• DISNEY JR – HD<br />•
+                        DISNEY XD – HD<br />• NICK 2 – HD<br />• NICK – HD<br />• NICK JR – HD<br />• NICK TOONS – HD</p>
+                      <p style="text-align: left;"><strong>LATINO USA </strong><br />• AMERICA TV – HD<br />• ESTRELLA TV – HD<br />• FUSION – FHD<br />• GALAVISION – FHD<br />• NBC UNIVERSO – FHD<br />• TELEMUNDO E –FHD<br />• TELEMUNDO – FHD<br />•
+                        UNIMAS – FHD<br />• UNIVISION – FHD<br />• UNIVISON – HD<br />• UNIVISION E FHD<br />• UNIVISION E HD</p>
+                      <p style="text-align: left;"><strong>NOTICIAS – NEWS</strong><br />• ADN 40 NOTICIAS – FHD<br />• ADN 40 NOTICIAS – HD<br />• CABLE NOTICIAS – HD<br />• CNN NOTICIAS – HD<br />• MILENIO TV – HD<br />• NOTICIAS MVS – HD<br />•
+                        TELEFORMULA – HD</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="accordion-title">
+                      <a> Live TV- English </a>
+                    </div>
+                    <div class="accordion-content default-closed clearfix">
+                      <p style="text-align: left;"><strong>Cinema</strong><br />• AMC – HD<br />• CINEMA PLATINO – HD<br />• CINEMAX – FHD<br />• COZI MOVIES – FHD<br />• EL REY NETWORK – FHD<br />• ENCORE WESTERNS – HD<br />• FILM BOX ACTION – FHD<br />•
+                        FILM BOX – FHD<br />• FMX RETRO – FHD<br />• FOX ACTION – FHD<br />• FREEFORM – FHD<br />• FXM MOVIES – HD<br />• HALL MARK – FHD<br />• HBO 3 – FHD<br />• HBO CHANNEL – FHD<br />• HBO EAST – FHD<br />• HBO – HD<br />• HBO
+                        SIGNATURE – FHD<br />• HBO WEST – HD<br />• HBO ZONE – FHD<br />• LMN MOVIES – FHD<br />• MELLO MOVIES – HD<br />• PARAMOUNT –FHD<br />• SHOWTIME – HD<br />• SHOWTIME WEST – HD<br />• SKY ADVENTURE – HD<br />• SKY COMEDY – HD<br />•
+                        SKY DISNEY – HD<br />• SKY DRAMA – HD<br />• SKY FAMILY – HD<br />• SKY GREATS – HD<br />• SKY HORROR – HD<br />• SKY PREMIER – HD<br />• SKY SELECT – HD<br />• SKY SHOWCASE – HD<br />• SKY THRILLER – HD<br />• SONY – HD<br />•
+                        SPACE – FHD<br />• STARZ – FHD<br />• SUNDANCE CHANNEL – HD</p>
+                      <p style="text-align: left;"><strong>Documentary</strong></p>
+                      <p style="text-align: left;">• ANIMAL PLANET – HD<br />• DISCOVERY CHANNEL – HD<br />• DISCOVERY THEATER – FHD<br />• DISCOVERY WORLD – FHD<br />• DISTINATION AMERICA<br />• DIY<br />• FOOD NETWORK – HD<br />• HISTORY CHANNEL –
+                        FHD<br />• NSIGHT CHANNEL FHD<br />• NAT GEO WILD – FHD<br />• NAT GEO – FHD<br />• REV TV – HD<br />• VELOCITY – FHD<br />• WEATHER CHANNEL – HD<br />• WILD CHANNEL – HD<br />• WOBI CHANNEL – HD</p>
+                      <p style="text-align: left;"><strong>Entertainment</strong><br />• A&E – FHD<br />• BBC UK – FHD<br />• BET CHANNEL – HD<br />• BRAVO – HD<br />• CHCH UK – HD<br />• COMEDY CENTRAL – FHD<br />• CW CHANNEL – HD<br />• E! CHANNEL
+                        – HD<br />• FUSE CHANNEL – FHD<br />• FTV MENS<br />• FX CHANNEL – FHD<br />• FXX CHANNEL – FHD<br />• FYI CHANNEL – FHD<br />• HALLMARK – FHD<br />• HGTV –FHD<br />• LIFETIME – FHD<br />• LONDON LIVE – FHD<br />• MY9 TV – HD<br />•
+                        OWN NETWORK – HD<br />• PBS – HD<br />• POP CHANNEL – FHD<br />• REVOLT CHANNEL – FHD<br />• SYFY – FHD<br />• TBS – HD<br />• TNT – HD<br />• TLC CHANNEL – FHD<br />• TNT CHANNEL – FHD<br />• TNT SERIES – FHD<br />• TRU TV –
+                        HD<br />• USA CHANNEL – FHD<br />• VELOCITY – FHD<br />• WGN 9 – FHD</p>
+                      <p style="text-align: left;"><strong>Kids</strong></p>
+                      <p style="text-align: left;">• ADULT SWIM – FHD<br />• BABY FIRST – HD<br />• BOOMERANG – HD<br />• CARTOON N – HD<br />• CARTOON NETWORK – HD<br />• CARTOON NETWORK UK – HD<br />• DISNEY CHANNEL – FHD<br />• DISNEY CHANNEL –
+                        HD<br />• DISNEY XD – FHD<br />• DISNEY XD – HD<br />• NICK – FHD<br />• NICK JR – HD<br />• NICKTOONS – HD<br />• PBS KIDS – HD<br />• SMILE CHANNEL – HD<br />• UNIVERSAL KIDS – FHD</p>
+                      <p style="text-align: left;"><strong>Live News</strong></p>
+                      <p style="text-align: left;">• ABC NEWS – FHD<br />• ALJAZEERA USA – FHD<br />• BLOOMBERG – FHD<br />• C-SPAN 1 – HD<br />• CBS NEWS – FHD<br />• CNBC WORLD – HD<br />• CNN – HD<br />• CNN NEWS – HD<br />• FOX BUSINESS – FHD<br />•
+                        FOX NEWS – FHD<br />• INFOWARS TV<br />• NEWS MAX – HD<br />• SKY NEWS – HD<br />• SKY NEWS USA – HD<br />• WEATHER CHANNEL – HD</p>
+                      <p style="text-align: left;"><strong>Local Networks</strong></p>
+                      <p style="text-align: left;">• ABC CHANNEL – FHD<br />• CBS 2 LOS ANGELES – FHD<br />• CBS NEW YORK – FHD<br />• FOX WASHINGTON – FHD<br />• FOX ALANTA – HD<br />• FOX LOS ALGELES – FHD<br />• NBC LA – FHD<br />• NBC MIAMI –
+                        FHD<br />• NBC NEW YORK – FHD<br />• NBC WASHINGTON – FHD</p>
+                      <p style="text-align: left;"><strong>Music Channels</strong></p>
+                      <p style="text-align: left;">• ALTERNATIVE – FHD<br />• BRITS-HITS – FHD<br />• CMT<br />• COUNTRY MUSIC – HD<br />• DANCE-EDM – FHD<br />• HEAVY METAL – FHD<br />• HIPHOP-RB – FHD<br />• HITS LIST – FHD<br />• KIDS MUSIC – FHD<br />•
+                        POP COUNTRY – FHD<br />• POP HITS – FHD<br />• RAP 2K – FHD<br />• RAP NEW – FHD<br />• REBOLT MUSIC – HD<br />• ROCK – FHD<br />• SOUL RB – FHD<br />• TELE HITS PLUS – FHD<br />• VH1 MUSIC – HD</p>
+                      <p style="text-align: left;"><strong>Religion</strong></p>
+                      <p style="text-align: left;">• BETTER HEALTH – HD<br />• BETTER LIVE TV – HD<br />• CTN LIVE – HD<br />• GOOD LIVE – HD<br />• LIVEVISION USA – HD<br />• NRB TV – HD</p>
+                      <p style="text-align: left;"><strong>Sports</strong></p>
+                      <p style="text-align: left;">• ALL SPORT (PORT) – FHD<br />• BEIN SPORT – FHD<br />• BOXNATION – HD<br />• BT SPORT – FHD<br />• BT SPORT ESPN – HD<br />• BT SPORT 1 – HD<br />• BT SPORT 2 – HD<br />• BT SPORT 3 – HD<br />• BTN
+                        SPORT – FHD<br />• CBS SPORT NETWORK – FHD<br />• ELEVEN SPORTS – HD<br />• ESPN – HD<br />• ESPN PLUS – HD<br />• ESPN SEC – FHD<br />• ESPN U – FHD<br />• F1 UK – HD<br />• FANTASY FTBALL FHD<br />• FIGHT BOX<br />•
+                        FIGHTING NETWORK – HD<br />• FOX COLLEGE ATLANTIC – FHD<br />• FOX COLLEGE CENTRAL – FHD<br />• FOX COLLEGE PACIFIC – FHD<br />• FOX SOCCER PLUS – FHD<br />• FOX SPORT ARIZONA – FHD<br />• FOX SPORT DETROIT – FHD<br />• FOX
+                        SPORT FLORIDA – FHD<br />• FOX SPORT S WEST – FHD<br />• FOX SPORT SUN – FHD<br />• FOX SPORT SW PLUS – FHD<br />• FOX SPORT W – FHD<br />• FOX SPORT SANDIEGO – FHD<br />• FOX SPORT WEST – HD<br />• FS 1 – FHD<br />• FS 2 –
+                        FHD<br />• GOLF CHANNEL – HD<br />• HAVOC – HD<br />• MLB NETWORK – HD<br />• MSG 2 – FHD<br />• MSG 2 PLUS – FHD<br />• MSG NETWORK – FHD<br />• MSG PLUS – FHD<br />• NBA – HD<br />• NBCS CHICAGO – FHD<br />• NBCS NORTHWEST
+                        – FHD<br />• NBCS PHILLY – FHD<br />• NBCS SPORT BOSTON – FHD<br />• NBCSN NETWORK – FHD<br />• NENS PLUS SPORT – FHD<br />• NESN SPORT – FHD<br />• NFL NETWORK – FHD<br />• NFL NOW – FHD<br />• NFL RED ZONE – FHD<br />• NHL
+                        NETWORK – HD<br />• REDBULL – FHD<br />• SKY GOLF UK – HD<br />• SKY SPORT 1 – HD<br />• TUFF TV – HD<br />• WWE NETWORK – HD<br />• WWE NETWORK – HD<br />• YES NETWORK – FHD</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="accordion-title">
+                      <a> Mexico </a>
+                    </div>
+                    <div class="accordion-content default-closed clearfix">
+                      <p style="text-align: left;">• AND 40 – HD<br />• AZTECA 13 – HD<br />• AZTECA 7 – HD<br />• AZTECA CLIC – HD<br />• AZTRECA CLIC – HD<br />• AZTECA CORAZON – HD<br />• AZTECA INTERNACIONAL – HD<br />• AZTECA MUNDO – HD<br />•
+                        BANDAMAX – HD<br />• CANAL 11 – HD<br />• CANAL 5 – HD<br />• FORO TV – HD<br />• GALA TV – HD<br />• MEXIQUENSE – HD<br />• MULTIMEDIOS – HD<br />• TELEVISA – FHD<br />• TELEVISA MTY – HD<br />• TVC – HD<br />• TVP CULIACAN
+                        – HD<br />• TVP LOS MOCHIS – HD<br />• TVP MAZATLAN – HD<br />• TVP OBREGON – HD</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="accordion-title">
+                      <a> Puerto Rico </a>
+                    </div>
+                    <div class="accordion-content default-closed clearfix">
+                      <p style="text-align: left;">• CANAL 13 – HD<br />• TELEMUNDO – FHD<br />• TELEMUNDO – HD<br />• UNIVISION – HD<br />• WAPA 2 – HD<br />• WAPA AMERICA – HD<br />• WAPA – HD<br />• WIPR – HD</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="accordion-title">
+                      <a> Cuba </a>
+                    </div>
+                    <div class="accordion-content default-closed clearfix">
+                      <p style="text-align: left;">• AMERICA TV – HD<br />• CUBAVISION<br />• CUBAVISION INTERNACIONAL<br />• TV MARTI – HD</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="accordion-title">
+                      <a> Republica Dominicana </a>
+                    </div>
+                    <div class="accordion-content default-closed clearfix">
+                      <p style="text-align: left;">• RNN NOTICIAS – HD<br />• TELEMICRO 5<br />• TRA DIGITAL – HD</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="accordion-title">
+                      <a> CENTRO Y SUR AMERICA - CENTRAL AND SOUTH AMERICA </a>
+                    </div>
+                    <div class="accordion-content default-closed clearfix">
+                      <p style="text-align: left;">• AZTECA GUATEMALA – HD<br />• AZTECA HONDURAS – HD<br />• CANAL SUR – HD<br />• CARACOL – HD<br />• ENLACE TV – HD<br />• TELECARIBE COLOMBIA – HD<br />• TELECARIBE DEPORTES – HD<br />• WOW TV – HD</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="accordion-title">
+                      <a> ESPANA – SPAIN </a>
+                    </div>
+                    <div class="accordion-content default-closed clearfix">
+                      <p style="text-align: left;">• A3S SERIES – FHD<br />• ANTENA 3 –FHD<br />• ANTENA 3 SERIES – HD<br />• ARAGON TV – HD<br />• CANAL 13 – HD<br />• LA SEXTA TV – HD<br />• NEOX TV – FHD<br />• NOVA TV – HD</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="accordion-title">
+                      <a> SERIES AND TV SHOWS </a>
+                    </div>
+                    <div class="accordion-content default-closed clearfix">
+                      <p style="text-align: left;">• NEW<br />• ACTION<br />• ADVENTURE<br />• ANIMATION<br />• COMEDY<br />• CRIME<br />• DRAMA<br />• DOCUMENTARIES<br />• FAMILY<br />• FANTASY<br />• HORROR<br />• MYSTERY<br />• ROMANCE<br />• SCI
+                        FI<br />• THRILLER<br />• LOCALES<br />• ANIMADAS<br />• COMEDIA<br />• ACCION-SUSPENSO-CRIMEN<br />• AVENTURA-DRAMA-HISTORIA<br />• TERROR-MISTERIO<br />• AGREGADAS RECIENTEMENTE (BETA)<br />• ACTUALES (BETA)<br />•
+                        CONCLUIDES (BETA)</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="accordion-title">
+                      <a> MOVIES ENGLISH </a>
+                    </div>
+                    <div class="accordion-content default-closed clearfix">
+                      <p style="text-align: left;">• SPORTS ON DEMAND<br />• 4K (4K EQUIPMENT REQUIRED)<br />• THEATER2<br />• KAROKE<br />• ACTION<br />• DRAMA<br />• THRILLER<br />• COMEDY<br />• KIDS<br />• HORROR<br />• ADVENTURE<br />• FOREIGN<br />•
+                        SCI FIO<br />• DOCUMENTARY<br />• 3D</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="accordion-title">
+                      <a> MOVIES ESPAÑOL </a>
+                    </div>
+                    <div class="accordion-content default-closed clearfix">
+                      <p style="text-align: left;">• SPORTS ON DEMAND<br />• PELICULAS 4K<br />• CINEMA2<br />• KARAOKE<br />• ACCION<br />• DRAMA<br />• SUSPENSO<br />• COMEDIA<br />• ANIMADAS<br />• ADOLECENTES<br />• TERROR<br />• ADVENTURE<br />•
+                        CINELATINO<br />• CLASICAS ACCION<br />• CLASICAS ARAMA<br />• FICCION<br />• DOCUMENTALES<br />• CRISTIANAS<br />• 3D</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="accordion-title">
+                      <a> SPECIAL EVENTS </a>
+                    </div>
+                    <div class="accordion-content default-closed clearfix">
+                      <p style="text-align: left;"><strong>BEIN SPORTS PASS</strong><br />• BEIN SPORTS 3 – FHD<br />• BEIN SPORTS 4 – FHD<br />• BEIN SPORTS 5 – FHD<br />• BEIN SPORTS 6 – FHD<br />• BEIN SPORTS 7 &#8211; FHD<br />• BEIN SPORTS 8 –
+                        FHD<br />• BEIN SPORTS 9 – FHD<br />• BEIN SPORTS 10 – FHD</p>
+                      <p style="text-align: left;"><strong>COLLAGE-PAC 12</strong><br />• ARIZONA – FHD<br />• BAY AREA – FHD<br />• LOS ANGELES – FHD<br />• MOUNTAIN – FHD<br />• NETWORK – FHD<br />• OREGON – FHD<br />• WASHINGTON – FHD</p>
+                      <p style="text-align: left;"><strong>NBA LEAGUE PASS</strong><br />• NBS – FHD<br />• NBA LEAGUE 748 – 764 – FHD (16 CHANNELS)</p>
+                      <p style="text-align: left;"><strong>NFL SUNDAY TICKET</strong><br />• NFL NETWORK – FHD<br />• NFL RED ZONE – FHD<br />• NFL SUNDAY 705 – 719 – FHD (14 CHANNELS)</p>
+                      <p style="text-align: left;"><strong>NHL GAME PASS</strong><br />• NHL NETWORK – HD<br />• NHL GAME PASS 1-5 – HD (5 CHANNELS)</p>
+                      <p style="text-align: left;"><strong>PPV TODAY</strong><br />• PPV BOXEO – HD<br />• PPV BOXING – FHD<br />• PPV UFC – FHC<br />• PPV UFC – HD<br />• UFC – FHD<br />• UFC &#8211; HD<br />• WWE – HD<br />• WWE NETWORK – FHD</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="accordion-title">
+                      <a> ADULTS (18+) </a>
+                    </div>
+                    <div class="accordion-content default-closed clearfix">
+                      <p style="text-align: left;">• DORCEL TV – HD<br />• HUSTLER – HD<br />• JASMIN CHANNEL<br />• PLAYBOY TV<br />• SEXEXTREME<br />• VENUS</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="container">
+                <div class="row">
+                  <div class="service_content_area">
+                    <!--End off About section -->
+                    <!--Contact Us Section-->
+                    <section id="contact" class="contact fix">
+                      <div class="container">
+                        <div class="row">
+                          <div class="main_contact p-top-100">
+                            <div class="col-md-6 sm-m-top-30">
+                              <form method="POST" action="https://formspree.io/cubanboymodz@gmail.com">
+                                <div class="row">
+                                  <div class="col-sm-6">
+                                    <div class="form-group">
+                                      <label>Your Name *</label>
+                                      <input id="first_name" name="name" type="text" class="form-control" required="">
+                                    </div>
+                                  </div>
+                                  <div class="col-sm-6">
+                                    <div class="form-group">
+                                      <label>Your Email *</label>
+                                      <input id="email" type="email" name="email" placeholder="Your email" class="form-control">
+                                    </div>
+                                  </div>
+                                  <div class="col-sm-12">
+                                    <div class="form-group">
+                                      <label>Your Message *</label>
+                                      <textarea name="message" class="form-control" rows="6"></textarea>
+                                    </div>
+                                    <div class="form-group">
+                                      <a href="" class="btn btn-default">SEND MESSAGE <i class="fa fa-long-arrow-right"></i></a>
+                                    </div>
+                                  </div>
+                                </div>
+                              </form>
+                            </div>
+                            <!--End off container -->
+                    </section>
+                    <!--End off Contact Section-->
+                    <footer class="page__footer" style="color: white;">
+                      <div class="page-footer">
+                        <div class="page-footer__top">
+                          <div class="footer-menu" style="background-color: lightgrey;">
+                            <p class="text-center">
+                            </p>
+                          </div>
+                        </div>
+                        <div class="page-footer__middle" style="background-color: lightgrey;
+    color: black;
+">
+                          <div class="container" style="
+    color: lightgrey;
+">
+                            <div class="payments" style="
+    background-color: lightgrey;
+    color: black;
+">
+                              <h4 style="
+    color: black;
+">We accept the following payments:</h4>
+                              <ul itemprop="paymentAccepted">
+                                <li>
+                                  <span>
+                                    <img alt="Cash" src="assets/payments/cash-a0d13a27e167ebac6dddfd33d2c45165.png" title="Cash">
+                                    <span class="payments-type">Cash</span>
+                                  </span>
+                                </li>
+                                <li>
+                                  <span>
+                                    <img alt="Paypal" src="assets/payments/paypal-60e40c8b4a349378550c312d5fa9165f.png" title="Paypal">
+                                    <span class="payments-type">Paypal</span>
+                                  </span>
+                                </li>
+                                <li>
+                                  <span>
+                                    <img alt="Visa" src="assets/payments/visa-88a554c6e1fb40400bbd45b5c854b978.png" title="Visa">
+                                    <span class="payments-type">Visa</span>
+                                  </span>
+                                </li>
+                                <li>
+                                  <span>
+                                    <img alt="Mastercard" src="assets/payments/mastercard-365f557afa808c41b930799e118f6dd0.png" title="MasterCard">
+                                    <span class="payments-type">MasterCard</span>
+                                  </span>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="page-footer__center" style="background-color: lightgrey;" id="contact">
+                          <div class="page-footer__col page-footer__col--left" style="background-color: lightgrey;">
+                            <section class="page-footer__about" style="background-color: lightgrey;">
+                              <h3 class="page-footer__company" itemprop="name" style="background-color: lightgrey;
+    color: black;
+">TOP-MEDIA Application</h3>
+                            </section>
+                          </div>
+                          <div class="page-footer__col page-footer__col--center" style="background-color: lightgrey;">
+                            <p class="home-p">
+                              <a href="https://www.youtube.com/channel/UCptfrv4DnGBPbOtCaJl4wEg">
+                                <i class="fa fa-youtube fa-4x" style="
+    color: black;
+"></i></a> <a href="https://www.youtube.com/channel/UCptfrv4DnGBPbOtCaJl4wEg">
+                              </a>
+                            </p>
+                            <p class="page-footer__mailwrapper">
+                            </p>
+                          </div>
+                          <p style="color: black"> Website Developed and Designed by: Lazaro Franco<br> For more info visit: https://LazaroFranco.github.io</p>
+                        </div>
+                      </div>
+                      <div class="page-footer__bottom">
+                        <div class="custom-footer">
+                          <p class="text-center">Copyright © 2019 TOP-MEDIA Application. All Rights Reserved.</p>
+                        </div>
+                      </div>
+                    </footer>
+                  </div>
+                  <!-- JS includes -->
+                  <script src="assets/js/vendor/jquery-1.11.2.min.js"></script>
+                  <script src="assets/js/vendor/bootstrap.min.js"></script>
+                  <script src="assets/js/isotope.min.js"></script>
+                  <script src="assets/js/jquery.magnific-popup.js"></script>
+                  <script src="assets/js/jquery.easing.1.3.js"></script>
+                  <script src="assets/js/slick.min.js"></script>
+                  <script src="assets/js/jquery.collapse.js"></script>
+                  <script src="assets/js/bootsnav.js"></script>
+                  <script src="assets/js/plugins.js"></script>
+                  <script src="assets/js/main.js"></script>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+</body>
+
+</html>

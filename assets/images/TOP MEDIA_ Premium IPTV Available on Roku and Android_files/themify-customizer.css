@@ -1,0 +1,46 @@
+/* Themify Customize Styling */
+.fixed-header #header {	
+	color: #000000; 
+}
+#site-logo, #site-logo a, .header-horizontal #site-logo, .header-minbar #site-logo, .header-leftpane #site-logo, .header-slide-out #site-logo, .boxed-compact #site-logo, .header-top-bar #site-logo {	
+	font-family:Akronim;	font-weight:normal;
+
+	color: #000000; 
+}
+#site-logo, #site-logo a, .header-horizontal #site-logo, .header-minbar #site-logo, .header-leftpane #site-logo, .header-slide-out #site-logo, .boxed-compact #site-logo, .header-top-bar #site-logo a {	
+	color: #000000; 
+}
+#main-nav a {	
+	font-family:Open Sans;	font-weight:300;
+	font-size:16px;
+	text-align:center;
+	background-color: #ffffff; 
+}
+#main-nav a, #main-nav > li > a {	
+	color: #000000; 
+}
+.page-title {	
+	color: #000000; 
+}
+@media screen and (max-width: 976px) { /* Themify Customize Styling */
+#site-logo, #site-logo a, .header-horizontal #site-logo, .header-minbar #site-logo, .header-leftpane #site-logo, .header-slide-out #site-logo, .boxed-compact #site-logo, .header-top-bar #site-logo a {	
+	color: #000000; 
+}
+ }@media screen and (max-width: 768px) { /* Themify Customize Styling */
+#site-logo, #site-logo a, .header-horizontal #site-logo, .header-minbar #site-logo, .header-leftpane #site-logo, .header-slide-out #site-logo, .boxed-compact #site-logo, .header-top-bar #site-logo a {	
+	color: #000000; 
+}
+ }@media screen and (max-width: 480px) { /* Themify Customize Styling */
+.fixed-header #header {	
+	color: rgba(0,0,0,0.00); 
+}
+#site-logo, #site-logo a, .header-horizontal #site-logo, .header-minbar #site-logo, .header-leftpane #site-logo, .header-slide-out #site-logo, .boxed-compact #site-logo, .header-top-bar #site-logo a {	
+	color: #000000; 
+}
+#main-nav a {	
+	background-color: #f5f5f5; 
+}
+#main-nav a, #main-nav > li > a {	
+	color: #ffffff; 
+}
+ }

@@ -1,0 +1,67 @@
+
+.u70login { color:#000000;background-color:#e0e0e0;padding:20px; border:2px solid #000000; } 
+.u70login input[type="text"] {color:#000000;}
+.login-username,.login-password {text-align:right;}
+.login-remember,.login-submit {text-align:center;}
+
+.u70mg,.u70mb {padding:3px 0 6px 0;font-size:130%;font-weight:bold;text-align:center;}
+.u70mg {background-color:#c0ffc0;}
+.u70mb {background-color:#ffc0c0;}
+
+/* day calendar 'c' and daily display 'c' entries */
+.u70c, .u70d {background-color:#ffffff;border:2px solid #505050;padding:5px; text-align:center;cursor: pointer;} /* both div stylings */
+.u70c table, .u70d table {text-align:center;empty-cells:show;padding: 0px;width:100%;}
+.u70c tbody, .u70d tbody  {background-color:#f8f8f8;} /* default background colors      ffefdf*/
+.u70c td, .u70c table, .u70d td, .u70d table {text-align:center;border:1px solid #505050;font-family:'Trebuchet MS','Arial',sans-serif;} /*calendar cell borders*/
+
+
+.u70ch {font-size:110%;color:#000000;} /* weekday (header) cells */
+.u70ct, .u70cc, .u70co, .u70cu {font-size:150%;}/*line-height: 100%;}*/
+.u70ct {background-color:#f8f0b0; border: 3px solid #000000;} /* today's cell '*/
+.u70cc {background-color:#ffffd8;} /* selected cell '*/
+.u70co {background-color:#dfd0a0;} /* active day cells '*/
+.u70cu {background-color:#e0e0e0;color:#909090;}/* unused day cells '*/
+
+
+.u70d td {font-size:120%;}
+/* calendar link styling */
+.u70c a:link {color: #00007f; text-decoration: underline;} 
+.u70c a:visited { color: #00007f;text-decoration: underline;}
+.u70c a:hover {color: #00007f;text-decoration: underline;}
+.u70c a:active {color: #00007f;text-decoration: underline;}
+
+.u70z {background-color:#505050;height:1px;}/* divider bar*/
+.u70dh {font-size:210%;color:#505050;} /* day heading text*/
+.u70am {font-size:150%;color:#505050;} /* am/pm font*/
+.u70dt {font-size:85%;font-weight:bold;border-bottom:solid 1px #808080;margin-bottom:0.25em;} /* styling for time row */
+.u70dc {background-color:#b8d8ff;color:#505050;} /* active (in use) cells - current user */
+.u70da {background-color:#b0ffb0;color:#505050;} /* active (in use) cells - other users */
+.u70du {background-color:#f0f080;color:#505050;} /* available/unfilled slot was #fed0d0 */
+.u70dl {background-color:#d8d8d8;color:#707070;} /* locked/unavailable slot */
+.u70i {font-size:80%;color:#707070;} /* id tag */
+.u70u {font-weight:bold;} /* user names */
+.u70di {font-size:85%;width:100%;padding:2px;background-color:#ffffff;color:#303030;} /* input panel */
+.u70dn {font-size:85%;color:#303030;} /* notes from input panel alone */
+
+/*.u70ss {padding:0.25em 0.5em 0.5em 0.5em;margin:0 0 0.5em; border: 1px solid #000000;font-weight:bold;} /* shortcode: schedule list */
+.u70ssd {padding:0.25em 0.5em 0.4em 0.5em;margin:0.8em 0 0.1em; border: 1px solid #000000;font-weight:bold;} /* shortcode: schedule list */
+.u70ssh {padding:0.5em 0 0 0.5em;margin:0 0 0.25em 0em;border-bottom: 1px solid #000000;} /* shortcode: schedule list: headings */
+.u70sse {padding:0.5em 0 0 1em;margin:0 0 0.25em 0em; font-style:italic;} /* shortcode: schedule list: empty entry */
+.u70ssi {padding:0 0 0 1em;font-weight:normal;} /* shortcode: schedule list: items */
+ 
+.u70d input[type="submit"]
+{
+  font-family:'Trebuchet MS','Arial',sans-serif;
+  border:2px solid #303030;
+  text-decoration:none;
+  color:#000000;
+  background-color:#dfd090;
+}
+.u70d input[type="submit"]:focus, 
+.u70d input[type="submit"]:link, 
+.u70d input[type="submit"]:visited {background-color:#dfd0a0;color:#000000;}
+.u70d input[type="submit"]:hover {background-color:#efe0a0;color:#000000;}
+.u70d input[type="submit"]:active {background-color:#bfb070;color:#ffffff;}
+
+
+
