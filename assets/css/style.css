@@ -623,7 +623,7 @@ section { overflow: hidden; }*/
 .text-muted {}
 
 .text-primary {
-  color: #691f21 !important;
+  color: rgb(21,23,22) !important;
   ;
 }
 
@@ -633,7 +633,7 @@ section { overflow: hidden; }*/
 }
 
 .text-mega {
-  color: #691f21 !important;
+  color: rgb(21,23,22) !important;
   ;
 }
 
@@ -662,7 +662,7 @@ section { overflow: hidden; }*/
 }
 
 .bg-primary {
-  background-color: #691f21;
+  background-color: rgb(21,23,22);
 }
 
 .bg-finence {
@@ -670,19 +670,19 @@ section { overflow: hidden; }*/
 }
 
 .bg-mega {
-  background-color: #691f21;
+  background-color: rgb(21,23,22);
 }
 
 .bg-grey {
-  background-color: #691f21;
+  background-color: rgb(21,23,22);
 }
 
 .bg-black {
-  background-color: #691f21;
+  background-color: rgb(21,23,22);
 }
 
 .bg-white {
-  background-color: #691f21;
+  background-color: rgb(21,23,22);
 }
 
 img {
@@ -980,8 +980,8 @@ Button
 }
 
 .btn-default:hover {
-  border-color: #691f21;
-  background-color: #691f21;
+  border-color: rgb(21,23,22);
+  background-color: rgb(21,23,22);
 }
 
 .btn-primary {
@@ -994,8 +994,8 @@ Button
 }
 
 .btn-primary:hover {
-  background-color: #691f21;
-  border-color: #691f21;
+  background-color: rgb(21,23,22);
+  border-color: rgb(21,23,22);
   color: #fff;
 }
 
@@ -1414,7 +1414,7 @@ textarea::-ms-input-placeholder {
 /*Preloader css*/
 
 #loading {
-  background-color: #691f21;
+  background-color: rgb(21,23,22);
   height: 100%;
   width: 100%;
   position: fixed;
@@ -1542,7 +1542,7 @@ Nav Menu style
 }
 
 .btn-cart {
-  background-color: #691f21;
+  background-color: rgb(21,23,22);
   padding: 2px 10px;
   color: #fff !important;
   border: 0px solid;
@@ -1568,7 +1568,7 @@ Nav Menu style
 }
 
 .home {
-  background-color: #691f21;
+  background-color: rgb(21,23,22);
 }
 
 .service-banner {
@@ -1693,7 +1693,7 @@ About section style
   top: 43%;
   width: 180px;
   height: 1px;
-  background-color: #691f21;
+  background-color: rgb(21,23,22);
   z-index: 1;
 }
 
@@ -1704,7 +1704,7 @@ About section style
   top: 43%;
   width: 180px;
   height: 1px;
-  background-color: #691f21;
+  background-color: rgb(21,23,22);
   z-index: 1;
 }
 
@@ -1787,7 +1787,7 @@ service section style
   position: relative;
   width: 70px;
   height: 70px;
-  background-color: #691f21;
+  background-color: rgb(21,23,22);
   margin: 0;
   line-height: 70px;
   font-size: 2rem;
@@ -1935,7 +1935,7 @@ Footer Section style
 }
 
 .scrollup:hover {
-  background: #691f21;
+  background: rgb(21,23,22);
   opacity: 1;
 }
 
@@ -2665,7 +2665,7 @@ blockquote {
 	border: 1px solid transparent;
 	padding: 15px 25px;
 	box-sizing: border-box;
-	background-color: #691f21;
+	background-color: rgb(21,23,22);
 	color: #FFFFFF;
 	font-size: 14px;
 	line-height: 1.2142857142857142;
@@ -2966,7 +2966,7 @@ html {
 
 .banner--main {
 	padding: 127px 30px 57px 30px;
-	border-bottom: 10px solid #691f21;
+	border-bottom: 10px solid rgb(21,23,22);
 	position: relative
 }
 
@@ -3023,7 +3023,7 @@ html {
 	padding-top: 22px;
 	padding-bottom: 22px;
 	background-color: transparent;
-	border-bottom: 2px solid #691f21
+	border-bottom: 2px solid rgb(21,23,22)
 }
 
 .banner__bg {
@@ -3451,13 +3451,13 @@ html {
 }
 
 .page-footer__center {
-	background: #691f21;
+	background: rgb(21,23,22);
 	padding-left: 20px;
 	padding-right: 20px
 }
 
 .page-footer__middle {
-	background: #691f21
+	background: rgb(21,23,22)
 }
 
 .page-footer__middle .container {
@@ -3931,7 +3931,7 @@ html {
 	left: 0;
 	top: 0;
 	right: 0;
-	background-color: #691f21;
+	background-color: rgb(21,23,22);
 	z-index: 500;
 	box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.5);
 	padding-bottom: 10px;
@@ -4353,7 +4353,7 @@ html {
 	color: #000000;
 	background-color: #E9E9E9;
 	text-decoration: none;
-	border-bottom: 1px solid #691f21;
+	border-bottom: 1px solid rgb(21,23,22);
 	position: relative;
 	border: 1px solid transparent
 }
@@ -4367,7 +4367,7 @@ html {
 .main-menu__link:after {
 	content: "";
 	height: 3px;
-	background: #691f21;
+	background: rgb(21,23,22);
 	top: 100%;
 	left: 0;
 	right: 0;
@@ -4473,7 +4473,7 @@ html {
 .main-nav--collapsed .main-menu__sublink--active,
 .main-nav--collapsed .main-menu__sublink:hover,
 .main-nav--collapsed .main-menu__sublink:active {
-	background-color: #691f21;
+	background-color: rgb(21,23,22);
 	color: #FFF
 }
 
@@ -4493,7 +4493,7 @@ html {
 .main-menu__sublink--active,
 .main-menu__sublink:hover,
 .main-menu__sublink:active {
-	background-color: #691f21;
+	background-color: rgb(21,23,22);
 	color: #FFF
 }
 
@@ -4557,7 +4557,7 @@ html {
 }
 
 .proudly {
-	border-top: 2px solid #691f21;
+	border-top: 2px solid rgb(21,23,22);
 	padding: 30px;
 	min-height: 429px;
 	box-sizing: border-box;
@@ -4663,7 +4663,7 @@ html {
 	padding-bottom: 80px;
 	padding-left: 20px;
 	padding-right: 20px;
-	border-top: 2px solid #691f21
+	border-top: 2px solid rgb(21,23,22)
 }
 
 @media screen and (max-width: 768px) {

@@ -1,3 +1,4 @@
+
 /*
 Author: Xpeedstudio
 Author URI: http://xpeedstudio.com
@@ -277,7 +278,7 @@ section { overflow: hidden; }*/
 .text-muted {}
 
 .text-primary {
-  color: #691f21 !important;
+  color: rgb(21,23,22) !important;
   ;
 }
 
@@ -287,7 +288,7 @@ section { overflow: hidden; }*/
 }
 
 .text-mega {
-  color: #691f21 !important;
+  color: rgb(21,23,22) !important;
   ;
 }
 
@@ -312,7 +313,7 @@ section { overflow: hidden; }*/
 /*bacground color*/
 
 .bg-light {
-  background-color: #691f21;
+  background-color: rgb(21,23,22);
 }
 
 .bg-primary {
@@ -640,7 +641,7 @@ Button
 }
 
 .btn-default:hover {
-  border-color: #691f21;
+  border-color: rgb(21,23,22);
   background-color: black;
 }
 
@@ -654,8 +655,8 @@ Button
 }
 
 .btn-primary:hover {
-  background-color: #691f21;
-  border-color: #691f21;
+  background-color: rgb(21,23,22);
+  border-color: rgb(21,23,22);
   color: #fff;
 }
 
@@ -1074,7 +1075,7 @@ textarea::-ms-input-placeholder {
 /*Preloader css*/
 
 #loading {
-  background-color: #691f21;
+  background-color: rgb(21,23,22);
   height: 100%;
   width: 100%;
   position: fixed;
@@ -1202,7 +1203,7 @@ Nav Menu style
 }
 
 .btn-cart {
-  background-color: #691f21;
+  background-color: rgb(21,23,22);
   padding: 2px 10px;
   color: #fff !important;
   border: 0px solid;
@@ -1353,7 +1354,7 @@ About section style
   top: 43%;
   width: 180px;
   height: 1px;
-  background-color: #691f21;
+  background-color: rgb(21,23,22);
   z-index: 1;
 }
 
@@ -1364,7 +1365,7 @@ About section style
   top: 43%;
   width: 180px;
   height: 1px;
-  background-color: #691f21;
+  background-color: rgb(21,23,22);
   z-index: 1;
 }
 
@@ -1408,16 +1409,16 @@ About section style
 }
 
 .main-gallery .button:hover {
-  color: #691f21;
+  color: rgb(21,23,22);
 }
 
 .main-gallery .button:active,
 .main-gallery .button.is-checked {
-  color: #691f21;
+  color: rgb(21,23,22);
 }
 
 .main-gallery .button.is-checked {
-  color: #691f21;
+  color: rgb(21,23,22);
   border-bottom: 1px dotted transparent;
 }
 
@@ -1499,7 +1500,7 @@ service section style
   position: relative;
   width: 70px;
   height: 70px;
-  background-color: #691f21;
+  background-color: rgb(21,23,22);
   margin: 0;
   line-height: 70px;
   font-size: 2rem;
@@ -1710,7 +1711,7 @@ Contact Section style
 }
 
 .widget_socail ul li a:hover i {
-  background-color: #691f21;
+  background-color: rgb(21,23,22);
 }
 
 
@@ -1739,7 +1740,7 @@ Footer Section style
 }
 
 .scrollup:hover {
-  background: #691f21;
+  background: rgb(21,23,22);
   opacity: 1;
 }
 
@@ -2077,7 +2078,7 @@ Blog Details Page
 }
 
 .blog_details_head .blog_date span {
-  background-color: #691f21;
+  background-color: rgb(21,23,22);
   color: #fff;
   text-align: center;
   width: 100%;
@@ -2105,7 +2106,7 @@ Blog Details Page
 
 .socail_share ul li a:hover {
   color: #fff;
-  background-color: #691f21;
+  background-color: rgb(21,23,22);
 }
 
 
